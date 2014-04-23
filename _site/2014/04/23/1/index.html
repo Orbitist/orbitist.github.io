@@ -13,18 +13,18 @@
 <!-- Apple icon -->
 	<link rel="apple-touch-icon" sizes="152x152" href="/touch-icon-ipad-retina.png">
 
-<!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
-    
-<!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
-
 <!-- Leaflet CSS -->
 	<link rel="stylesheet" href="/plugins/leaflet/leaflet.css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
 	
 <!-- Leaflet-sidebar CSS -->
 	<link rel="stylesheet" href="/plugins/leaflet-sidebar/src/L.Control.Sidebar.css" />
+	
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+    
+<!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
 	
 <!-- Custom CSS -->
 	<link rel="stylesheet" href="/css/style.css">
@@ -94,7 +94,7 @@
 
 <div id="map"></div>
 
-	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+	<script src="/plugins/leaflet/leaflet.js"></script>
     <script src="/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
 
     <script>
@@ -108,7 +108,7 @@
 
         var sidebar = L.control.sidebar('sidebar', {
             closeButton: true,
-            position: 'left'
+            position: 'right'
         });
         map.addControl(sidebar);
 
