@@ -30,7 +30,10 @@
 	<link rel="stylesheet" href="/css/style.css">
   </head>
 	<body>
-		<div id="sidebar">
+		<div class="maptoggle">
+<a href="#" onclick="sidebar.toggle(); return false"><i class="fa fa-circle"></i></a>
+</div>
+<div id="sidebar">
 	<div class="topimage">
 		<img class="img-responsive" src="http://farm4.staticflickr.com/3791/12947370963_7a523389f9_h.jpg">
 	</div><!-- topimage -->
@@ -53,7 +56,7 @@
 
     <script>
         var map = L.map('map');
-        map.setView([51.2, 7], 9);
+        map.setView([42, -78], 3);
 
         L.tileLayer('http://{s}.tiles.mapbox.com/v3/ngunner.i2a5c9p4/{z}/{x}/{y}.png', {
             maxZoom: 18,
@@ -61,18 +64,14 @@
         }).addTo(map);
 
         var sidebar = L.control.sidebar('sidebar', {
-            closeButton: true,
+            closeButton: false,
             position: 'right'
         });
         map.addControl(sidebar);
 
         setTimeout(function () {
             sidebar.show();
-        }, 500);
-
-        var marker = L.marker([51.2, 7]).addTo(map).on('click', function () {
-            sidebar.toggle();
-        });
+        }, 1000);
 
         map.on('click', function () {
             sidebar.hide();

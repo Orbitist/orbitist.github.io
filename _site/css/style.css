@@ -1,3 +1,4 @@
+/* Top level CSS */
 body {
 	padding: 0;
     margin: 0;
@@ -7,6 +8,7 @@ html, body, #map {
 	height: 100%;
 }
 
+/* Typography */
 p {
 	font-size: 20px;
 	font-family: georgia, times, serif;
@@ -17,6 +19,20 @@ p.lead {
 	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Top image section */
 .topimage img {
 	width: 400px;
+}
+
+/* Map toggle */
+.maptoggle {
+position: fixed;
+right: 20px;
+top: 20px;
+z-index: 100000;
+font-size: 40px;
+}
+
+.maptoggle a{
+color: #333332;
 }
