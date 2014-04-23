@@ -11,7 +11,7 @@ author :
   twitter : TheOrbitist
   web : http://www.orbitist.com
 
-production_url : http://www.orbitist.com
+production_url : orbitist.com
 
 baseurl : http://orbitist.github.io
 
@@ -24,7 +24,7 @@ comments :
         
 analytics :
   google : 
-    tracking_id : ''
+    tracking_id : 'UA-50308061-1'
 
 
 authors:
