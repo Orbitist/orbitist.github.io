@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="Let's bring a low overhead, inexpensive, and beautiful web presence to your community.">
+    <meta name="author" content="Orbitist Support">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<!-- Shortcut icon -->
+	<link rel="shortcut icon" href="/ng.png">
+	
+<!-- Apple icon -->
+	<link rel="apple-touch-icon" sizes="152x152" href="/touch-icon-ipad-retina.png">
+
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+    
+<!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
+
+<!-- Leaflet CSS -->
+	<link rel="stylesheet" href="/plugins/leaflet/leaflet.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
+	
+<!-- Leaflet-sidebar CSS -->
+	<link rel="stylesheet" href="/plugins/leaflet-sidebar/src/L.Control.Sidebar.css" />
+	
+<!-- Custom CSS -->
+	<link rel="stylesheet" href="/css/style.css">
+  </head>
+	<body>
+		<div id="sidebar">
+	<h3 id="intro">Intro</h3>
+
+<p>The web can seem like a scary place. But it’s becoming more and more accessible and in today’s world, local governments have no excuse for not having a decent web presence. Not only are there easy to use tools for making beautiful, low overhead, and inexpensive websites but there are also expectations from taxpayers to be transparent and to communicate in a fluid manner. Cities also want to show all that they have to offer to the public in order to attract tourists, businesses, and new citizens.</p>
+
+<p>My local government web consulting package arms community leaders with knowledge and tools to produce a modern web presence. Every aspect of the package has these core values in mind:</p>
+
+<ul>
+<li>An effective web presence should be simple, easy to maintain and as inexpensive as possible.</li>
+
+<li>Good content drives good business. Content is central to any web strategy.</li>
+
+<li>Web maintainers should have a clear plan to implement their web strategy.</li>
+</ul>
+
+<h3 id="what_you_get">What you get:</h3>
+
+<ul>
+<li>Established information architecture and administrative plan for web presence.</li>
+
+<li>Content and marketing strategy tailored to your community. This includes a collection of base photography.</li>
+
+<li>Web training, design, implementation and launch of a new web presence.</li>
+
+<li>3 hours of future support.</li>
+</ul>
+
+<h3 id="how">How:</h3>
+
+<p>Consultation is divided into three sessions that can be scheduled as fits the client. These sessions include visioning, marketing, and hackathon sessions.</p>
+
+<p><em>Visioning</em></p>
+
+<p>In our visioning session, we focus on common information that the community expects to see online, who is responsible for that information and how to organize it in a web context. The goal of this session is to establish a clear plan for publishing and maintaining public information online. We’ll define who is in charge of what information, set timelines for getting the website up to date and a long term framework for keeping it that way. Public information includes meeting minutes, key addresses, hours of operation, contact info etc.</p>
+
+<p><em>Marketing &amp; Content Strategy</em></p>
+
+<p>City governments are important in that they keep current citizens informed but they also serve as a way to reach out to people outside of the community. Our marketing session will determine the voice and character of your city. We’ll formulate a communication plan for marketing the town, take complimentary photography during this session and give tips on collecting and producing multimedia. Marketing content includes event listings, blog posts, attraction pages, etc.</p>
+
+<p><em>Hackathon</em></p>
+
+<p>Once we’ve established a plan to roll out and maintain an effective web presence and understand how we will market your town, we need to actually build out the site! Our hackathon session will pull everything together to create your new website using Wordpress Cities. You’ll learn by doing and we’ll identify workflow and technical issues as we go. We’ll make design and user experience decisions and implement them into the site. You’ll learn how to add users to the website, what permissions mean, media handling, categories, tags, etc.</p>
+
+<p>By the end of these sessions, village leaders will be masters of the modern internet with a beautiful community web presence. Once complete, I hope you’ll share what you learn in our sessions with the rest of the community to make sure that every business and organization is effectively communicating online.</p>
+
+<h3 id="costs">Costs</h3>
+
+<ul>
+<li>Wordpress cities: Free</li>
+
+<li>Wordpress cities custom domain upgrade: $15/year</li>
+
+<li>Consultation sessions: $1,200 one time cost + travel expenses.</li>
+</ul>
+
+<h3 id="timeframe">Timeframe</h3>
+
+<p>First, understand that web cultures cannot be completed. They are constantly growing and evolving.</p>
+
+<p>That said, you’ll have an established web presence at the conclusion of our consulting sessions. Consulting sessions can be scheduled on two or three days. I require the hackathon to be on it’s own day in order to compile marketing and information architecture knowledge from previous sessions. This report is vital to an effective hackathon.</p>
+</div><!-- sidebar -->
+
+<div id="map"></div>
+
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+    <script src="/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
+
+    <script>
+        var map = L.map('map');
+        map.setView([51.2, 7], 9);
+
+        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: 'Map data &copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        var sidebar = L.control.sidebar('sidebar', {
+            closeButton: true,
+            position: 'left'
+        });
+        map.addControl(sidebar);
+
+        setTimeout(function () {
+            sidebar.show();
+        }, 500);
+
+        var marker = L.marker([51.2, 7]).addTo(map).on('click', function () {
+            sidebar.toggle();
+        });
+
+        map.on('click', function () {
+            sidebar.hide();
+        })
+
+        sidebar.on('show', function () {
+            console.log('Sidebar will be visible.');
+        });
+
+        sidebar.on('shown', function () {
+            console.log('Sidebar is visible.');
+        });
+
+        sidebar.on('hide', function () {
+            console.log('Sidebar will be hidden.');
+        });
+
+        sidebar.on('hidden', function () {
+            console.log('Sidebar is hidden.');
+        });
+
+        L.DomEvent.on(sidebar.getCloseButton(), 'click', function () {
+            console.log('Close button clicked.');
+        });
+    </script>
+
+		<!-- jQuery -->
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    
+<!-- Bootstrap JS -->
+	<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+	
+<!-- FitVids JS -->
+	<script src="/plugins/fitvids/jquery.fitvids.js"></script>
+	
+<!-- Fitvids script -->
+	<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".fitvid").fitVids();
+  });
+	</script>
+	
+<!-- Smooth scroll script -->
+	<script>
+	$(function() {
+  $('a[href=#siteauthor]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+	</script>
+	
+<!-- Google Analytics -->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'http://www.orbitist.com');
+  ga('send', 'pageview');
+
+	</script>
+	</body>
+</html>
