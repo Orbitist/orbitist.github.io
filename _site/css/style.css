@@ -21,7 +21,7 @@ p.lead {
 
 /* Top image section */
 .topimage img {
-	width: 400px;
+	width: 100%;
 }
 
 /* Map toggle */
@@ -41,5 +41,5 @@ color: #333332;
 .leaflet-control-zoom {
 position: fixed;
 bottom: 10px;
-left: 10px;
+left: 1px;
 }
