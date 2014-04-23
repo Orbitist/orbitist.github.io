@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="maptoggle">
-<a href="#" onclick="sidebar.toggle(); return false"><i class="fa fa-circle"></i></a>
+<a href="#" onclick="sidebar.toggle(); return false"><i class="fa fa-compass"></i></a>
 </div>
 <div id="sidebar">
 	<div class="topimage">
@@ -20,10 +20,10 @@ layout: default
 
     <script>
         var map = L.map('map');
-        map.setView([42, -78], 3);
+        map.setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
 
         L.tileLayer('http://{s}.tiles.mapbox.com/v3/{{ page.mapid }}/{z}/{x}/{y}.png', {
-            maxZoom: 18,
+            maxZoom: {{ page.maxZoom }},
             attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
         }).addTo(map);
 

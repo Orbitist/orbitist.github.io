@@ -28,11 +28,18 @@ p.lead {
 .maptoggle {
 position: fixed;
 right: 20px;
-top: 20px;
+top: 15px;
 z-index: 100000;
 font-size: 40px;
 }
 
 .maptoggle a{
 color: #333332;
+}
+
+/* Leaflet overrides */
+.leaflet-control-zoom {
+position: fixed;
+bottom: 10px;
+left: 10px;
 }

@@ -31,7 +31,7 @@
   </head>
 	<body>
 		<div class="maptoggle">
-<a href="#" onclick="sidebar.toggle(); return false"><i class="fa fa-circle"></i></a>
+<a href="#" onclick="sidebar.toggle(); return false"><i class="fa fa-compass"></i></a>
 </div>
 <div id="sidebar">
 	<div class="topimage">
@@ -56,10 +56,10 @@
 
     <script>
         var map = L.map('map');
-        map.setView([42, -78], 3);
+        map.setView([43, 27], 3);
 
         L.tileLayer('http://{s}.tiles.mapbox.com/v3/ngunner.i2a5c9p4/{z}/{x}/{y}.png', {
-            maxZoom: 18,
+            maxZoom: 5,
             attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
         }).addTo(map);
 
