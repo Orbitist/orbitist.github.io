@@ -101,9 +101,9 @@
         var map = L.map('map');
         map.setView([51.2, 7], 9);
 
-        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        L.tileLayer('http://{s}.tiles.mapbox.com/v3/ngunner.i2a5c9p4/{z}/{x}/{y}.png', {
             maxZoom: 18,
-            attribution: 'Map data &copy; OpenStreetMap contributors'
+            attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
         }).addTo(map);
 
         var sidebar = L.control.sidebar('sidebar', {
@@ -188,7 +188,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', '', 'http://www.orbitist.com');
+  ga('create', 'UA-50308061-1', 'orbitist.com');
   ga('send', 'pageview');
 
 	</script>

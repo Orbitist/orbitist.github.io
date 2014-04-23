@@ -2,6 +2,8 @@ permalink: /:year/:month/:day/:title
 
 pygments: true
 
+markdown: kramdown
+
 title : Orbitist
 tagline: Making important information as easy to consume and relevant as possible
 author : 
