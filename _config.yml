@@ -1,0 +1,42 @@
+permalink: /:year/:month/:day/:title 
+
+pygments: true
+
+title : Orbitist
+tagline: Making important information as easy to consume and relevant as possible
+author : 
+  name : Orbitist Support
+  email : support@orbitist.com
+  github : Orbitist
+  twitter : TheOrbitist
+  web : http://www.orbitist.com
+
+production_url : http://www.orbitist.com
+
+baseurl : http://orbitist.github.io
+
+ 
+comments :
+  provider : disqus
+  disqus :
+    short_name : 
+   
+        
+analytics :
+  google : 
+    tracking_id : ''
+
+
+authors:
+  ngunner:
+    name: Nicholas Gunner
+    display_name: Nicholas Gunner
+    bio: Founder of Orbitist. New Media Manager at SUNY Fredonia. Multimedia Storyteller.
+    gravatar: http://www.gravatar.com/avatar/a85d870dce3cc177b6b0016a1ef4c200.png
+    email: gunnernr@gmail.com
+    web: http://www.nicholasgunner.com
+    twitter: nicholas_gunner
+    github: ngunner
+   
+  
+timezone : America/New_York
