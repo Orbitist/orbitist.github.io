@@ -1,36 +1,36 @@
 /* Top level CSS */
-body {
+	body {
 	padding: 0;
     margin: 0;
-}
+	}
 
-html, body, #map {
+	html, body, #map {
 	height: 100%;
-}
+	}
 
 /* Typography */
-p {
+	p {
 	font-size: 20px;
 	font-family: georgia, times, serif;
 	color: #333332;
-}
+	}
 
-p.lead {
+	p.lead {
 	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+	}
 
 /* Top image section */
-.topimage img {
+	.topimage img {
 	width: 100%;
-}
+	}
 
 /* Map toggle */
-.maptoggle {
-position: fixed;
-right: 15px;
-top: 15px;
-z-index: 4000;
-font-size: 20px;
+	.maptoggle {
+	position: fixed;
+	right: 15px;
+	top: 15px;
+	z-index: 4000;
+	font-size: 20px;
 }
 
 .btn:focus {
@@ -39,26 +39,26 @@ font-size: 20px;
 
 /* Leaflet overrides */
 .leaflet-control-zoom {
-position: fixed;
-bottom: 10px;
-left: 1px;
+	position: fixed;
+	bottom: 10px;
+	left: 1px;
 }
 
 /* Logo overlay */
 .logooverlay {
-position: absolute;
-text-align: center;
-z-index: 5000;
-color: white;
-left:1px;
-background-color: rgba(51,51,50,0.9);
-margin: 10px;
-padding: 5px 8px 5px 8px;
+	position: absolute;
+	text-align: center;
+	z-index: 5000;
+	color: white;
+	left:1px;
+	background-color: rgba(51,51,50,0.9);
+	margin: 10px;
+	padding: 5px 8px 5px 8px;
 
 }
 
 .logooverlay h3{
-margin: 0px 3px 0px 3px;
-font-family: georgia, times, serif;
-font-size: 30px;
+	margin: 0px 3px 0px 3px;
+	font-family: georgia, times, serif;
+	font-size: 30px;
 }
