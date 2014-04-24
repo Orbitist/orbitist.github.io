@@ -8,16 +8,6 @@ layout: default
 </a>
 <a href="#" onclick="sidebar.toggle();"><button type="button" class="btn btn-default maptoggle"><span class="fa fa-compass"></span></button></a>
 
-<div id="sidr">
-  <!-- Your content -->
-  <a href="/"><h1>Orbitist</h1></a>
-  <ul>
-  	{% for post in site.posts limit: 10 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-
 <div id="map"></div>
 
 <div id="sidebar">
@@ -28,6 +18,16 @@ layout: default
 	<p class="lead">{{ page.description }}</p>
 	{{ content }}
 </div><!-- sidebar -->
+
+<div id="sidr">
+  <!-- Your content -->
+  <a href="/"><h1>Orbitist</h1></a>
+  <ul>
+  	{% for post in site.posts limit: 10 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div><!-- sidr -->
 
 	<script src="{{ site.baseurl }}/plugins/leaflet/leaflet.js"></script>
     <script src="{{ site.baseurl }}/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
