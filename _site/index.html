@@ -20,6 +20,9 @@
 <!-- Leaflet-sidebar CSS -->
 	<link rel="stylesheet" href="/plugins/leaflet-sidebar/src/L.Control.Sidebar.css" />
 	
+<!-- Sidr CSS -->
+	<link rel="stylesheet" href="/plugins/sidr/stylesheets/jquery.sidr.dark.css">
+	
 <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
     
@@ -58,6 +61,14 @@
     $(".fitvid").fitVids();
   });
 	</script>
+	
+<!-- Sidr JS -->
+	<script src="/plugins/sidr/jquery.sidr.min.js"></script>
+	<script>
+$(document).ready(function() {
+  $('#sidr-menu').sidr();
+});
+</script>
 	
 <!-- Smooth scroll script -->
 	<script>

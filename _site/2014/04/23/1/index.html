@@ -20,6 +20,9 @@
 <!-- Leaflet-sidebar CSS -->
 	<link rel="stylesheet" href="/plugins/leaflet-sidebar/src/L.Control.Sidebar.css" />
 	
+<!-- Sidr CSS -->
+	<link rel="stylesheet" href="/plugins/sidr/stylesheets/jquery.sidr.dark.css">
+	
 <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
     
@@ -30,10 +33,22 @@
 	<link rel="stylesheet" href="/css/style.css">
   </head>
 	<body>
-		<div class="logooverlay">
+		<a id="sidr-menu" href="#sidr">
+<div class="logooverlay">
 	<h3>O</h3>
 </div><!-- overlay -->
+</a>
 <a href="#" onclick="sidebar.toggle();"><button type="button" class="btn btn-default maptoggle"><span class="fa fa-compass"></span></button></a>
+
+<div id="sidr">
+  <!-- Your content -->
+  <a href="/"><h1>Orbitist</h1></a>
+  <ul>
+  	
+    <li><a href="/2014/04/23/1">Iceland vs. Quatar</a></li>
+    
+  </ul>
+</div>
 
 <div id="map"></div>
 
@@ -117,6 +132,14 @@
     $(".fitvid").fitVids();
   });
 	</script>
+	
+<!-- Sidr JS -->
+	<script src="/plugins/sidr/jquery.sidr.min.js"></script>
+	<script>
+$(document).ready(function() {
+  $('#sidr-menu').sidr();
+});
+</script>
 	
 <!-- Smooth scroll script -->
 	<script>
