@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-<a href="#" onclick="sidebar.toggle();"><button type="button" class="btn btn-info maptoggle"><span class="fa fa-compass"></span></button></a>
+<div class="logooverlay">
+	<h3>O</h3>
+</div><!-- overlay -->
+<a href="#" onclick="sidebar.toggle();"><button type="button" class="btn btn-default maptoggle"><span class="fa fa-compass"></span></button></a>
 
 <div id="sidebar">
 	<div class="topimage">
@@ -34,7 +37,7 @@ layout: default
 
         setTimeout(function () {
             sidebar.show();
-        }, 1000);
+        }, 500);
 
         map.on('click', function () {
             sidebar.hide();
