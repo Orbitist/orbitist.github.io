@@ -6,6 +6,8 @@ layout: default
 </div><!-- overlay -->
 <a href="#" onclick="sidebar.toggle();"><button type="button" class="btn btn-default maptoggle"><span class="fa fa-compass"></span></button></a>
 
+<div id="map"></div>
+
 <div id="sidebar">
 	<div class="topimage">
 		<img src="{{ page.image }}">
@@ -14,8 +16,6 @@ layout: default
 	<p class="lead">{{ page.description }}</p>
 	{{ content }}
 </div><!-- sidebar -->
-
-<div id="map"></div>
 
 	<script src="{{ site.baseurl }}/plugins/leaflet/leaflet.js"></script>
     <script src="{{ site.baseurl }}/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
