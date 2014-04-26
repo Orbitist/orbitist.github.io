@@ -60,6 +60,7 @@ layout: default
         map.setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
 
         L.tileLayer('http://{s}.tiles.mapbox.com/v3/{{ page.mapid }}/{z}/{x}/{y}.png', {
+        	detectRetina: true,
             maxZoom: {{ page.maxZoom }},
             attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
         }).addTo(map);

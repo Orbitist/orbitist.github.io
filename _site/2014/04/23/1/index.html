@@ -106,6 +106,7 @@
         map.setView([-41.886, 171.727], 5);
 
         L.tileLayer('http://{s}.tiles.mapbox.com/v3/ngunner.i2a5c9p4/{z}/{x}/{y}.png', {
+        	detectRetina: true,
             maxZoom: 15,
             attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
         }).addTo(map);
