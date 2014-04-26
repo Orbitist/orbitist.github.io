@@ -19,9 +19,9 @@ layout: default
 	
 			{% assign author = site.authors[page.author] %}
       		{% if author %}   
- <div class="authorblock">
-      		<h4>{{ author.display_name }}   <img style="width:35px; height:35px;" src="{{author.gravatar}}" class="img-circle">   <small><a href="http://www.twitter.com/{{ author.twitter }}">@{{ author.twitter }}{% endif %}</a></small></h4>
-</div><!-- authorblock -->
+ 
+      		<h3><small>By: <a href="http://www.twitter.com/{{ author.twitter }}">{{ author.name }}{% endif %}</a></small></h3>
+
 	
 	
 	{{ content }}
