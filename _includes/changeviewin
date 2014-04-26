@@ -1,1 +1,1 @@
-<i class="fa fa-globe" onclick="map.setView(
+<i class="fa fa-globe btn btn-default" onclick="map.setView(
