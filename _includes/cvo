@@ -1,0 +1,6 @@
+,
+{
+animate: true,
+duration: 0.25,
+easeLinearity: 0.25
+});"> Change map view</i>
