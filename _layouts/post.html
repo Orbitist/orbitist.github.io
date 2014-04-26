@@ -15,6 +15,16 @@ layout: default
 		<img src="{{ page.image }}">
 	</div><!-- topimage -->
 	<h1>{{ page.title }}</h1>
+	
+		{% assign author = site.authors[page.author] %}
+
+      		{% if author %}   
+ <div class="authortop">
+      		<h4>{{ author.display_name }}   <img style="width:35px; height:35px;" src="{{author.gravatar}}" class="img-circle">   <small><a href="http://www.twitter.com/{{ author.twitter }}">@{{ author.twitter }}{% endif %}</a></small></h4>
+</div><!-- authortop -->
+
+	
+	
 	<p class="lead">{{ page.description }}</p>
 	{{ content }}
 </div><!-- sidebar -->

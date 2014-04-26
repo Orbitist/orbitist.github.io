@@ -62,3 +62,9 @@
 	font-family: georgia, times, serif;
 	font-size: 30px;
 }
+
+/* Author displays */
+
+.authortop {
+	text-align: center;
+}
