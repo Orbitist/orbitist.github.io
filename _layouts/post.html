@@ -28,7 +28,16 @@ layout: default
 	
       		{% if author %}   
  <div class="authorblock">
-      		<h4>{{ author.display_name }}   <img style="width:75px; height:75px;" src="{{author.gravatar}}" class="img-circle">   <small><a href="http://www.twitter.com/{{ author.twitter }}">@{{ author.twitter }}{% endif %}</a></small></h4>
+ 	<table>
+ 	<tr>
+ 	<td>
+      		<img style="width:75px; height:75px;" src="{{author.gravatar}}" class="img-circle">
+    </td>
+    <td>
+    <h4>{{ author.display_name }}<br><small><a href="http://www.twitter.com/{{ author.twitter }}">@{{ author.twitter }}{% endif %}</a></small></h4>
+    </td>
+    </tr>
+    </table>
 </div><!-- authorblock -->
 	
 </div><!-- sidebar -->

@@ -66,5 +66,9 @@
 /* Author displays */
 
 .authorblock {
-	text-align: center;
+	margin-top: 10px;
+}
+
+.authorblock td {
+	padding: 5px;
 }
