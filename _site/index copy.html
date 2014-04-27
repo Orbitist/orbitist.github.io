@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	  <head>
+    <meta charset="utf-8">
+    <title>Orbitist</title>
+    
+    <meta name="author" content="Orbitist Support">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<!-- Shortcut icon -->
+	<link rel="shortcut icon" href="/orbitist.png">
+	
+<!-- Apple icon -->
+	<link rel="apple-touch-icon" sizes="152x152" href="/touch-icon-ipad-retina.png">
+
+<!-- Leaflet CSS -->
+	<link rel="stylesheet" href="/plugins/leaflet/leaflet.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
+	
+<!-- Leaflet-sidebar CSS -->
+	<link rel="stylesheet" href="/plugins/leaflet-sidebar/src/L.Control.Sidebar.css" />
+	
+<!-- Sidr CSS -->
+	<link rel="stylesheet" href="/plugins/sidr/stylesheets/jquery.sidr.dark.css">
+	
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+    
+<!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
+	
+<!-- Custom CSS -->
+	<link rel="stylesheet" href="/css/style.css">
+  </head>
+	<body>
+
+		
+		<!-- Logo -->		
+<a id="sidr-menu" href="#sidr">
+<div class="logooverlay">
+	<h3>O</h3>
+</div><!-- logooverlay -->
+</a>
+
+<div class="container">
+<h1></h1>
+	
+
+</div><!-- container -->
+		
+<!-- Sidr -->		
+<div id="sidr">
+  <a href="/"><h1>Orbitist</h1></a>
+  <ul>
+  	
+  	
+    <li><a href="/2014/04/26/2s">Fredonia's 'Forever Wild'</a></li>
+    
+    
+  	
+    <li><a href="/2014/04/23/1">New Zealand, meet the internet.</a></li>
+    
+    
+  </ul>
+</div><!-- sidr -->
+
+		
+		<!-- jQuery -->
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    
+<!-- Bootstrap JS -->
+	<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+	
+<!-- FitVids JS -->
+	<script src="/plugins/fitvids/jquery.fitvids.js"></script>
+	
+<!-- Fitvids script -->
+	<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $("#sidebar").fitVids();
+  });
+	</script>
+	
+<!-- Sidr JS -->
+	<script src="/plugins/sidr/jquery.sidr.min.js"></script>
+	<script>
+$(document).ready(function() {
+  $('#sidr-menu').sidr();
+});
+</script>
+	
+<!-- Smooth scroll script -->
+	<script>
+	$(function() {
+  $('a[href=#siteauthor]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+	</script>
+	
+<!-- Google Analytics -->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50308061-1', 'orbitist.com');
+  ga('send', 'pageview');
+
+	</script>
+	</body>
+</html>
