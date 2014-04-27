@@ -26,12 +26,14 @@
 	
 	.topstory img {
 	position: relative;
-	width: 100%;
+	height: 100%;
 	}
 	
 	.topstoryimage {
 	position: relative;
 	width: 100%;
+	height: 400px;
+	overflow: hidden;
 	}
 	
 	.topstoryoverlay {
