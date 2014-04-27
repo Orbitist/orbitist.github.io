@@ -46,16 +46,15 @@
 
 <button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
 
-<div id="map"></div>
+<div id="map" class="dark"></div>
 
 <!-- Sidebar -->
 <div id="sidebar">
-	<div class="topimage">
+	<div class="topstory">
 		<img src="http://orbitist.s3.amazonaws.com/2014/04/1/img/newzealandclouds.jpg">
-	</div><!-- topimage -->
-	<h1>New Zealand, meet the internet.</h1>
-	<p class="lead">New Zealand in all of it's glory, spewed onto the internet!</p>
-	
+		<h1>New Zealand, meet the internet.</h1>
+		<p>New Zealand in all of it's glory, spewed onto the internet!</p>
+	</div><!-- topstory -->
 			
       		   
  
@@ -118,7 +117,8 @@
     <script>
         var map = L.mapbox.map('map', 'ngunner.i2a5c9p4', {
     		tileLayer: {
-        		detectRetina: true
+        		detectRetina: true,
+        		maxZoom: 15
     		}
 		}).setView([-41.886, 171.727], 5);
 	</script>

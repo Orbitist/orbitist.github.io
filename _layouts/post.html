@@ -12,16 +12,15 @@ layout: default
 
 <button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
 
-<div id="map"></div>
+<div id="map" class="dark"></div>
 
 <!-- Sidebar -->
 <div id="sidebar">
-	<div class="topimage">
+	<div class="topstory">
 		<img src="{{ page.image }}">
-	</div><!-- topimage -->
-	<h1>{{ page.title }}</h1>
-	<p class="lead">{{ page.description }}</p>
-	
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.description }}</p>
+	</div><!-- topstory -->
 			{% assign author = site.authors[page.author] %}
       		{% if author %}   
  
@@ -70,7 +69,8 @@ layout: default
     <script>
         var map = L.mapbox.map('map', '{{ page.mapid }}', {
     		tileLayer: {
-        		detectRetina: true
+        		detectRetina: true,
+        		maxZoom: {{ page.maxZoom }}
     		}
 		}).setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
 	</script>

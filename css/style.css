@@ -19,8 +19,12 @@
 	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	}
 
-/* Top image section */
-	.topimage img {
+/* Top story section */
+	.topstory {
+	
+	}
+	
+	.topstory img {
 	width: 100%;
 	}
 
@@ -64,7 +68,7 @@
 	font-size: 30px;
 }
 
-/* Top View area */
+/* Top view */
 .topview {
 position: relative;
 max-height: 400px;

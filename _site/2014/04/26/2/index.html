@@ -46,16 +46,15 @@
 
 <button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
 
-<div id="map"></div>
+<div id="map" class="dark"></div>
 
 <!-- Sidebar -->
 <div id="sidebar">
-	<div class="topimage">
+	<div class="topstory">
 		<img src="http://orbitist.s3.amazonaws.com/2014/04/2/img/threemanhill.jpg">
-	</div><!-- topimage -->
-	<h1>Fredonia's 'Forever Wild'</h1>
-	<p class="lead">This forest has been set aside as a reserve for the campus. We're looking into what wild places mean to our students.</p>
-	
+		<h1>Fredonia's 'Forever Wild'</h1>
+		<p>This forest has been set aside as a reserve for the campus. We're looking into what wild places mean to our students.</p>
+	</div><!-- topstory -->
 			
       		   
  
@@ -106,7 +105,8 @@
     <script>
         var map = L.mapbox.map('map', 'ngunner.i387fllj', {
     		tileLayer: {
-        		detectRetina: true
+        		detectRetina: true,
+        		maxZoom: 20
     		}
 		}).setView([42.453, -79.34], 16);
 	</script>
