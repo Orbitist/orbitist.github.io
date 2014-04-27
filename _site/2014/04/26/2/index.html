@@ -100,11 +100,20 @@
             attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
         }).addTo(map);
 	-->
+
+
+<!-- Mapbox variables -->	
     <script>
-        var map = L.mapbox.map('map', 'ngunner.i387fllj')
-        	.setView([42.453, -79.34], 16);
+        var map = L.mapbox.map('map', 'ngunner.i387fllj', {
+    		tileLayer: {
+        		detectRetina: true
+    		}
+		}).setView([42.453, -79.34], 16);
+	</script>
 
 
+<!-- Sidebar variables -->
+	<script>
         var sidebar = L.control.sidebar('sidebar', {
             closeButton: false,
             position: 'right'

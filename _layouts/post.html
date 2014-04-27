@@ -64,11 +64,20 @@ layout: default
             attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
         }).addTo(map);
 	-->
+
+
+<!-- Mapbox variables -->	
     <script>
-        var map = L.mapbox.map('map', '{{ page.mapid }}')
-        	.setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
+        var map = L.mapbox.map('map', '{{ page.mapid }}', {
+    		tileLayer: {
+        		detectRetina: true
+    		}
+		}).setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
+	</script>
 
 
+<!-- Sidebar variables -->
+	<script>
         var sidebar = L.control.sidebar('sidebar', {
             closeButton: false,
             position: 'right'
