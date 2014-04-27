@@ -53,25 +53,7 @@ layout: default
 </div><!-- authorblock -->
 </div><!-- container -->
 </div><!-- sidebar -->
-
-
-
-<!-- Leaflet sidebar -->
-    <script src="{{ site.baseurl }}/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
  
-	
-
-
-<!-- Leaflet JS
-
-	<script src="{{ site.baseurl }}/plugins/leaflet/leaflet.js"></script>
-	  
-	  L.tileLayer('http://{s}.tiles.mapbox.com/v3/{{ page.mapid }}/{z}/{x}/{y}.png', {
-        	detectRetina: true,
-            maxZoom: {{ page.maxZoom }},
-            attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
-        }).addTo(map);
-	-->
 
 
 <!-- Mapbox variables -->	
@@ -84,7 +66,9 @@ layout: default
 		}).setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
 	</script>
 
-
+<!-- Leaflet sidebar -->
+    <script src="{{ site.baseurl }}/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
+    
 <!-- Sidebar variables -->
 	<script>
         var sidebar = L.control.sidebar('sidebar', {
