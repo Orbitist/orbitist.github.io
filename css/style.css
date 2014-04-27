@@ -21,11 +21,61 @@
 
 /* Top story section */
 	.topstory {
-	
+	width: 100%;
 	}
 	
 	.topstory img {
+	position: relative;
 	width: 100%;
+	}
+	
+	.topstoryimage {
+	position: relative;
+	width: 100%;
+	}
+	
+	.topstoryoverlay {
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	}
+	 
+	.topstorytext {
+	position: absolute;
+	z-index: 1000;
+	color: white;
+	margin: 10px;
+	}
+	
+	.topstorytitle {
+	font-size: 20px;
+	}
+	
+	.topstorydescription {
+	font-size: 12px;
+	}
+	
+	.leaflet-sidebar > .leaflet-control {
+  	background-color:white;
+  	background-position:initial initial;
+  	background-repeat:initial initial;
+  	border-bottom-left-radius:2px;
+  	border-bottom-right-radius:2px;
+  	border-top-left-radius:2px;
+  	border-top-right-radius:2px;
+  	box-shadow:rgba(0, 0, 0, 0.65098) 0 1px 7px;
+  	box-sizing:border-box;
+  	font-size:1.1em;
+  	height:100%;
+  	overflow:auto;
+  	padding:0px 0px;
+  	width:100%;
+}
+
+	.sidebarcontent {
+	padding:12px 8px;
 	}
 
 /* Map toggle */
@@ -85,7 +135,6 @@ background: rgba(0,0,0,0.3);
 position: absolute;
 width: 100%;
 height: 100%;
-
 }
 
 .toptitle {

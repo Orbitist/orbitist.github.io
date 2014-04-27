@@ -17,10 +17,18 @@ layout: default
 <!-- Sidebar -->
 <div id="sidebar">
 	<div class="topstory">
-		<img src="{{ page.image }}">
-		<h1>{{ page.title }}</h1>
-		<p>{{ page.description }}</p>
+		<div class="topstorytext">
+			<div class="topstorytitle">{{ page.title }}</div><!-- topstorytitle -->
+			<div class="topstorydescription">{{ page.description }}</div><!-- topstorydescription -->
+		</div><!-- topstorytext -->
+			<div class="topstoryimage">
+				<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
+				<img src="{{ page.image }}">
+			</div><!-- topstoryimage -->
 	</div><!-- topstory -->
+	
+<div class="sidebarcontent">
+<!-- Author by line -->
 			{% assign author = site.authors[page.author] %}
       		{% if author %}   
  
@@ -43,6 +51,7 @@ layout: default
     </tr>
     </table>
 </div><!-- authorblock -->
+</div><!-- container -->
 </div><!-- sidebar -->
 
 
