@@ -33,12 +33,16 @@
 	<link rel="stylesheet" href="/css/style.css">
   </head>
 	<body>
-		<a id="sidr-menu" href="#sidr">
+
+<!-- Logo -->		
+<a id="sidr-menu" href="#sidr">
 <div class="logooverlay">
 	<h3>O</h3>
-</div><!-- overlay -->
+</div><!-- logooverlay -->
 </a>
-<button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
+
+		
+		<button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
 
 <div id="map"></div>
 
@@ -76,17 +80,6 @@
 	
 </div><!-- sidebar -->
 
-<div id="sidr">
-  <!-- Your content -->
-  <a href="/"><h1>Orbitist</h1></a>
-  <ul>
-  	
-    <li><a href="/2014/04/26/2s">Fredonia's 'Forever Wild'</a></li>
-    
-    <li><a href="/2014/04/23/1">New Zealand, meet the internet.</a></li>
-    
-  </ul>
-</div><!-- sidr -->
 
 	<script src="/plugins/leaflet/leaflet.js"></script>
     <script src="/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
@@ -136,6 +129,19 @@
         });
     </script>
 
+		
+<!-- Sidr -->		
+<div id="sidr">
+  <a href="/"><h1>Orbitist</h1></a>
+  <ul>
+  	
+    <li><a href="/2014/04/26/2s">Fredonia's 'Forever Wild'</a></li>
+    
+    <li><a href="/2014/04/23/1">New Zealand, meet the internet.</a></li>
+    
+  </ul>
+</div><!-- sidr -->
+		
 		<!-- jQuery -->
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

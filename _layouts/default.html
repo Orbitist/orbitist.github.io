@@ -2,7 +2,27 @@
 <html lang="en">
 	{% include head.html %}
 	<body>
+
+<!-- Logo -->		
+<a id="sidr-menu" href="#sidr">
+<div class="logooverlay">
+	<h3>O</h3>
+</div><!-- logooverlay -->
+</a>
+
+		
 		{{ content }}
+		
+<!-- Sidr -->		
+<div id="sidr">
+  <a href="/"><h1>Orbitist</h1></a>
+  <ul>
+  	{% for post in site.posts limit: 10 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div><!-- sidr -->
+		
 		{% include foot.html %}
 	</body>
 </html>

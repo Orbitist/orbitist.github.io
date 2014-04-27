@@ -2,6 +2,7 @@ orbitist.com
 ==================
 
 ## We owe credit to so many brilliant minds in the open source space
+Mapbox: http://Mapbox.com/
 Leaflet: http://leafletjs.com/
 Leaflet-sidebar: https://github.com/Turbo87/leaflet-sidebar
 Sidr: http://www.berriart.com/sidr/
