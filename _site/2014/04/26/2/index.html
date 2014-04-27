@@ -13,10 +13,10 @@
 <!-- Apple icon -->
 	<link rel="apple-touch-icon" sizes="152x152" href="/touch-icon-ipad-retina.png">
 
-<!-- Leaflet CSS -->
-	<link rel="stylesheet" href="/plugins/leaflet/leaflet.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
-	
+<!-- Mapbox CSS and JS -->
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+
 <!-- Leaflet-sidebar CSS -->
 	<link rel="stylesheet" href="/plugins/leaflet-sidebar/src/L.Control.Sidebar.css" />
 	
@@ -48,6 +48,7 @@
 
 <div id="map"></div>
 
+<!-- Sidebar -->
 <div id="sidebar">
 	<div class="topimage">
 		<img src="http://orbitist.s3.amazonaws.com/2014/04/2/img/threemanhill.jpg">
@@ -79,22 +80,30 @@
     </tr>
     </table>
 </div><!-- authorblock -->
-	
 </div><!-- sidebar -->
 
 
-	<script src="/plugins/leaflet/leaflet.js"></script>
+
+<!-- Leaflet sidebar -->
     <script src="/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
+ 
+	
 
-    <script>
-        var map = L.map('map');
-        map.setView([42.453, -79.34], 16);
 
-        L.tileLayer('http://{s}.tiles.mapbox.com/v3/ngunner.i387fllj/{z}/{x}/{y}.png', {
+<!-- Leaflet JS
+
+	<script src="/plugins/leaflet/leaflet.js"></script>
+	  
+	  L.tileLayer('http://{s}.tiles.mapbox.com/v3/ngunner.i387fllj/{z}/{x}/{y}.png', {
         	detectRetina: true,
             maxZoom: 20,
             attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
         }).addTo(map);
+	-->
+    <script>
+        var map = L.mapbox.map('map', 'ngunner.i387fllj')
+        	.setView([42.453, -79.34], 16);
+
 
         var sidebar = L.control.sidebar('sidebar', {
             closeButton: false,

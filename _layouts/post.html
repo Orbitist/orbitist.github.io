@@ -14,6 +14,7 @@ layout: default
 
 <div id="map"></div>
 
+<!-- Sidebar -->
 <div id="sidebar">
 	<div class="topimage">
 		<img src="{{ page.image }}">
@@ -43,22 +44,30 @@ layout: default
     </tr>
     </table>
 </div><!-- authorblock -->
-	
 </div><!-- sidebar -->
 
 
-	<script src="{{ site.baseurl }}/plugins/leaflet/leaflet.js"></script>
+
+<!-- Leaflet sidebar -->
     <script src="{{ site.baseurl }}/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
+ 
+	
 
-    <script>
-        var map = L.map('map');
-        map.setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
 
-        L.tileLayer('http://{s}.tiles.mapbox.com/v3/{{ page.mapid }}/{z}/{x}/{y}.png', {
+<!-- Leaflet JS
+
+	<script src="{{ site.baseurl }}/plugins/leaflet/leaflet.js"></script>
+	  
+	  L.tileLayer('http://{s}.tiles.mapbox.com/v3/{{ page.mapid }}/{z}/{x}/{y}.png', {
         	detectRetina: true,
             maxZoom: {{ page.maxZoom }},
             attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
         }).addTo(map);
+	-->
+    <script>
+        var map = L.mapbox.map('map', '{{ page.mapid }}')
+        	.setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
+
 
         var sidebar = L.control.sidebar('sidebar', {
             closeButton: false,

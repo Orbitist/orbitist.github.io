@@ -44,6 +44,7 @@
 	left: 1px;
 }
 
+
 /* Logo overlay */
 .logooverlay {
 	position: absolute;
@@ -67,7 +68,12 @@
 .topview {
 position: relative;
 max-height: 400px;
+width: 100%;
 overflow: hidden;
+}
+
+.topview img{
+width: 100%;
 }
 
 .topoverlay {
@@ -82,10 +88,16 @@ height: 100%;
 position: absolute;
 font-size: 45px;
 color: white;
-font-family: helvetica;
+font-family: garamond, times, serif;
 width: 100%;
 text-align: center;
-top: 60%;
+top: 50%;
+}
+
+.toptitle p{
+color: white;
+font-size: 16px;
+font-family: helvetica, sans-serif;
 }
 
 /* Author displays */
