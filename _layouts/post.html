@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+<!-- Logo -->		
+{% if page.listed %}
+<a id="sidr-menu" href="#sidr">
+<div class="logooverlay">
+	<h3>O</h3>
+</div><!-- logooverlay -->
+</a>
+{% endif %}
+
 <button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
 
 <div id="map"></div>
