@@ -28,4 +28,5 @@ This video by [Bevan Percival](http://www.primalearthimages.com/) is New Zealand
 <iframe src="//player.vimeo.com/video/62980495?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Photo credit:
+
 1 - Screenshot of Bevan Percival's time-lapse video
