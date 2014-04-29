@@ -3,7 +3,7 @@
 	  <head>
     <meta charset="utf-8">
     <title>Orbitist</title>
-    <meta name="description" content="Why we're here and what we're trying to accomplish.">
+    <meta name="description" content="Check out this cool dark map of the world.">
     <meta name="author" content="Orbitist Support">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -52,12 +52,12 @@
 <div id="sidebar">
 	<div class="topstory">
 		<div class="topstorytext">
-			<div class="topstorytitle">About Orbitist</div><!-- topstorytitle -->
-			<div class="topstorydescription">Why we're here and what we're trying to accomplish.</div><!-- topstorydescription -->
+			<div class="topstorytitle">A dark planet</div><!-- topstorytitle -->
+			<div class="topstorydescription">Check out this cool dark map of the world.</div><!-- topstorydescription -->
 		</div><!-- topstorytext -->
 			<div class="topstoryimage">
 				<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
-				<img src="http://orbitist.s3.amazonaws.com/2014/04/3-about-orbitist/img/Piers_Sellers_spacewalkedit.jpg">
+				<img src="http://orbitist.s3.amazonaws.com/2014/04/1-new-zealand-meet-the-internet/img/newzealandclouds.jpg">
 			</div><!-- topstoryimage -->
 	</div><!-- topstory -->
 	
@@ -70,26 +70,7 @@
 
 	
 	
-	<p>Orbitist.com was build with the notion that important information should be made easy to consume and as relevant as possible. We do this with maps.</p>
-
-<p>Here’s why our maps work:</p>
-
-<h3 id="the-lord-of-the-rings-effect">The Lord of the Rings Effect:</h3>
-<p>Throughout the Lord of the rings, readers would be confused by all the place names. However, the author did an amazing thing– he added maps to the inside cover of the books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.</p>
-
-<p>Let’s go to New Zealand: <i class="fa fa-globe btn btn-default" onclick="map.setView([-41.393, 177.473], 6, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
-
-<p>How about San Francisco: <i class="fa fa-globe btn btn-default" onclick="map.setView([37.767, -122.361], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
-
-<p>Orbitist HQ: <i class="fa fa-globe btn btn-default" onclick="map.setView([42.453, -79.27], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
-
-<h3 id="sharing">Sharing:</h3>
-<p>We’re a species of sharers. People like to share what they discover and on Orbitist sharing is baked into the stories.</p>
-
-<p>Our maps let people see their place in a story. You can capture that reflective view of yourself from above and push it to your friends, adding value in the process.</p>
-
-<p>Photo credits:
-1 - by NASA, Astronaut Michael Edward Fossum [Public domain], via Wikimedia Commons</p>
+	<p>This is an example of an entire planet worth of rasterized tiles placed on top of a map.</p>
 
 	
       		   
@@ -112,12 +93,12 @@
 
 <!-- Mapbox variables -->	
     <script>
-        var map = L.mapbox.map('map', 'ngunner.i3pi1i5k', {
+        var map = L.mapbox.map('map', 'ngunner.i43a98bj', {
     		tileLayer: {
         		detectRetina: true,
-        		maxZoom: 20
+        		maxZoom: 8
     		}
-		}).setView([42.456, -79.332], 8);
+		}).setView([25, -50], 2);
 	</script>
 
 <!-- Leaflet sidebar -->
