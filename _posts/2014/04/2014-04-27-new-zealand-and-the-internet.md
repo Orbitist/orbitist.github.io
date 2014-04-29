@@ -7,7 +7,7 @@ id: 1
 title: New Zealand, meet the internet.
 description: New Zealand in all of it's glory, spewed onto the internet!
 author: ngunner
-image: http://orbitist.s3.amazonaws.com/2014/04/1/img/newzealandclouds.jpg
+image: http://orbitist.s3.amazonaws.com/2014/04/1-new-zealand-meet-the-internet/img/newzealandclouds.jpg
 mapid: ngunner.i2a5c9p4
 latitude: -41.886
 longitude: 171.727
@@ -26,3 +26,6 @@ This video by [Bevan Percival](http://www.primalearthimages.com/) is New Zealand
 >Doing this sort of thing has bought me closer and closer to the wilderness. There is something about doing this sort of stuff that just makes you want to keep coming back for more and more. Maybe it's the experience of being out there at one with the incredible beauty of this landscape. Maybe it's the challenge of capturing it in the camera in the way that you witnessed it. Maybe it's the excitement of seeing just what you got when you finally render it all out. Maybe it's the satisfaction you get out of showing this to other people. Most probably it's a combination of all these things.
 
 <iframe src="//player.vimeo.com/video/62980495?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+Photo credit:
+1 - Screenshot of Bevan Percival's time-lapse video
