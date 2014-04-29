@@ -4,7 +4,7 @@ pygments: true
 
 markdown: kramdown
 
-title : The Orbitist
+title : Orbitist
 tagline: Mapping the Universe
 author : 
   name : Orbitist Support
