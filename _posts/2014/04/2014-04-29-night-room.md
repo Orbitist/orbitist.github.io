@@ -15,3 +15,5 @@ zoom: 2
 maxZoom: 8
 ---
 This is an example of an entire planet worth of rasterized tiles placed on top of a map.
+
+I've also included active fires in the US on April 30, 2014.
