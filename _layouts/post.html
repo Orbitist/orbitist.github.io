@@ -18,6 +18,11 @@ layout: default
 <div id="sidebar">
 	<div class="topstory">
 		<div class="topstorytext">
+			{% if page.sponsored %}
+		<div class="sponsoredpage">
+		<span class="fa fa-compass"></span> Sponsored map:
+		</div><!-- sponsored -->
+		{% endif %}
 			<div class="topstorytitle">{{ page.title }}</div><!-- topstorytitle -->
 			<div class="topstorydescription">{{ page.description }}</div><!-- topstorydescription -->
 		</div><!-- topstorytext -->

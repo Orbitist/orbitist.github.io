@@ -171,3 +171,8 @@ font-family: helvetica, sans-serif;
 color: #FF9933;
 margin-bottom: -20px;
 }
+
+.sponsoredpage {
+color: #FF9933;
+z-index: 3000;
+}
