@@ -12,6 +12,11 @@
   <ul>
   	{% for post in site.posts limit: 10 %}
   	{% if post.listed %}
+  	{% if post.sponsored %}
+		<div class="sponsoredsidr">
+		<span class="fa fa-compass"></span> Sponsored map:
+		</div><!-- sponsoredsidr -->
+		{% endif %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
     {% endfor %}
