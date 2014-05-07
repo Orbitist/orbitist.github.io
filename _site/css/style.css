@@ -165,3 +165,9 @@ font-family: helvetica, sans-serif;
 .authorblock td {
 	padding: 5px;
 }
+
+/* Sponsored Stories */
+.sponsored {
+color: #FF9933;
+margin-bottom: -20px;
+}
