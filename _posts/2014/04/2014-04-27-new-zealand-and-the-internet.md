@@ -3,11 +3,10 @@ layout: post
 published: true
 listed: true
 sponsored: false
-id: 1
 title: New Zealand, meet the internet.
 description: New Zealand in all of it's glory, spewed onto the internet!
 author: ngunner
-image: http://orbitist.s3.amazonaws.com/2014/04/1-new-zealand-meet-the-internet/img/newzealandclouds.jpg
+image: http://orbitist.s3.amazonaws.com/2014/04/new-zealand-meet-the-internet/img/newzealandclouds.jpg
 mapid: ngunner.i2a5c9p4
 latitude: -41.886
 longitude: 171.727
