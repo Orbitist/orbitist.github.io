@@ -236,3 +236,12 @@ margin-left: 15px;
 margin-bottom: -15px;
 font-size: 10px;
 }
+
+.footerlinks {
+font-size: 11px;
+text-align: center;
+}
+
+.footerlinks p {
+font-size: 20px;
+}

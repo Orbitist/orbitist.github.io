@@ -3,7 +3,7 @@
 	  <head>
     <meta charset="utf-8">
     <title>Orbitist</title>
-    <meta name="description" content="Check out this cool dark map of the world.">
+    <meta name="description" content="How to use the Orbitist.">
     <meta name="author" content="Orbitist Support">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -36,113 +36,39 @@
 
 		
 		<!-- Logo -->		
-
 <a id="sidr-menu" href="#sidr">
 <div class="logooverlay">
 	<h3>O</h3>
 </div><!-- logooverlay -->
 </a>
 
+	<div class="topview">
+	<div class="topoverlay">
+	</div><!-- topoverlay -->
+	<div class="toptitle">
+		Help
+		<p>How to use the Orbitist.</p>
+	</div><!-- toptitle -->
 
-<button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
+<img class="img-responsive" src="http://orbitist.s3.amazonaws.com/_toplevel/images/pages/help.jpg">
 
-<div id="map" class="dark"></div>
+</div><!-- topview -->
 
-<!-- Sidebar -->
-<div id="sidebar">
-	<div class="topstory">
-		<div class="topstorytext">
-			
-			<div class="topstorytitle">A dark planet</div><!-- topstorytitle -->
-			<div class="topstorydescription">Check out this cool dark map of the world.</div><!-- topstorydescription -->
-		</div><!-- topstorytext -->
-			<div class="topstoryimage">
-				<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
-				<img src="http://orbitist.s3.amazonaws.com/2014/04/1-new-zealand-meet-the-internet/img/newzealandclouds.jpg">
-			</div><!-- topstoryimage -->
-	</div><!-- topstory -->
-	
-<div class="sidebarcontent">
-<!-- Author by line -->
-			
-      		   
- 
-      		<h3><small>By <a href="http://www.twitter.com/nicholas_gunner">Nicholas Gunner</a></small></h3>
-
-	
-	
-	<p>This is an example of an entire planet worth of rasterized tiles placed on top of a map.</p>
-
-<p>I’ve also included active fires in the US on April 30, 2014.</p>
-
-	
-      		   
- <div class="authorblock">
- 	<table>
- 	<tr>
- 	<td>
-      		<img style="width:75px; height:75px;" src="http://orbitist.s3.amazonaws.com/_toplevel/images/profile-images/ngunner.jpg" class="img-circle">
-    </td>
-    <td>
-    <h4>Nicholas Gunner<br><small><a href="http://www.twitter.com/nicholas_gunner">@nicholas_gunner</a></small></h4>
-    </td>
-    </tr>
-    </table>
-</div><!-- authorblock -->
+<div class="container">
+	<div class="col-md-8 col-md-offset-2">
+		<p class="lead">The Orbitist is simple: Stories on maps. There are a few things you need to know in order to use our maps:</p>
+		<p>-Toggle between map & story with this button:
+		<button type="button" class="btn btn-default"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
+		</p>
+		<p>-You'll find buttons like these in our stories: <i class="fa fa-globe btn btn-default" onclick="map.setView(,
+{
+animate: true,
+duration: 0.25,
+easeLinearity: 0.25
+});"></i> They are like little tour guides that adjust the map to fit where you are in the story.</p>
+		<h3>That's it! Congrats... you're now a super-ninja Orbitist!</h3>
+	</div><!-- col-md-6 -->
 </div><!-- container -->
-</div><!-- sidebar -->
- 
-
-
-<!-- Mapbox variables -->	
-    <script>
-        var map = L.mapbox.map('map', 'ngunner.i43a98bj', {
-    		tileLayer: {
-        		detectRetina: true,
-        		maxZoom: 8
-    		}
-		}).setView([25, -50], 2);
-	</script>
-
-<!-- Leaflet sidebar -->
-    <script src="/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
-    
-<!-- Sidebar variables -->
-	<script>
-        var sidebar = L.control.sidebar('sidebar', {
-            closeButton: false,
-            position: 'right'
-        });
-        map.addControl(sidebar);
-
-        setTimeout(function () {
-            sidebar.show();
-        }, 1500);
-
-        map.on('click', function () {
-            sidebar.hide();
-        })
-
-        sidebar.on('show', function () {
-            console.log('Sidebar will be visible.');
-        });
-
-        sidebar.on('shown', function () {
-            console.log('Sidebar is visible.');
-        });
-
-        sidebar.on('hide', function () {
-            console.log('Sidebar will be hidden.');
-        });
-
-        sidebar.on('hidden', function () {
-            console.log('Sidebar is hidden.');
-        });
-
-        L.DomEvent.on(sidebar.getCloseButton(), 'click', function () {
-            console.log('Close button clicked.');
-        });
-    </script>
 
 		
 <!-- Sidr -->		
