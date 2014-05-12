@@ -45,9 +45,12 @@ timezone : America/New_York
 
 
 prose:
-  rooturl: '_posts'
   siteurl: 'http://www.orbitist.com'
   metadata:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
     _posts:
       - name: "layout"
         field:
