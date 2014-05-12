@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Test draft
 listed: true
-sponsored: true
+sponsored: false
 description: Test draft
 author: ngunner
 image: "http://www.mojowallpapers.com/wp-content/uploads/2013/11/Cat-Wallpaper-17.jpg"
