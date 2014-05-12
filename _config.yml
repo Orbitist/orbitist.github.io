@@ -42,3 +42,69 @@ authors:
    
   
 timezone : America/New_York
+
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://www.orbitist.com'
+  metadata:
+    _posts/slides:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: "true"
+      - name: "listed"
+        field:
+          element: "checkbox"
+          label: "Listed?"
+          value: "true"
+      - name: "sponsored"
+        field:
+          element: "checkbox"
+          label: "Sponsored?"
+          value: "false"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author username"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Featured image"
+      - name: "mapid"
+        field:
+          element: "text"
+          label: "Map ID"
+      - name: "latitude"
+        field:
+          element: "text"
+          label: "Latitude"
+      - name: "longitude"
+        field:
+          element: "text"
+          label: "Longitude"
+      - name: "zoom"
+        field:
+          element: "text"
+          label: "Initial zoom level"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Slide title"
+      - name: "maxZoom"
+        field:
+          element: "text"
+          label: "Maximum zoom level"
