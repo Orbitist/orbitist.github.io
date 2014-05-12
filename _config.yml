@@ -67,7 +67,7 @@ prose:
         field:
           element: "checkbox"
           label: "Sponsored?"
-          value: "false"
+          value: "true"
       - name: "title"
         field:
           element: "text"
