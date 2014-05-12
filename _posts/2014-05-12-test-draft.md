@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: ""
+title: Test draft
 listed: true
 sponsored: true
 description: Test draft
