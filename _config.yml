@@ -46,11 +46,20 @@ timezone : America/New_York
 
 prose:
   siteurl: 'http://www.orbitist.com'
-  metadata:
+  ignore:
     - index.md
     - _config.yml
     - /_layouts
     - /_includes
+    - /_site
+    - CNAME
+    - /css
+    - index.html
+    - orbitist.png
+    - /plugins
+    - README.MD
+    - touch-icon-ipad-retina.png
+  metadata:
     _posts:
       - name: "layout"
         field:
