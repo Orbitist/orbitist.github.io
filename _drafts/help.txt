@@ -1,1 +1,0 @@
-This folder is where drafts go. For more info - http://jekyllrb.com/docs/drafts/
