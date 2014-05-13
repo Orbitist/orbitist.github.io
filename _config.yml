@@ -96,7 +96,10 @@ prose:
         field:
           element: "multiselect"
           label: "Categories"
-          placeholder: "Enter categories here."
+          placeholder: "Select categories"
+          options:
+            - name: "Orbitist"
+              value: "orbitist"
       - name: "sources"
         field:
           element: "textarea"
