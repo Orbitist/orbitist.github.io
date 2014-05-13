@@ -6,14 +6,24 @@ sponsored: false
 title: The Arctic Tern
 description: An amazing bird
 author: ngunner
-image: http://orbitist.s3.amazonaws.com/2014/04/new-zealand-meet-the-internet/img/newzealandclouds.jpg
-mapsrc: cartodb
-mapid: http://ngunner.cartodb.com/api/v2/viz/bf13d38c-da3f-11e3-bc4b-0e230854a1cb/viz.json
-latitude: 0
-longitude: 0
-zoom: 3
-maxZoom: 15
+image: "http://orbitist.s3.amazonaws.com/2014/04/new-zealand-meet-the-internet/img/newzealandclouds.jpg"
+mapsrc: 
+  - cartodb
+mapid: "http://ngunner.cartodb.com/api/v2/viz/bf13d38c-da3f-11e3-bc4b-0e230854a1cb/viz.json"
+latitude: 
+  - 0
+  - "0"
+longitude: 
+  - 0
+  - "0"
+zoom: 
+  - 3
+  - "3"
+maxZoom: 
+  - 15
+  - "15"
 ---
+
 I'm drawn to New Zealand and I'm not alone.
 
 <blockquote class="twitter-tweet" lang="en"><p>Shooting star and Milky Way over Lake Tekapo, New Zealand. <a href="http://t.co/ET27IyAIZo">pic.twitter.com/ET27IyAIZo</a></p>&mdash; Earth Pictures™ (@OurEarthBeauty) <a href="https://twitter.com/OurEarthBeauty/statuses/459683294087368704">April 25, 2014</a></blockquote>
