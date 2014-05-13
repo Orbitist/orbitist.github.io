@@ -3,7 +3,7 @@
 	  <head>
     <meta charset="utf-8">
     <title>Orbitist</title>
-    <meta name="description" content="This is just a text post">
+    <meta name="description" content="Some of our favorite sources of data.">
     <meta name="author" content="Orbitist Support">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -36,117 +36,38 @@
 
 		
 		<!-- Logo -->		
-
 <a id="sidr-menu" href="#sidr">
 <div class="logooverlay">
 	<h3>O</h3>
 </div><!-- logooverlay -->
 </a>
 
+	<div class="topview">
+	<div class="topoverlay">
+	</div><!-- topoverlay -->
+	<div class="toptitle">
+		Data
+		<p>Some of our favorite sources of data.</p>
+	</div><!-- toptitle -->
+<img class="img-responsive" src="http://orbitist.s3.amazonaws.com/_toplevel/images/pages/contact.jpg">
+</div><!-- topview -->
 
-<button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
+<div class="container">
+	<div class="col-md-8 col-md-offset-2">
 
-<div id="map" class="dark"></div>
+      
+      
+<hr>
+<h3>Ocean Biogeographic Information System (OBIS) at Duke University</h3>
 
-<!-- Sidebar -->
-<div id="sidebar">
-	<div class="topstory">
-		<div class="topstorytext">
-			
-		<div class="sponsoredpage">
-		<span class="fa fa-compass"></span> Sponsored map:
-		</div><!-- sponsored -->
-		
-			<div class="topstorytitle">Test Post</div><!-- topstorytitle -->
-			<div class="topstorydescription">This is just a text post</div><!-- topstorydescription -->
-		</div><!-- topstorytext -->
-			<div class="topstoryimage">
-				<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
-				<img src="http://www.mojowallpapers.com/wp-content/uploads/2013/11/Cat-Wallpaper-17.jpg">
-			</div><!-- topstoryimage -->
-	</div><!-- topstory -->
-	
-<div class="sidebarcontent">
-<!-- Author by line -->
-			
-      		   
- 
-      		<h3><small>By <a href="http://www.twitter.com/nicholas_gunner">Nicholas Gunner</a></small></h3>
+<blockquote>As part of the Ocean Biogeographic Information System (OBIS), a group of investigators, led by Andrew Read and Patrick Halpin of Duke University, is building Ocean Biogeographic Information System Spatial Ecological Analysis of Megavertebrate Populations (OBIS-SEAMAP), a spatially, temporally interactive online archive for marine mammal, sea turtle and seabird data. This service is made possible by contributions from data providers all over the world.</blockquote>
 
-	
-	
-	<h2 id="a-new-post">A New Post</h2>
-
-<p>Enter text in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. Use the toolbar above, or click the <strong>?</strong> button for formatting help.</p>
-
-	
-      		   
- <div class="authorblock">
- 	<table>
- 	<tr>
- 	<td>
-      		<img style="width:75px; height:75px;" src="http://orbitist.s3.amazonaws.com/_toplevel/images/profile-images/ngunner.jpg" class="img-circle">
-    </td>
-    <td>
-    <h4>Nicholas Gunner<br><small><a href="http://www.twitter.com/nicholas_gunner">@nicholas_gunner</a></small></h4>
-    </td>
-    </tr>
-    </table>
-</div><!-- authorblock -->
+<a href="http://seamap.env.duke.edu/">http://seamap.env.duke.edu/</a>
+<hr>   
+      
+      
+	</div><!-- col-md-6 -->
 </div><!-- container -->
-</div><!-- sidebar -->
- 
-
-
-<!-- Mapbox variables -->	
-    <script>
-        var map = L.mapbox.map('map', 'ngunner.i3pi1i5k', {
-    		tileLayer: {
-        		detectRetina: true,
-        		maxZoom: 20
-    		}
-		}).setView([42.456, -79.332], 8);
-	</script>
-
-<!-- Leaflet sidebar -->
-    <script src="/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
-    
-<!-- Sidebar variables -->
-	<script>
-        var sidebar = L.control.sidebar('sidebar', {
-            closeButton: false,
-            position: 'right'
-        });
-        map.addControl(sidebar);
-
-        setTimeout(function () {
-            sidebar.show();
-        }, 1500);
-
-        map.on('click', function () {
-            sidebar.hide();
-        })
-
-        sidebar.on('show', function () {
-            console.log('Sidebar will be visible.');
-        });
-
-        sidebar.on('shown', function () {
-            console.log('Sidebar is visible.');
-        });
-
-        sidebar.on('hide', function () {
-            console.log('Sidebar will be hidden.');
-        });
-
-        sidebar.on('hidden', function () {
-            console.log('Sidebar is hidden.');
-        });
-
-        L.DomEvent.on(sidebar.getCloseButton(), 'click', function () {
-            console.log('Close button clicked.');
-        });
-    </script>
 
 		
 <!-- Sidr -->		
@@ -154,24 +75,6 @@
   <a href="/"><h1>Orbitist</h1></a>
   <ul>
   	
-  	
-  	
-		<div class="sponsoredsidr">
-		<span class="fa fa-compass"></span> Sponsored map:
-		</div><!-- sponsoredsidr -->
-		
-    <li><a href="/2014/05/12/test-post">Test Post</a></li>
-    
-    
-  	
-  	
-		<div class="sponsoredsidr">
-		<span class="fa fa-compass"></span> Sponsored map:
-		</div><!-- sponsoredsidr -->
-		
-    <li><a href="/2014/05/12/test-draft"></a></li>
-    
-    
   	
   	
     <li><a href="/2014/04/27/new-zealand-and-the-internet">New Zealand, meet the internet.</a></li>
