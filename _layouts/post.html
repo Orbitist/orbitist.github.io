@@ -61,7 +61,7 @@ layout: default
 </div><!-- sidebar -->
  
 
-{% if page.mapsrc == "mapbox" %}
+
 <!-- Mapbox variables -->	
     <script>
         var map = L.mapbox.map('map', '{{ page.mapid }}', {
@@ -71,26 +71,8 @@ layout: default
     		}
 		}).setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
 	</script>
-{% endif %}
 
 
-{% if page.mapsrc == "cartodb" %}
-<!-- CartoDB Variables -->
-<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
-
-<script>
-  // get the viz.json url from the CartoDB UI
-  // - click on visualize
-  // - create new visualization
-  // - make visualization public
-  // - click on publish
-  // - go to API tab
-  window.onload = function() {
-    cartodb.createVis('map', '{{ page.mapid }}');
-  }
-</script>
-
-{% endif%}
 
 <!-- Leaflet sidebar -->
     <script src="{{ site.baseurl }}/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
