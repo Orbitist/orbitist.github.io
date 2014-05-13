@@ -92,13 +92,22 @@ prose:
         field:
           element: "text"
           label: "Author username"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Categories"
+          placeholder: "Enter categories here."
+      - name: "sources"
+        field:
+          element: "textarea"
+          label: "Enter sources here."
       - name: "image"
         field:
           element: "text"
           label: "Featured image"
       - name: "mapsrc"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Map source"
           placeholder: "Choose source"
           options:
