@@ -3,15 +3,15 @@ layout: post
 published: true
 listed: true
 sponsored: false
-title: New Zealand, meet the internet.
-description: New Zealand in all of it's glory, spewed onto the internet!
+title: The Arctic Tern
+description: An amazing bird
 author: ngunner
 image: http://orbitist.s3.amazonaws.com/2014/04/new-zealand-meet-the-internet/img/newzealandclouds.jpg
-mapsrc: mapbox
-mapid: ngunner.i2a5c9p4
-latitude: -41.886
-longitude: 171.727
-zoom: 5
+mapsrc: cartodb
+mapid: http://ngunner.cartodb.com/api/v2/viz/bf13d38c-da3f-11e3-bc4b-0e230854a1cb/viz.json
+latitude: 0
+longitude: 0
+zoom: 3
 maxZoom: 15
 ---
 I'm drawn to New Zealand and I'm not alone.

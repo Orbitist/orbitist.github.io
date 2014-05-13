@@ -96,6 +96,16 @@ prose:
         field:
           element: "text"
           label: "Featured image"
+      - name: "mapsrc"
+        field:
+          element: "multiselect"
+          label: "Map source"
+          placeholder: "Choose source"
+          options:
+            - name: "Mapbox"
+              value: "mapbox"
+            - name: "CartoDB"
+              value: "cartodb"
       - name: "mapid"
         field:
           element: "text"

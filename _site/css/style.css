@@ -245,3 +245,7 @@ text-align: center;
 .footerlinks p {
 font-size: 20px;
 }
+
+.sidebar {
+z-index: 3999;
+}

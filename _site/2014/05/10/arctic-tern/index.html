@@ -3,7 +3,7 @@
 	  <head>
     <meta charset="utf-8">
     <title>Orbitist</title>
-    <meta name="description" content="Why we're here and what we're trying to accomplish.">
+    <meta name="description" content="An amazing bird">
     <meta name="author" content="Orbitist Support">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -14,12 +14,14 @@
 	<link rel="apple-touch-icon" sizes="152x152" href="/touch-icon-ipad-retina.png">
 
 
-<!-- Mapbox CSS and JS -->
-<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
 
 
 
+<!-- CartoDB CSS and JS -->
+<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+<!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.ie.css" />
+<![endif]-->
 
 
 <!-- Leaflet-sidebar CSS -->
@@ -59,12 +61,12 @@
 	<div class="topstory">
 		<div class="topstorytext">
 			
-			<div class="topstorytitle">About Orbitist</div><!-- topstorytitle -->
-			<div class="topstorydescription">Why we're here and what we're trying to accomplish.</div><!-- topstorydescription -->
+			<div class="topstorytitle">The Arctic Tern</div><!-- topstorytitle -->
+			<div class="topstorydescription">An amazing bird</div><!-- topstorydescription -->
 		</div><!-- topstorytext -->
 			<div class="topstoryimage">
 				<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
-				<img src="http://orbitist.s3.amazonaws.com/2014/04/about-orbitist/img/Piers_Sellers_spacewalkedit.jpg">
+				<img src="http://orbitist.s3.amazonaws.com/2014/04/new-zealand-meet-the-internet/img/newzealandclouds.jpg">
 			</div><!-- topstoryimage -->
 	</div><!-- topstory -->
 	
@@ -77,26 +79,24 @@
 
 	
 	
-	<p>Orbitist.com was build with the notion that important information should be made easy to consume and as relevant as possible. We do this with maps.</p>
+	<p>I’m drawn to New Zealand and I’m not alone.</p>
 
-<p>Here’s why our maps work:</p>
+<blockquote class="twitter-tweet" lang="en"><p>Shooting star and Milky Way over Lake Tekapo, New Zealand. <a href="http://t.co/ET27IyAIZo">pic.twitter.com/ET27IyAIZo</a></p>&mdash; Earth Pictures™ (@OurEarthBeauty) <a href="https://twitter.com/OurEarthBeauty/statuses/459683294087368704">April 25, 2014</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<h3 id="the-lord-of-the-rings-effect">The Lord of the Rings Effect:</h3>
-<p>Throughout the Lord of the rings, readers would be confused by all the place names. However, the author did an amazing thing– he added maps to the inside cover of the books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.</p>
+<p><i class="fa fa-globe btn btn-default" onclick="map.setView([-36.867, 174.843], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i> Imagine living in Auckland. </p>
 
-<p>Let’s go to New Zealand: <i class="fa fa-globe btn btn-default" onclick="map.setView([-41.393, 177.473], 6, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
+<p>This video by <a href="http://www.primalearthimages.com/">Bevan Percival</a> is New Zealand-internet beauty at its finest.</p>
 
-<p>How about San Francisco: <i class="fa fa-globe btn btn-default" onclick="map.setView([37.767, -122.361], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
+<blockquote>
+  <p>Doing this sort of thing has bought me closer and closer to the wilderness. There is something about doing this sort of stuff that just makes you want to keep coming back for more and more. Maybe it’s the experience of being out there at one with the incredible beauty of this landscape. Maybe it’s the challenge of capturing it in the camera in the way that you witnessed it. Maybe it’s the excitement of seeing just what you got when you finally render it all out. Maybe it’s the satisfaction you get out of showing this to other people. Most probably it’s a combination of all these things.</p>
+</blockquote>
 
-<p>Orbitist HQ: <i class="fa fa-globe btn btn-default" onclick="map.setView([42.453, -79.27], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
+<iframe src="//player.vimeo.com/video/62980495?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
-<h3 id="sharing">Sharing:</h3>
-<p>We’re a species of sharers. People like to share what they discover and on Orbitist sharing is baked into the stories.</p>
+<p>Photo credit:</p>
 
-<p>Our maps let people see their place in a story. You can capture that reflective view of yourself from above and push it to your friends, adding value in the process.</p>
-
-<p>Photo credits:
-1 - by NASA, Astronaut Michael Edward Fossum [Public domain], via Wikimedia Commons</p>
+<p>1 - Screenshot of Bevan Percival’s time-lapse video</p>
 
 	
       		   
@@ -117,17 +117,23 @@
  
 
 
-<!-- Mapbox variables -->	
-    <script>
-        var map = L.mapbox.map('map', 'ngunner.i3pi1i5k', {
-    		tileLayer: {
-        		detectRetina: true,
-        		maxZoom: 20
-    		}
-		}).setView([42.456, -79.332], 8);
-	</script>
 
 
+
+<!-- CartoDB Variables -->
+<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+
+<script>
+  // get the viz.json url from the CartoDB UI
+  // - click on visualize
+  // - create new visualization
+  // - make visualization public
+  // - click on publish
+  // - go to API tab
+  window.onload = function() {
+    cartodb.createVis('map', 'http://ngunner.cartodb.com/api/v2/viz/bf13d38c-da3f-11e3-bc4b-0e230854a1cb/viz.json');
+  }
+</script>
 
 
 
