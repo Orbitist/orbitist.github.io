@@ -8,7 +8,7 @@
 <!-- FitVids JS -->
 	<script src="{{ site.baseurl }}/plugins/fitvids/jquery.fitvids.js"></script>
 	
-<!-- Fitvids script -->
+<!-- Fitvids variables -->
 	<script>
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
@@ -23,24 +23,6 @@ $(document).ready(function() {
   $('#sidr-menu').sidr();
 });
 </script>
-	
-<!-- Smooth scroll script -->
-	<script>
-	$(function() {
-  $('a[href=#siteauthor]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-	</script>
 	
 <!-- Google Analytics -->
 	<script>

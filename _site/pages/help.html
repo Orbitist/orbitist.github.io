@@ -80,11 +80,6 @@ easeLinearity: 0.25
   	
   	
   	
-    <li><a href="/2014/05/10/arctic-tern">The Arctic Tern</a></li>
-    
-    
-  	
-  	
     <li><a href="/2014/04/27/new-zealand-and-the-internet">New Zealand, meet the internet.</a></li>
     
     
@@ -121,7 +116,7 @@ easeLinearity: 0.25
 <!-- FitVids JS -->
 	<script src="/plugins/fitvids/jquery.fitvids.js"></script>
 	
-<!-- Fitvids script -->
+<!-- Fitvids variables -->
 	<script>
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
@@ -136,24 +131,6 @@ $(document).ready(function() {
   $('#sidr-menu').sidr();
 });
 </script>
-	
-<!-- Smooth scroll script -->
-	<script>
-	$(function() {
-  $('a[href=#siteauthor]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-	</script>
 	
 <!-- Google Analytics -->
 	<script>
