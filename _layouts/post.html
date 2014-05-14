@@ -13,10 +13,10 @@ layout: default
 
 <button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
 
-<div id="map"></div>
+<div class="map" id="map"></div>
 
-<!-- Sidebar -->
-<div id="sidebar">
+<!-- Sidepanel -->
+<div class="sidepanel">
 	<div class="topstory">
 		<div class="topstorytext">
 			{% if page.sponsored %}
@@ -58,7 +58,7 @@ layout: default
     </table>
 </div><!-- authorblock -->
 </div><!-- container -->
-</div><!-- sidebar -->
+</div><!-- sidepanel -->
  
 
 {% if page.mapsrc == "mapbox" %}
@@ -125,9 +125,9 @@ layout: default
     <script>
       function main() {
         cartodb.createVis('map', 'http://documentation.cartodb.com/api/v2/viz/2b13c956-e7c1-11e2-806b-5404a6a683d5/viz.json', {
-            shareable: true,
-            title: true,
-            description: true,
+            shareable: false,
+            title: false,
+            description: false,
             search: true,
             tiles_loader: true,
             center_lat: 0,

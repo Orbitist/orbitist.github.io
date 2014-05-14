@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 768px) {
   .map{position: inherit; height: 400px; width: 100%; display: block;}
-  .sidepanel{position: inherit; width: 100%;}
+  .sidepanel{position: absolute; width: 100%;}
 }
 
 @media only screen and (max-width: 480px) {

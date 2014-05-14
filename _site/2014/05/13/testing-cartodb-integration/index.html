@@ -3,7 +3,7 @@
 	  <head>
     <meta charset="utf-8">
     <title>Orbitist</title>
-    <meta name="description" content="Why we're here and what we're trying to accomplish.">
+    <meta name="description" content="Trying to get this thing working">
     <meta name="author" content="Orbitist Support">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -13,10 +13,6 @@
 <!-- Apple icon -->
 	<link rel="apple-touch-icon" sizes="152x152" href="/touch-icon-ipad-retina.png">
 
-
-<!-- Mapbox CSS and JS -->
-<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
 
 
 
@@ -71,8 +67,8 @@
 	<div class="topstory">
 		<div class="topstorytext">
 			
-			<div class="topstorytitle">About Orbitist</div><!-- topstorytitle -->
-			<div class="topstorydescription">Why we're here and what we're trying to accomplish.</div><!-- topstorydescription -->
+			<div class="topstorytitle">Testing CartoDB integration</div><!-- topstorytitle -->
+			<div class="topstorydescription">Trying to get this thing working</div><!-- topstorydescription -->
 		</div><!-- topstorytext -->
 			<div class="topstoryimage">
 				<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
@@ -89,24 +85,9 @@
 
 	
 	
-	<p>Orbitist.com was built with the notion that important information should be made easy to consume and as relevant as possible. Our mission is to educate people by displaying the world in inspiring and epic terms. We do this with maps and open source tools.</p>
+	<p>We’re working on integrating the amazing power of CartoDB!</p>
 
-<h2 id="heres-why-our-maps-work">Here’s why our maps work:</h2>
-
-<h3 id="the-lord-of-the-rings-effect">The Lord of the Rings Effect:</h3>
-<p>If you’ve read the Lord of the rings, you know that all the places traveled to throughout the book can be hard to keep track of. However, Tolkien did an amazing thing: he added maps to the inside front cover of the books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.</p>
-
-<p>Orbitist fully embraces the LOTR effect. Our stories guide readers through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. Whether we’re examining melting glaciers in New Zealand <i class="fa fa-globe btn btn-default" onclick="map.setView([-41.393, 177.473], 6, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i>, riding bikes through San Francisco <i class="fa fa-globe btn btn-default" onclick="map.setView([37.767, -122.361], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i>, or updating you on the latest Orbitist features <i class="fa fa-globe btn btn-default" onclick="map.setView([42.453, -79.27], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
-
-<h3 id="style">Style:</h3>
-<p>Our stories are driven by narrative and conversational, laid-back writing. We aim for our stories to be pointed– seek facts about the world and expressing truths in straight-forward, interesting ways. </p>
-
-<p>We explain the news by putting hyper-local stories into a global context. We take this further by putting users into that context and making them part of the narrative! </p>
-
-<h3 id="sharing">Sharing:</h3>
-<p>Humans are species of sharers– it’s why we’ve lasted as long as we have. People like to share what they discover and on Orbitist sharing is baked into the stories.</p>
-
-<p>Our maps let people see their place in a story, capture the moment in a reflective view of yourself from above and push it to friends. Every time an Orbitist story is shared, value is added.</p>
+<p><i class="fa fa-globe btn btn-default" onclick="map.setView([-41.393, 177.473], 6, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
 
 	
       		   
@@ -126,16 +107,6 @@
 </div><!-- sidepanel -->
  
 
-
-<!-- Mapbox variables -->	
-    <script>
-        var map = L.mapbox.map('map', 'ngunner.i3pi1i5k', {
-    		tileLayer: {
-        		detectRetina: true,
-        		maxZoom: 20
-    		}
-		}).setView([42.456, -79.332], 8);
-	</script>
 
 
 
@@ -183,6 +154,45 @@
     </script>
     -->
 
+    
+<!-- include cartodb.js library -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+
+    <script>
+      function main() {
+        cartodb.createVis('map', 'http://documentation.cartodb.com/api/v2/viz/2b13c956-e7c1-11e2-806b-5404a6a683d5/viz.json', {
+            shareable: false,
+            title: false,
+            description: false,
+            search: true,
+            tiles_loader: true,
+            center_lat: 0,
+            center_lon: 0,
+            zoom: 2
+        })
+        .done(function(vis, layers) {
+          // layer 0 is the base layer, layer 1 is cartodb layer
+          // setInteraction is disabled by default
+          layers[1].setInteraction(true);
+          layers[1].on('featureOver', function(e, pos, latlng, data) {
+            cartodb.log.log(e, pos, latlng, data);
+          });
+
+          // you can get the native map to work with it
+          // depending if you use google maps or leaflet
+          map = vis.getNativeMap();
+
+          // now, perform any operations you need
+          // map.setZoom(3)
+          // map.setCenter(new google.maps.Latlng(...))
+        })
+        .error(function(err) {
+          console.log(err);
+        });
+      }
+
+      window.onload = main;
+    </script>
 
 		
 <!-- Sidr -->		
