@@ -13,7 +13,7 @@ layout: default
 
 <button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
 
-<div id="map" class="dark"></div>
+<div id="map"></div>
 
 <!-- Sidebar -->
 <div id="sidebar">
@@ -61,7 +61,7 @@ layout: default
 </div><!-- sidebar -->
  
 
-
+{{% if page.mapsrc == "mapbox" %}}
 <!-- Mapbox variables -->	
     <script>
         var map = L.mapbox.map('map', '{{ page.mapid }}', {
@@ -71,15 +71,16 @@ layout: default
     		}
 		}).setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
 	</script>
+{{% endif %}}
 
 
-
-<!-- Leaflet sidebar -->
+<!-- Leaflet sidebar 
     <script src="{{ site.baseurl }}/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
+    -->
     
 
     
-<!-- Sidebar variables -->
+<!-- Sidebar variables 
 	<script>
         var sidebar = L.control.sidebar('sidebar', {
             closeButton: false,
@@ -115,3 +116,45 @@ layout: default
             console.log('Close button clicked.');
         });
     </script>
+    -->
+
+{{% if page.mapsrc == "cartodb" %}}    
+<!-- include cartodb.js library -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+
+    <script>
+      function main() {
+        cartodb.createVis('map', 'http://documentation.cartodb.com/api/v2/viz/2b13c956-e7c1-11e2-806b-5404a6a683d5/viz.json', {
+            shareable: true,
+            title: true,
+            description: true,
+            search: true,
+            tiles_loader: true,
+            center_lat: 0,
+            center_lon: 0,
+            zoom: 2
+        })
+        .done(function(vis, layers) {
+          // layer 0 is the base layer, layer 1 is cartodb layer
+          // setInteraction is disabled by default
+          layers[1].setInteraction(true);
+          layers[1].on('featureOver', function(e, pos, latlng, data) {
+            cartodb.log.log(e, pos, latlng, data);
+          });
+
+          // you can get the native map to work with it
+          // depending if you use google maps or leaflet
+          map = vis.getNativeMap();
+
+          // now, perform any operations you need
+          // map.setZoom(3)
+          // map.setCenter(new google.maps.Latlng(...))
+        })
+        .error(function(err) {
+          console.log(err);
+        });
+      }
+
+      window.onload = main;
+    </script>
+{{% endif %}}

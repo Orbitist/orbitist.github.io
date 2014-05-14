@@ -19,8 +19,10 @@
 <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
 
 
-<!-- Leaflet-sidebar CSS -->
+
+<!-- Leaflet-sidebar CSS 
 	<link rel="stylesheet" href="/plugins/leaflet-sidebar/src/L.Control.Sidebar.css" />
+	-->
 	
 	
 <!-- Sidr CSS -->
@@ -31,6 +33,18 @@
     
 <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
+    
+<!-- CatroDB CSS -->
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.ie.css" />
+    <![endif]-->
+
+    
+<!-- Sidepanel CSS -->
+    <link rel="stylesheet" href="/plugins/sidepanel/light-theme.css">
+    <link rel="stylesheet" href="/plugins/sidepanel/makeitresponsive.css">
+    
 	
 <!-- Custom CSS -->
 	<link rel="stylesheet" href="/css/style.css">
@@ -50,7 +64,7 @@
 
 <button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
 
-<div id="map" class="dark"></div>
+<div id="map"></div>
 
 <!-- Sidebar -->
 <div id="sidebar">
@@ -75,26 +89,24 @@
 
 	
 	
-	<p>Orbitist.com was build with the notion that important information should be made easy to consume and as relevant as possible. We do this with maps.</p>
+	<p>Orbitist.com was built with the notion that important information should be made easy to consume and as relevant as possible. Our mission is to educate people by displaying the world in inspiring and epic terms. We do this with maps and open source tools.</p>
 
-<p>Here’s why our maps work:</p>
+<h2 id="heres-why-our-maps-work">Here’s why our maps work:</h2>
 
 <h3 id="the-lord-of-the-rings-effect">The Lord of the Rings Effect:</h3>
-<p>Throughout the Lord of the rings, readers would be confused by all the place names. However, the author did an amazing thing– he added maps to the inside cover of the books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.</p>
+<p>If you’ve read the Lord of the rings, you know that all the places traveled to throughout the book can be hard to keep track of. However, Tolkien did an amazing thing: he added maps to the inside front cover of the books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.</p>
 
-<p>Let’s go to New Zealand: <i class="fa fa-globe btn btn-default" onclick="map.setView([-41.393, 177.473], 6, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
+<p>Orbitist fully embraces the LOTR effect. Our stories guide readers through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. Whether we’re examining melting glaciers in New Zealand <i class="fa fa-globe btn btn-default" onclick="map.setView([-41.393, 177.473], 6, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i>, riding bikes through San Francisco <i class="fa fa-globe btn btn-default" onclick="map.setView([37.767, -122.361], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i>, or updating you on the latest Orbitist features <i class="fa fa-globe btn btn-default" onclick="map.setView([42.453, -79.27], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
 
-<p>How about San Francisco: <i class="fa fa-globe btn btn-default" onclick="map.setView([37.767, -122.361], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
+<h3 id="style">Style:</h3>
+<p>Our stories are driven by narrative and conversational, laid-back writing. We aim for our stories to be pointed– seek facts about the world and expressing truths in straight-forward, interesting ways. </p>
 
-<p>Orbitist HQ: <i class="fa fa-globe btn btn-default" onclick="map.setView([42.453, -79.27], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
+<p>We explain the news by putting hyper-local stories into a global context. We take this further by putting users into that context and making them part of the narrative! </p>
 
 <h3 id="sharing">Sharing:</h3>
-<p>We’re a species of sharers. People like to share what they discover and on Orbitist sharing is baked into the stories.</p>
+<p>Humans are species of sharers– it’s why we’ve lasted as long as we have. People like to share what they discover and on Orbitist sharing is baked into the stories.</p>
 
-<p>Our maps let people see their place in a story. You can capture that reflective view of yourself from above and push it to your friends, adding value in the process.</p>
-
-<p>Photo credits:
-1 - by NASA, Astronaut Michael Edward Fossum [Public domain], via Wikimedia Commons</p>
+<p>Our maps let people see their place in a story, capture the moment in a reflective view of yourself from above and push it to friends. Every time an Orbitist story is shared, value is added.</p>
 
 	
       		   
@@ -127,12 +139,13 @@
 
 
 
-<!-- Leaflet sidebar -->
+<!-- Leaflet sidebar 
     <script src="/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
+    -->
     
 
     
-<!-- Sidebar variables -->
+<!-- Sidebar variables 
 	<script>
         var sidebar = L.control.sidebar('sidebar', {
             closeButton: false,
@@ -167,6 +180,47 @@
         L.DomEvent.on(sidebar.getCloseButton(), 'click', function () {
             console.log('Close button clicked.');
         });
+    </script>
+    -->
+
+    
+<!-- include cartodb.js library -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+
+    <script>
+      function main() {
+        cartodb.createVis('map', 'http://documentation.cartodb.com/api/v2/viz/2b13c956-e7c1-11e2-806b-5404a6a683d5/viz.json', {
+            shareable: true,
+            title: true,
+            description: true,
+            search: true,
+            tiles_loader: true,
+            center_lat: 0,
+            center_lon: 0,
+            zoom: 2
+        })
+        .done(function(vis, layers) {
+          // layer 0 is the base layer, layer 1 is cartodb layer
+          // setInteraction is disabled by default
+          layers[1].setInteraction(true);
+          layers[1].on('featureOver', function(e, pos, latlng, data) {
+            cartodb.log.log(e, pos, latlng, data);
+          });
+
+          // you can get the native map to work with it
+          // depending if you use google maps or leaflet
+          map = vis.getNativeMap();
+
+          // now, perform any operations you need
+          // map.setZoom(3)
+          // map.setCenter(new google.maps.Latlng(...))
+        })
+        .error(function(err) {
+          console.log(err);
+        });
+      }
+
+      window.onload = main;
     </script>
 
 		
