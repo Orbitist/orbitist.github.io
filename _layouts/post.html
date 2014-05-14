@@ -61,7 +61,7 @@ layout: default
 </div><!-- sidebar -->
  
 
-{{% if page.mapsrc == "mapbox" %}}
+{% if page.mapsrc == "mapbox" %}
 <!-- Mapbox variables -->	
     <script>
         var map = L.mapbox.map('map', '{{ page.mapid }}', {
@@ -71,7 +71,7 @@ layout: default
     		}
 		}).setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
 	</script>
-{{% endif %}}
+{% endif %}
 
 
 <!-- Leaflet sidebar 
@@ -118,7 +118,7 @@ layout: default
     </script>
     -->
 
-{{% if page.mapsrc == "cartodb" %}}    
+{% if page.mapsrc == "cartodb" %}    
 <!-- include cartodb.js library -->
     <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
 
@@ -157,4 +157,4 @@ layout: default
 
       window.onload = main;
     </script>
-{{% endif %}}
+{% endif %}
