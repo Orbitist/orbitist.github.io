@@ -36,6 +36,3 @@ We explain the news by putting hyper-local stories into a global context. We tak
 Humans are species of sharers-- it's why we've lasted as long as we have. People like to share what they discover and on Orbitist sharing is baked into the stories.
 
 Our maps let people see their place in a story, capture the moment in a reflective view of yourself from above and push it to friends. Every time an Orbitist story is shared, value is added.
-
-Photo credits:
-1 - by NASA, Astronaut Michael Edward Fossum [Public domain], via Wikimedia Commons
