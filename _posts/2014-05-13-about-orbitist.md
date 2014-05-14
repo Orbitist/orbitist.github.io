@@ -20,7 +20,7 @@ maxZoom: "20"
 
 Orbitist.com was built with the notion that important information should be made easy to consume and as relevant as possible. Our mission is to educate people by displaying the world in inspiring and epic terms. We do this with maps and open source tools.
 
-Here's why our maps work:
+##Here's why our maps work:
 
 ###The Lord of the Rings Effect:
 If you've read the Lord of the rings, you know that all the places traveled to throughout the book can be hard to keep track of. However, Tolkien did an amazing thing: he added maps to the inside front cover of the books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.
