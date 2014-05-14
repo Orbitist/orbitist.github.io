@@ -24,7 +24,6 @@
 	<link rel="stylesheet" href="/plugins/leaflet-sidebar/src/L.Control.Sidebar.css" />
 	-->
 	
-	
 <!-- Sidr CSS -->
 	<link rel="stylesheet" href="/plugins/sidr/stylesheets/jquery.sidr.light.css">
     
@@ -62,12 +61,12 @@
 
 
 
-<button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
+<button type="button" id="maptoggle" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
 
 <div class="map" id="map"></div>
 
 <!-- Sidepanel -->
-<div class="sidepanel">
+<div class="sidepanel" id="sidepanel">
 	<div class="topstory">
 		<div class="topstorytext">
 			
@@ -182,6 +181,7 @@
         });
     </script>
     -->
+
 
 
 		

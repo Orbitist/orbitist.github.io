@@ -11,12 +11,12 @@ layout: default
 {% endif %}
 
 
-<button type="button" onclick="sidebar.toggle();" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
+<button type="button" id="maptoggle" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
 
 <div class="map" id="map"></div>
 
 <!-- Sidepanel -->
-<div class="sidepanel">
+<div class="sidepanel" id="sidepanel">
 	<div class="topstory">
 		<div class="topstorytext">
 			{% if page.sponsored %}
@@ -118,13 +118,14 @@ layout: default
     </script>
     -->
 
-{% if page.mapsrc == "cartodb" %}    
+
+{% if page.mapsrc == "cartodb" %}   
 <!-- include cartodb.js library -->
     <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
 
     <script>
       function main() {
-        cartodb.createVis('map', 'http://documentation.cartodb.com/api/v2/viz/2b13c956-e7c1-11e2-806b-5404a6a683d5/viz.json', {
+        cartodb.createVis('map', 'http://ngunner.cartodb.com/api/v2/viz/bf13d38c-da3f-11e3-bc4b-0e230854a1cb/viz.json', {
             shareable: false,
             title: false,
             description: false,
