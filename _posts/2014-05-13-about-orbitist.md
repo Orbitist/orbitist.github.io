@@ -18,23 +18,24 @@ zoom: "8"
 maxZoom: "20"
 ---
 
-Orbitist.com was build with the notion that important information should be made easy to consume and as relevant as possible. We do this with maps.
+Orbitist.com was built with the notion that important information should be made easy to consume and as relevant as possible. Our mission is to educate people by displaying the world in inspiring and epic terms. We do this with maps and open source tools.
 
 Here's why our maps work:
 
 ###The Lord of the Rings Effect:
-Throughout the Lord of the rings, readers would be confused by all the place names. However, the author did an amazing thing-- he added maps to the inside cover of the books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.
+If you've read the Lord of the rings, you know that all the places traveled to throughout the book can be hard to keep track of. However, Tolkien did an amazing thing: he added maps to the inside front cover of the books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.
 
-Let's go to New Zealand: {% include cvi %}[-41.393, 177.473], 6{% include cvo %}
+Orbitist fully embraces the LOTR effect. Our stories guide readers through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. Whether we're examining melting glaciers in New Zealand {% include cvi %}[-41.393, 177.473], 6{% include cvo %}, riding bikes through San Francisco {% include cvi %}[37.767, -122.361], 12{% include cvo %}, or updating you on the latest Orbitist features {% include cvi %}[42.453, -79.27], 12{% include cvo %}
 
-How about San Francisco: {% include cvi %}[37.767, -122.361], 12{% include cvo %}
+###Style:
+Our stories are driven by narrative and conversational, laid-back writing. We aim for our stories to be pointed-- seek facts about the world and expressing truths in straight-forward, interesting ways. 
 
-Orbitist HQ: {% include cvi %}[42.453, -79.27], 12{% include cvo %}
+We explain the news by putting hyper-local stories into a global context. We take this further by putting users into that context and making them part of the narrative! 
 
 ###Sharing:
-We're a species of sharers. People like to share what they discover and on Orbitist sharing is baked into the stories.
+Humans are species of sharers-- it's why we've lasted as long as we have. People like to share what they discover and on Orbitist sharing is baked into the stories.
 
-Our maps let people see their place in a story. You can capture that reflective view of yourself from above and push it to your friends, adding value in the process.
+Our maps let people see their place in a story, capture the moment in a reflective view of yourself from above and push it to friends. Every time an Orbitist story is shared, value is added.
 
 Photo credits:
 1 - by NASA, Astronaut Michael Edward Fossum [Public domain], via Wikimedia Commons
