@@ -18,7 +18,13 @@ zoom: "8"
 maxZoom: "20"
 ---
 
-Orbitist.com was built with the notion that important information should be made easy to consume and as relevant as possible. Our mission is to educate people by displaying the world in inspiring and epic terms. We do this with maps and open source tools.
+There's nothing like sharing a map. For centuries people have gathered around and drawn lines in the sand, stood around tables, in board rooms, war rooms, living rooms. On the street they've looked together at maps in books, bustops, phones in the palms of their hands. Maps on walls, on ships, in space and behind wheels. People have shared maps... together. 
+
+What's around the mountain, over the ocean, through the valley or sitting on mars? People have shown each other these things and fantasized about geographies. We go to some of those places, but not to them all. 
+
+But it's not just places... It's us too. We often fail to look at ourselves in an objective way. Yet maps trump our vein and we cannot look away.
+
+Orbitist.com was built with the notion that important information should be made easy to consume and as relevant as possible. Our mission is to educate people by displaying the world in inspiring and epic terms. We do this with maps built on open source tools.
 
 ##Here's why our maps work:
 
