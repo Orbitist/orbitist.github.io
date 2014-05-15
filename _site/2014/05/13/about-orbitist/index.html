@@ -19,10 +19,6 @@
 <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
 
 
-
-<!-- Leaflet-sidebar CSS 
-	<link rel="stylesheet" href="/plugins/leaflet-sidebar/src/L.Control.Sidebar.css" />
-	-->
 	
 <!-- Sidr CSS -->
 	<link rel="stylesheet" href="/plugins/sidr/stylesheets/jquery.sidr.light.css">
@@ -36,12 +32,6 @@
     <!--[if lte IE 8]>
       <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.ie.css" />
     <![endif]-->
-
-   
-<!-- Sidepanel CSS 
-    <link rel="stylesheet" href="/plugins/sidepanel/light-theme.css">
-    <link rel="stylesheet" href="/plugins/sidepanel/makeitresponsive.css">
-    -->
     
 <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
@@ -137,52 +127,6 @@
     		}
 		}).setView([42.456, -79.332], 8);
 	</script>
-
-
-
-<!-- Leaflet sidebar 
-    <script src="/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
-    -->
-    
-
-    
-<!-- Sidebar variables 
-	<script>
-        var sidebar = L.control.sidebar('sidebar', {
-            closeButton: false,
-            position: 'right'
-        });
-        map.addControl(sidebar);
-
-        setTimeout(function () {
-            sidebar.show();
-        }, 1500);
-
-        map.on('click', function () {
-            sidebar.hide();
-        })
-
-        sidebar.on('show', function () {
-            console.log('Sidebar will be visible.');
-        });
-
-        sidebar.on('shown', function () {
-            console.log('Sidebar is visible.');
-        });
-
-        sidebar.on('hide', function () {
-            console.log('Sidebar will be hidden.');
-        });
-
-        sidebar.on('hidden', function () {
-            console.log('Sidebar is hidden.');
-        });
-
-        L.DomEvent.on(sidebar.getCloseButton(), 'click', function () {
-            console.log('Close button clicked.');
-        });
-    </script>
-    -->
 
 
 
