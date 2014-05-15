@@ -250,3 +250,8 @@ font-size: 20px;
 .sidebar {
 z-index: 3999;
 }
+
+/* Right sidepanel overrides */
+.sidr#sidepanel {
+width: 600px;
+}
