@@ -12,7 +12,7 @@
 	<script>
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
-    $("#sidebar").fitVids();
+    $("#sidepanel").fitVids();
   });
 	</script>
 	
@@ -21,6 +21,20 @@
 	<script>
 $(document).ready(function() {
   $('#sidr-menu').sidr();
+});
+</script>
+
+<script>
+$(document).ready(function() {
+    $('#sidr-menu').sidr({
+      name: 'sidr-left',
+      side: 'left' // By default
+    });
+    $('#maptoggle').sidr({
+      name: 'sidepanel',
+      side: 'right',
+      displace: false
+    });
 });
 </script>
 	

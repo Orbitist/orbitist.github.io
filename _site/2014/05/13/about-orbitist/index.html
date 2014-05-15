@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 <!-- Shortcut icon -->
-	<link rel="shortcut icon" href="http://orbitist.github.io/orbitist.png">
+	<link rel="shortcut icon" href="/orbitist.png">
 	
 <!-- Apple icon -->
-	<link rel="apple-touch-icon" sizes="152x152" href="http://orbitist.github.io/touch-icon-ipad-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/touch-icon-ipad-retina.png">
 
 
 <!-- Mapbox CSS and JS -->
@@ -21,14 +21,14 @@
 
 
 <!-- Leaflet-sidebar CSS 
-	<link rel="stylesheet" href="http://orbitist.github.io/plugins/leaflet-sidebar/src/L.Control.Sidebar.css" />
+	<link rel="stylesheet" href="/plugins/leaflet-sidebar/src/L.Control.Sidebar.css" />
 	-->
 	
 <!-- Sidr CSS -->
-	<link rel="stylesheet" href="http://orbitist.github.io/plugins/sidr/stylesheets/jquery.sidr.light.css">
+	<link rel="stylesheet" href="/plugins/sidr/stylesheets/jquery.sidr.light.css">
     
 <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="http://orbitist.github.io/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
     
 <!-- CatroDB CSS -->
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
@@ -37,16 +37,17 @@
     <![endif]-->
 
    
-<!-- Sidepanel CSS -->
-    <link rel="stylesheet" href="http://orbitist.github.io/plugins/sidepanel/light-theme.css">
-    <link rel="stylesheet" href="http://orbitist.github.io/plugins/sidepanel/makeitresponsive.css">
+<!-- Sidepanel CSS 
+    <link rel="stylesheet" href="/plugins/sidepanel/light-theme.css">
+    <link rel="stylesheet" href="/plugins/sidepanel/makeitresponsive.css">
+    -->
     
 <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="http://orbitist.github.io/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
 
 	
 <!-- Custom CSS -->
-	<link rel="stylesheet" href="http://orbitist.github.io/css/style.css">
+	<link rel="stylesheet" href="/css/style.css">
   </head>
 	<body>
 
@@ -61,12 +62,12 @@
 
 
 
-<button type="button" id="maptoggle" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
+<a href="#sidepanel"><button type="button" id="maptoggle" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button></a>
 
 <div class="map" id="map"></div>
 
 <!-- Sidepanel -->
-<div class="sidepanel" id="sidepanel">
+<div id="sidepanel">
 	<div class="topstory">
 		<div class="topstorytext">
 			
@@ -139,7 +140,7 @@
 
 
 <!-- Leaflet sidebar 
-    <script src="http://orbitist.github.io/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
+    <script src="/plugins/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
     -->
     
 
@@ -184,6 +185,7 @@
 
 
 
+
 		
 <!-- Sidr -->		
 <div id="sidr">
@@ -202,7 +204,7 @@
     
   </ul>
   <div class="footerlinks">
-  <a href="http://orbitist.github.io/2014/05/13/about-orbitist/">About</a> | <a href="http://orbitist.github.io/pages/contact.html">Contact</a> | <a href="http://orbitist.github.io/pages/help.html">Help</a><br>
+  <a href="/2014/05/13/about-orbitist/">About</a> | <a href="/pages/contact.html">Contact</a> | <a href="/pages/help.html">Help</a><br>
   <p><a href="http://www.twitter.com/theorbitist"><span class="fa fa-twitter"></a></span>&nbsp;<a href="https://www.facebook.com/Orbitist"><span class="fa fa-facebook"></span></a></p>
   &copy; Orbitist
   </div><!-- footerlinks -->
@@ -214,24 +216,38 @@
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     
 <!-- Bootstrap JS -->
-	<script src="http://orbitist.github.io/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
 	
 <!-- FitVids JS -->
-	<script src="http://orbitist.github.io/plugins/fitvids/jquery.fitvids.js"></script>
+	<script src="/plugins/fitvids/jquery.fitvids.js"></script>
 	
 <!-- Fitvids variables -->
 	<script>
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
-    $("#sidebar").fitVids();
+    $("#sidepanel").fitVids();
   });
 	</script>
 	
 <!-- Sidr JS -->
-	<script src="http://orbitist.github.io/plugins/sidr/jquery.sidr.min.js"></script>
+	<script src="/plugins/sidr/jquery.sidr.min.js"></script>
 	<script>
 $(document).ready(function() {
   $('#sidr-menu').sidr();
+});
+</script>
+
+<script>
+$(document).ready(function() {
+    $('#sidr-menu').sidr({
+      name: 'sidr-left',
+      side: 'left' // By default
+    });
+    $('#maptoggle').sidr({
+      name: 'sidepanel',
+      side: 'right',
+      displace: false
+    });
 });
 </script>
 	
