@@ -282,3 +282,8 @@ width: 95%;
 }
 }
 
+.sidr#sidepanel p {
+	font-size: 20px;
+	font-family: georgia, times, serif;
+	color: #333332;
+	}
