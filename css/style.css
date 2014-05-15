@@ -266,6 +266,8 @@ z-index: 3999;
 /* Right sidepanel overrides */
 .sidr#sidepanel {
 width: 35%;
+overflow-y: scroll; /* has to be scroll, not auto */
+-webkit-overflow-scrolling: touch;
 }
 
 @media only screen and (max-width: 768px) {
@@ -279,3 +281,4 @@ width: 75%;
 width: 95%;
 }
 }
+
