@@ -16,12 +16,6 @@ author :
 production_url : orbitist.com
 
 baseurl : http://orbitist.github.io
-
- 
-comments :
-  provider : disqus
-  disqus :
-    short_name : 
    
         
 analytics :
