@@ -15,8 +15,7 @@ author :
 
 production_url : orbitist.com
 
-baseurl : http://orbitist.github.io
-   
+baseurl : http://orbitist.github.io  
         
 analytics :
   google : 
