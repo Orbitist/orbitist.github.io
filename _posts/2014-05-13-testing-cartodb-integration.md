@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Testing CartoDB integration
-listed: false
+listed: true
 sponsored: false
 mapsrc: cartodb
 sources: null
