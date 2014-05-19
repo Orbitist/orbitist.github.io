@@ -11,7 +11,7 @@ categories:
 description: "Why we're here and what we're trying to accomplish."
 author: ngunner
 image: "http://orbitist.s3.amazonaws.com/2014/04/about-orbitist/img/Piers_Sellers_spacewalkedit.jpg"
-mapid: ngunner.i3pi1i5k
+mapid: orbitist.i9h7cjb9
 latitude: "42.456"
 longitude: "-79.332"
 zoom: "8"
