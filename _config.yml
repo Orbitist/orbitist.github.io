@@ -104,6 +104,12 @@ prose:
               value: "orbitist"
             - name: "Sponsored"
               value: "sponsored"
+            - name: "Environment"
+              value: "environment"
+            - name: "History"
+              value: "history"
+            - name: "Economics"
+              value: "economics"
       - name: "sources"
         field:
           element: "textarea"
