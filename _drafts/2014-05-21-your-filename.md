@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: ""
+title: Test
 listed: true
 sponsored: true
 mapsrc: mapbox
