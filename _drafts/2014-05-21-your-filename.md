@@ -6,7 +6,7 @@ listed: true
 sponsored: true
 mapsrc: mapbox
 sources: null
-mapid: orbitist.ia6ojd02
+mapid: orbitist.i9h7cjb9
 latitude: "8"
 longitude: "38"
 zoom: "7"
