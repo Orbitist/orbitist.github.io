@@ -75,33 +75,3 @@ layout: default
     
 </div><!-- container -->
 </div><!-- sidepanel -->
- 
-
-{% if page.mapsrc == "mapbox" %}
-<!-- Mapbox variables -->	
-    <script>
-        var map = L.mapbox.map('map', '{{ page.mapid }}', {
-    		tileLayer: {
-        		detectRetina: true,
-        		maxZoom: {{ page.maxZoom }}
-    		}
-		}).setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
-	</script>
-{% endif %}
-
-{% if page.mapsrc == "cartodb" %}   
-<!-- include cartodb.js library -->
-    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
-
-<script>
-  // get the viz.json url from the CartoDB UI
-  // - click on visualize
-  // - create new visualization
-  // - make visualization public
-  // - click on publish
-  // - go to API tab
-  window.onload = function() {
-    cartodb.createVis('map', 'http://orbitist.cartodb.com/api/v2/viz/66de3f1a-e1ef-11e3-83e5-0e73339ffa50/viz.json');
-  }
-</script>
-{% endif %}

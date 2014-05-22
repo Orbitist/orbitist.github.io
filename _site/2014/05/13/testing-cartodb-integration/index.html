@@ -109,26 +109,6 @@
     
 </div><!-- container -->
 </div><!-- sidepanel -->
- 
-
-
-
-   
-<!-- include cartodb.js library -->
-    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
-
-<script>
-  // get the viz.json url from the CartoDB UI
-  // - click on visualize
-  // - create new visualization
-  // - make visualization public
-  // - click on publish
-  // - go to API tab
-  window.onload = function() {
-    cartodb.createVis('map', 'http://orbitist.cartodb.com/api/v2/viz/66de3f1a-e1ef-11e3-83e5-0e73339ffa50/viz.json');
-  }
-</script>
-
 
 		
 <!-- Sidr -->		
@@ -191,6 +171,18 @@ $(document).ready(function() {
     });
 });
 </script>
+	
+	
+
+   
+<!-- include cartodb.js library -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+
+<script>
+cartodb.createVis('map', 'http://orbitist.cartodb.com/api/v2/viz/66de3f1a-e1ef-11e3-83e5-0e73339ffa50/viz.json');
+</script>
+
+	
 	
 <!-- Google Analytics -->
 	<script>
