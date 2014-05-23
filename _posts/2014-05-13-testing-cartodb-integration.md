@@ -20,4 +20,4 @@ mapid: "http://orbitist.cartodb.com/api/v2/viz/66de3f1a-e1ef-11e3-83e5-0e73339ff
 
 We're working on integrating the amazing power of CartoDB!
 
-{% include cvi %}[-41.393, 177.473], 6{% include cvo %}
+{% include cvi %}[-41.393, 177.473], 8{% include cvo %}
