@@ -15,6 +15,7 @@ latitude: "0"
 longitude: "0"
 zoom: "3"
 maxZoom: "10"
+mapid: "http://orbitist.cartodb.com/api/v2/viz/66de3f1a-e1ef-11e3-83e5-0e73339ffa50/viz.json"
 ---
 
 We're working on integrating the amazing power of CartoDB!
