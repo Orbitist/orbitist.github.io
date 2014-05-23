@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Testing CartoDB integration
 listed: false
-sponsored: false
+sponsored: true
 mapsrc: cartodb
 sources: null
 description: Trying to get this thing working
