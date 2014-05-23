@@ -53,20 +53,38 @@ $(document).ready(function() {
 {% if page.mapsrc == "cartodb" %}   
 <!-- include cartodb.js library -->
     <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
-      <script>
 
+    <script>
+      function main() {
+        cartodb.createVis('map', '{{ page.mapid }}', {
+            center_lat: {{ page.latitude }},
+            center_lon: {{ page.longitude }},
+            zoom: {{ page.zoom }}
+        })
+        .done(function(vis, layers) {
+          // layer 0 is the base layer, layer 1 is cartodb layer
+          // setInteraction is disabled by default
+          layers[1].setInteraction(true);
+          layers[1].on('featureOver', function(e, pos, latlng, data) {
+            cartodb.log.log(e, pos, latlng, data);
+          });
 
-  // get the viz.json url from the CartoDB UI
-  // - click on visualize
-  // - create new visualization
-  // - make visualization public
-  // - click on publish
-  // - go to API tab
-  window.onload = function() {
-    cartodb.createVis('map', 'http://documentation.cartodb.com/api/v2/viz/2b13c956-e7c1-11e2-806b-5404a6a683d5/viz.json');
-  }
+          // you can get the native map to work with it
+          // depending if you use google maps or leaflet
+          map = vis.getNativeMap();
 
-</script>
+          // now, perform any operations you need
+          // map.setZoom(3)
+          // map.setCenter(new google.maps.Latlng(...))
+        })
+        .error(function(err) {
+          console.log(err);
+        });
+      }
+
+      window.onload = main;
+    </script>
+
 {% endif %}
 	
 	
