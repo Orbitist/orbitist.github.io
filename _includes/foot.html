@@ -53,50 +53,9 @@ $(document).ready(function() {
 {% if page.mapsrc == "cartodb" %}   
 <!-- include cartodb.js library -->
     <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
-    <script>
-          // define the torque layer style using cartocss
-      var CARTOCSS = [
-      	'Map {',
-'-torque-frame-count:512;',
-'-torque-animation-duration:30;',
-'-torque-time-attribute:"date";',
-'-torque-aggregation-function:"count(cartodb_id)";',
-'-torque-resolution:2;',
-'-torque-data-aggregation:linear;',
-'}',
-'#arctic_20terns_20_20sheet1{',
- 'comp-op: lighter;',
-  'marker-fill-opacity: 0.9;',
-  'marker-line-color: #FFF;',
-  'marker-line-width: 1.5;',
-  'marker-line-opacity: 1;',
-  'marker-type: ellipse;',
-  'marker-width: 6;',
-  'marker-fill: #FF9900;',
-'}',
-'#arctic_20terns_20_20sheet1[frame-offset=1] {',
- 'marker-width:8;',
- 'marker-fill-opacity:0.45;',
-'}',
-'#arctic_20terns_20_20sheet1[frame-offset=2] {',
- 'marker-width:10;',
- 'marker-fill-opacity:0.225;',
-'}',
-      ].join('\n');
-
-
-      var map = new L.Map('map', {
-        zoomControl: true,
-        center: [40, 0],
-        zoom: 3
-      });
-      
-      </script>
-      
       <script>
-cartodb.createVis('map', 'http://orbitist.cartodb.com/api/v2/viz/66de3f1a-e1ef-11e3-83e5-0e73339ffa50/viz.json');
+cartodb.createVis('map', '{{ page.mapid }}');
 </script>
-
 {% endif %}
 	
 	
