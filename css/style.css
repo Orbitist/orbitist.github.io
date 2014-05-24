@@ -11,7 +11,7 @@
 
 /* Typography */
 	p {
-	font-size: 20px;
+	font-size: 18px;
 	font-family: georgia, times, serif;
 	color: #333332;
 	}
@@ -84,6 +84,17 @@
 	position: fixed;
 	bottom: 10px;
 	left: 1px;
+}
+
+div.cartodb-zoom {
+	position: fixed;
+	bottom: 10px;
+	left: 1px;
+	z-index: 1000001;
+}
+
+div.cartodb-logo img {
+margin-left: 50px;
 }
 
 
