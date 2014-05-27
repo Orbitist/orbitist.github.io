@@ -157,8 +157,25 @@
 </div><!-- sidr -->
 
 		
-		<!-- jQuery -->
+			
+	
+<!-- jQuery -->
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	
+<!-- Mapbox variables -->	
+    <script>
+        var map = L.mapbox.map('map', 'orbitist.i9h7cjb9', {
+    		tileLayer: {
+        		detectRetina: true,
+        		maxZoom: 20
+    		}
+		}).setView([42.456, -79.332], 8);
+	</script>
+
+
+
+
+
 	
     
 <!-- Bootstrap JS -->
@@ -196,20 +213,6 @@ $(document).ready(function() {
     });
 });
 </script>
-	
-	
-<!-- Mapbox variables -->	
-    <script>
-        var map = L.mapbox.map('map', 'orbitist.i9h7cjb9', {
-    		tileLayer: {
-        		detectRetina: true,
-        		maxZoom: 20
-    		}
-		}).setView([42.456, -79.332], 8);
-	</script>
-
-
-
 	
 	
 <!-- Google Analytics -->

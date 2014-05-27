@@ -1,44 +1,8 @@
+	{% if page.mapsrc == "mapbox" %}
+	
 <!-- jQuery -->
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	
-    
-<!-- Bootstrap JS -->
-	<script src="{{ site.baseurl }}/plugins/bootstrap/js/bootstrap.min.js"></script>
-	
-<!-- FitVids JS -->
-	<script src="{{ site.baseurl }}/plugins/fitvids/jquery.fitvids.js"></script>
-	
-<!-- Fitvids variables -->
-	<script>
-  $(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $("#sidepanel").fitVids();
-  });
-	</script>
-	
-<!-- Sidr JS -->
-	<script src="{{ site.baseurl }}/plugins/sidr/jquery.sidr.min.js"></script>
-	<script>
-$(document).ready(function() {
-  $('#sidr-menu').sidr();
-});
-</script>
-
-<script>
-$(document).ready(function() {
-    $('#sidr-menu').sidr({
-      name: 'sidr-left',
-      side: 'left' // By default
-    });
-    $('#maptoggle').sidr({
-      name: 'sidepanel',
-      side: 'right',
-      displace: false
-    });
-});
-</script>
-	
-	{% if page.mapsrc == "mapbox" %}
 <!-- Mapbox variables -->	
     <script>
         var map = L.mapbox.map('map', '{{ page.mapid }}', {
@@ -85,6 +49,48 @@ $(document).ready(function() {
     </script>
 
 {% endif %}
+
+{% if page.layout == "page" %}
+<!-- jQuery -->
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	{% endif %}
+	
+    
+<!-- Bootstrap JS -->
+	<script src="{{ site.baseurl }}/plugins/bootstrap/js/bootstrap.min.js"></script>
+	
+<!-- FitVids JS -->
+	<script src="{{ site.baseurl }}/plugins/fitvids/jquery.fitvids.js"></script>
+	
+<!-- Fitvids variables -->
+	<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $("#sidepanel").fitVids();
+  });
+	</script>
+	
+<!-- Sidr JS -->
+	<script src="{{ site.baseurl }}/plugins/sidr/jquery.sidr.min.js"></script>
+	<script>
+$(document).ready(function() {
+  $('#sidr-menu').sidr();
+});
+</script>
+
+<script>
+$(document).ready(function() {
+    $('#sidr-menu').sidr({
+      name: 'sidr-left',
+      side: 'left' // By default
+    });
+    $('#maptoggle').sidr({
+      name: 'sidepanel',
+      side: 'right',
+      displace: false
+    });
+});
+</script>
 	
 	
 <!-- Google Analytics -->
