@@ -216,6 +216,18 @@ $(document).ready(function() {
 <!-- Tooltips -->
 <script>
 $('#maptoggle').tooltip('toggle')
+
+$('html').click(function(e) {
+    $('#maptoggle').tooltip('hide');
+});
+
+$('#maptoggle').tooltip({
+    html: true,
+    trigger: 'manual'
+}).click(function(e) {
+    $(this).tooltip('toggle');
+    e.stopPropagation();
+});
 </script>
 	
 <!-- Google Analytics -->
