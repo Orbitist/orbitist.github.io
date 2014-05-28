@@ -68,7 +68,7 @@
 
 /* Map toggle */
 	.maptoggle {
-	position: fixed;
+	position: absolute;
 	right: 15px;
 	top: 15px;
 	z-index: 1000000;
