@@ -9,7 +9,7 @@
   overflow-x:none;
   overflow-y:auto;
   background-image: url('http://orbitist.com/crossword.png');
-  background: white;
+  background-color: white;
   }
   
 .sidr .sidr-inner{
@@ -125,7 +125,7 @@ z-index: 3999;
 width: 35%;
 overflow-y: scroll; /* has to be scroll, not auto */
 -webkit-overflow-scrolling: touch;
-background-color: white;
+background: white;
 }
 
 @media only screen and (max-width: 768px) {
