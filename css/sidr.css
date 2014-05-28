@@ -10,11 +10,11 @@
   overflow-y:auto;
   background-image: url('http://orbitist.com/crossword.png');
   background-color: white;
-  color: white;
   }
   
 .sidr .sidr-inner{
   padding:0 0 15px 15px;
+  background-color: white;
   }
     
 .sidr .sidr-inner>p{
@@ -30,11 +30,6 @@
 .sidr.left{
   left:-260px;
   right:auto;
-}
-
-.sidr p{
-  font-size:13px;
-  margin:0 0 12px;
 }
 
 .sidr p a{
