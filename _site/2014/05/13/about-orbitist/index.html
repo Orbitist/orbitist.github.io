@@ -50,7 +50,7 @@
 
 
 
-<a href="#sidepanel"><button type="button" id="maptoggle" class="btn btn-default maptoggle"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button></a>
+<a href="#sidepanel"><button type="button" id="maptoggle" class="btn btn-default maptoggle" data-toggle="tooltip" title="Toggle the map!" data-placement="left"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button></a>
 
 <div class="map" id="map"></div>
 
@@ -212,6 +212,11 @@ $(document).ready(function() {
 });
 </script>
 	
+	
+<!-- Tooltips -->
+<script>
+$('#maptoggle').tooltip()
+</script>
 	
 <!-- Google Analytics -->
 	<script>
