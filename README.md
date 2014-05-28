@@ -1,7 +1,7 @@
 orbitist.com
 ==================
 
-## We owe credit to so many brilliant minds in the open source space
+### We owe credit to so many brilliant minds in the open source space
 * Mapbox: http://Mapbox.com/
 * CartoDB: http://cartodb.com
 * Leaflet: http://leafletjs.com/
