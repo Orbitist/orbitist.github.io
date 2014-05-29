@@ -10,7 +10,7 @@ categories:
   - orbitist
 description: "Why we're here and what we're trying to accomplish."
 author: ngunner
-image: "http://orbitist.s3.amazonaws.com/2014/04/about-orbitist/img/Piers_Sellers_spacewalkedit.jpg"
+image: "http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/Piers_Sellers_spacewalkedit.jpg"
 mapid: orbitist.i9h7cjb9
 latitude: "42.456"
 longitude: "-79.332"
