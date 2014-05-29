@@ -5,7 +5,7 @@ title: About Orbitist
 listed: true
 sponsored: false
 mapsrc: mapbox
-sources: null
+sources: "Top image - http://commons.wikimedia.org/wiki/File:Piers_Sellers_spacewalk.jpg"
 categories: 
   - orbitist
 description: "Why we're here and what we're trying to accomplish."
