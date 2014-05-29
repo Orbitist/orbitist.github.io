@@ -121,7 +121,7 @@ prose:
               value: "economics"
       - name: "sources"
         field:
-          element: "textarea"
+          element: "text"
           label: "Enter sources here."
       - name: "image"
         field:
@@ -161,3 +161,7 @@ prose:
         field:
           element: "text"
           label: "Maximum zoom level"
+      - name: "customjs"
+        field:
+          element: "text"
+          label: "Custom JS"
