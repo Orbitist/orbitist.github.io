@@ -41,6 +41,15 @@ authors:
     web: 
     twitter: knotfloyd
     github: pato9955
+  azaremski:
+    name: Adam Zaremski
+    display_name: Adam Zaremski
+    bio: Reporter with East Aurora Advertiser @eastauroranews. Other days- creator and drinker of fine brews. Always enjoying life.
+    image: https://pbs.twimg.com/profile_images/3146366407/aa2927c576bac48ac1410a546861252b.jpeg
+    email: adam.zaremski@gmail.com
+    web: 
+    twitter: azaremski
+    github: ngunner
 
   
 timezone : America/New_York
