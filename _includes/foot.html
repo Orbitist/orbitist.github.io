@@ -107,9 +107,12 @@ $('#maptoggle').tooltip({
 
 <!-- Auto click maptoggle -->
 <script>
+    var delay=3000;//1 seconds
+    setTimeout(function(){
   $(document).ready(function(){ 
   $('#maptoggle').trigger('click'); 
   });
+    },delay);
 </script>
 	
 <!-- Google Analytics -->
