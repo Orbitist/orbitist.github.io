@@ -5,7 +5,7 @@ title: Arctic Tern
 listed: false
 sponsored: false
 mapsrc: cartodb
-sources: null
+sources: "Top image - http://en.wikipedia.org/wiki/File:Arctic_tern_8664.jpg"
 description: A story by Adam
 author: azaremski
 mapid: "http://orbitist.cartodb.com/api/v2/viz/66de3f1a-e1ef-11e3-83e5-0e73339ffa50/viz.json"
