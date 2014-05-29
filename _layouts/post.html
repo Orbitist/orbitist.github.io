@@ -43,10 +43,12 @@ layout: default
 	
 	
 	{{ content }}
+	{% if page.sources %}
 	<div class="sources">
-	{{ page.sources }}
-		
+	<p>Sources:</p>
+	<small>{{ page.sources }}</small>
 	</div>
+	{% endif %}
 	
 
       		{% if author %}   
