@@ -65,6 +65,11 @@
 	.sidebarcontent {
 	padding:12px 8px;
 	}
+	
+/* Sources block */
+	.sources {
+		background-color: light-gray;
+	}
 
 /* Map toggle */
 	.maptoggle {
