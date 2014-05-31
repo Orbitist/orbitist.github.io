@@ -8,6 +8,10 @@ mapsrc: mapbox
 author: jpaton
 image: "http://orbitist.s3.amazonaws.com/2014/05_firewood/Stack_of_firewood2.jpg"
 mapid: orbitist.id0md7oh
+latitude: "0"
+longitude: "0"
+zoom: "2"
+maxZoom: "22"
 ---
 
 > When that fat old sun in the sky is falling,
