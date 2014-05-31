@@ -79,6 +79,8 @@ prose:
     - /plugins
     - README.MD
     - touch-icon-ipad-retina.png
+    - whitey.png
+    - crossword.png
   metadata:
     _posts:
       - name: "layout"
