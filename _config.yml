@@ -59,6 +59,15 @@ authors:
     web: 
     twitter: BekahBr
     github:
+  jmorlock:
+    name: Jeremy Morlock
+    display_name: Jeremy Morlock
+    bio: Media professional. Proud East Auroran.
+    image: https://pbs.twimg.com/profile_images/456838244856909824/LwGnhTR5.jpeg
+    email: jmorlock2@gmail.com
+    web: 
+    twitter: typewriter84
+    github:
 
   
 timezone : America/New_York
