@@ -9,6 +9,10 @@ author: mdrzewiecki
 sources: "<a href=\"http://commons.wikimedia.org/wiki/File:Dirt_road_facing_south_near_the_Voyager_Ziwani_Safari_Camp,_on_the_edge_of_the_Tsavo_West_National_Park,_near_Ziwani,_Kenya.jpg\">Top image</a> <a href=\"http://data.un.org/Data.aspx?q=paved+roads&d=WDI&f=Indicator_Code%3aIS.ROD.PAVE.ZS\">Paved roads data</a>"
 image: "http://orbitist.s3.amazonaws.com/2014/05_dirt-roads/dirt_road2.jpg"
 mapid: "http://orbitist.cartodb.com/api/v2/viz/93c5ffc2-e901-11e3-b893-0e10bcd91c2b/viz.json"
+latitude: "0"
+longitude: "0"
+zoom: "3"
+maxZoom: "22"
 ---
 
 Your GPS is malfunctioning. You smack at the thing in vain. You watch as the last battery bar fades into a black screen as the uncharged GPS is silenced.
