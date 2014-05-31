@@ -49,7 +49,16 @@ authors:
     email: adam.zaremski@gmail.com
     web: 
     twitter: azaremski
-    github: ngunner
+    github:
+  rbretl:
+    name: Rebekah Bretl
+    display_name: Rebekah Bretl
+    bio: E-counceller at the State University of New York at Fredonia, freelance maker at Orbitist.
+    image: https://pbs.twimg.com/profile_images/378800000422132193/64778d05073607b1a17d152d56936d45.jpeg
+    email: bretl@fredonia.edu
+    web: 
+    twitter: BekahBr
+    github:
 
   
 timezone : America/New_York
