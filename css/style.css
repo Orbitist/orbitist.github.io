@@ -95,11 +95,12 @@ div.cartodb-zoom {
 	position: fixed;
 	bottom: 10px;
 	left: 1px;
-	z-index: 1000001;
+	z-index: 999998;
 }
 
 div.cartodb-logo img {
-margin-left: 50px;
+	margin-left: 50px;
+	z-index: 999998;
 }
 
 
