@@ -6,13 +6,14 @@ listed: false
 sponsored: true
 mapsrc: mapbox
 author: rbretl
-categories: 
-  - sponsored
+categories: ""
 mapid: orbitist.id061ie0
 latitude: "42.439"
 longitude: "-78.881"
 zoom: "13"
 description: "This little-known wonder is not just a hidden local gem of Western New York, it is said to be the best-kept secret of the northeast."
+maxZoom: "22"
+image: "http://static.panoramio.com/photos/large/16803449.jpg"
 ---
 
 Traveling through the little village of Gowanda, NY you might miss the unmarked entrance. Explore further, and you are sure to think that you’ve discovered a secret geological treasure. Named by the first settlers to the area, they chose a name from the book of Genesis, Zoar, meaning “small” or “insignificant” in Hebrew - hardly an accurate description of Zoar Valley’s immense beauty. This little-known wonder is not just a hidden local gem of Western New York, it is said to be the best-kept secret of the northeast.
