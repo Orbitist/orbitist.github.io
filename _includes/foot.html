@@ -117,41 +117,16 @@ $('#maptoggle').tooltip({
 
 <!-- Orbitist API calls -->
 <script>
-var geojsonFeature = {
-  "type" : "FeatureCollection",
-  "features" : [
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          0,
-          0
-        ]
-      },
-      "properties" : {
-        "name" : "Test 2",
-        "description" : "This is test 2."
+$.getJSON("http://live-orbitist.gotpantheon.com/get/", function(data) {
+    var geojson = L.geoJson(data, {
+      onEachFeature: function (feature, layer) {
+        layer.bindPopup(feature.properties.name);
       }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          -79.3282665,
-          42.4514275
-        ]
-      },
-      "properties" : {
-        "name" : "Test 1",
-        "description" : "This is test 1."
-      }
-    }
-  ]
-}
-L.geoJson(geojsonFeature).addTo(map);
-  </script>
+    });
+    var map = L.map('map').fitBounds(geojson.getBounds());
+    geojson.addTo(map);
+  });
+</script>
 
 <!-- Google Analytics -->
 	<script>
