@@ -116,6 +116,7 @@ $('#maptoggle').tooltip({
 </script>
 
 <!-- Orbitist API calls -->
+<script>
 $.getJSON("http://api.orbitist.com/get", function(data) {
     var geojson = L.geoJson(data, {
       onEachFeature: function (feature, layer) {
@@ -125,6 +126,7 @@ $.getJSON("http://api.orbitist.com/get", function(data) {
     var map = L.map('map').fitBounds(geojson.getBounds());
     geojson.addTo(map);
   });
+ </script>
 
 <!-- Google Analytics -->
 	<script>
