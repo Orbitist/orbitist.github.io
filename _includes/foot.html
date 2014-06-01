@@ -53,7 +53,6 @@
 <!-- Add GeoJSON to map -->
 	<script>
 	var geojsonFeature = {{ page.addgeojson }};
-	L.geoJson(geojsonFeature).addTo(map);
 		
 	var geojsonMarkerOptions = {
     radius: 8,
@@ -64,7 +63,7 @@
     fillOpacity: 0.8
 };
 
-L.geoJson(someGeojsonFeature, {
+L.geoJson(geojsonFeature, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, geojsonMarkerOptions);
     }
