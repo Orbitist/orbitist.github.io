@@ -4,22 +4,47 @@
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	
 <!-- Mapbox variables -->
-<script>
-  var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/{{ page.mapid }}/{z}/{x}/{y}.png', {
-    maxZoom: {{ page.maxZoom }}
-  });
+      <script type="text/javascript">var m= L.map('map').setView([42.2, -71], 8);
 
-  function popUp(feature, layer) {
-    layer.bindPopup(feature.properties.name);
-  }
+var mapQuestAttr = 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; ';
+var osmDataAttr = 'Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+var mopt = {
+    url: 'http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpeg',
+    options: {attribution:mapQuestAttr + osmDataAttr, subdomains:'1234'}
+  };
+var osm = L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:osmDataAttr});
+var mq=L.tileLayer(mopt.url,mopt.options);
 
-  var geojsonLayer = new L.GeoJSON.AJAX("http://api.orbitist.com/get", {dataType:"jsonp"});
+mq.addTo(m);
 
-  var map = L.map('map').fitBounds(geojsonLayer.getBounds());
-  mapboxTiles.addTo(map);
-  geojsonLayer.addTo(map);
+var baseMaps = {
+    "Map Quest": mq,
+    "Open Street Map":osm
+};
 
-  </script>
+
+
+function popUp(f,l){
+    var out = [];
+    if (f.properties){
+        for(key in f.properties){
+            out.push(key+": "+f.properties[key]);
+        }
+        l.bindPopup(out.join("<br />"));
+    }
+}
+var jsonTest = new L.GeoJSON.AJAX("test.geojson",{onEachFeature:popUp});
+var jsonpTest = L.geoJson.ajax("http://kublai.ro.lt/test.geojson",{onEachFeature:popUp,dataType:"jsonp"});
+
+jsonTest.addTo(m);
+var overlays={
+"json":jsonTest,
+"jsonp":jsonpTest
+}
+
+var lc=L.control.layers(baseMaps,overlays);
+lc.addTo(m);
+</script>
 
 <!--
 <script>
