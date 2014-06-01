@@ -116,7 +116,7 @@ $('#maptoggle').tooltip({
 </script>
 
 <!-- Orbitist API calls -->
-<script></script>
+<script>
  /* Load points GeoJSON and add to map */
   $.getJSON($('link[rel="location"]').attr("href"), function(data) {
     var geojson = L.geoJson(data, {
