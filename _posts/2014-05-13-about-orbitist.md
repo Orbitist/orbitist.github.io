@@ -16,6 +16,7 @@ latitude: "42.456"
 longitude: "-79.332"
 zoom: "8"
 maxZoom: "20"
+addgeojson: "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-79.3281523,30]},\"properties\":{\"name\":\"Test 3\",\"description\":\"This is test 3\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[0,0]},\"properties\":{\"name\":\"Test 2\",\"description\":\"This is test 2.\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-79.3282665,42.4514275]},\"properties\":{\"name\":\"Test 1\",\"description\":\"This is test 1.\"}}]}"
 ---
 
 There's nothing like sharing a map. For centuries people have gathered around and drawn lines in the sand, stood around tables, in board rooms, war rooms, living rooms-- observing, wondering, exploring via map. On the street they've looked together at maps in books, at bustops, on phones in the palms of their hands. On walls, on ships, in space and behind steering wheels -- people have shared maps. 
