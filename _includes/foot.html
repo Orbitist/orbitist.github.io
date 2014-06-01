@@ -114,7 +114,21 @@ $('#maptoggle').tooltip({
   });
     },delay);
 </script>
-	
+
+<!-- Orbitist API calls -->
+<script>
+$.getJSON($('link[rel="points"]').attr("href"), function(data) {
+  var geojson = L.geoJson(data, {
+    onEachFeature: function (feature, layer) {
+      layer.bindPopup(feature.properties.name);
+    }
+  });
+  var map = L.map('cupcake-map').fitBounds(geojson.getBounds());
+  cupcakeTiles.addTo(map);
+  geojson.addTo(map);
+});
+</script>
+
 <!-- Google Analytics -->
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
