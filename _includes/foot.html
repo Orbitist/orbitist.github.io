@@ -133,7 +133,7 @@ $.getJSON("http://api.orbitist.com/get", function(data) {
         layer.bindPopup(feature.properties.name);
       }
     });
-    geojson.addTo(map);
+    L.geoJson(geojsonFeature).addTo(map);
   });
  </script>
 
