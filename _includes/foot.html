@@ -150,7 +150,8 @@ var geojsonFeature = {
     }
   ]
 }
-L.geoJson(geojsonFeature).addTo(map);
+var myLayer = L.geoJson().addTo(map);
+myLayer.addData(geojsonFeature);
   </script>
 
 <!-- Google Analytics -->
