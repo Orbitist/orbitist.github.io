@@ -117,7 +117,6 @@ $('#maptoggle').tooltip({
 
 <!-- Orbitist API calls -->
 <script>
- /* Load points GeoJSON and add to map */
   $.getJSON($('link[rel="location"]').attr("href"), function(data) {
     var geojson = L.geoJson(data, {
       onEachFeature: function (feature, layer) {
@@ -125,13 +124,6 @@ $('#maptoggle').tooltip({
       }
     });
     var map = L.map('map').fitBounds(geojson.getBounds());
-    terrain.addTo(map);
-    L.control.layers({
-      "Terrain (default)": terrain,
-      "Streets": streets,
-      "Imperium": imperium,
-      }).addTo(map);
-    var markers = L.markerClusterGroup();
     markers.addLayer(geojson);
     map.addLayer(markers);
   });
