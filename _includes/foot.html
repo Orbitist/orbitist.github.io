@@ -5,12 +5,31 @@
 	
 <!-- Mapbox variables -->
 <script>
+  var mapboxTiles = L.tileLayer('http://a.tiles.mapbox.com/v3/{{ page.mapid }}/{z}/{x}/{y}.png', {
+    maxZoom: {{ page.maxZoom }}
+  });
+
+  function popUp(feature, layer) {
+    layer.bindPopup(feature.properties.name);
+  }
+
+  var geojsonLayer = new L.GeoJSON.AJAX("http://api.orbitist.com/get", {onEachFeature:popUp});
+
+  var map = L.map('map').fitBounds(geojsonLayer.getBounds());
+  mapboxTiles.addTo(map);
+  geojsonLayer.addTo(map);
+
+  </script>
+
+<!--
+<script>
     var map = L.map('map').setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
       L.tileLayer('http://{s}.tiles.mapbox.com/v3/{{ page.mapid }}/{z}/{x}/{y}.png', {
     	attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     	maxZoom: {{ page.maxZoom }}
 	}).addTo(map);
 </script>
+	-->
 
     <!--
     <script>
@@ -124,18 +143,6 @@ $('#maptoggle').tooltip({
   });
     },delay);
 </script>
-
-<!-- Orbitist API calls -->
-<script>
-$.getJSON("http://api.orbitist.com/get", function(data) {
-    var geojson = L.geoJson(data, {
-      onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.properties.name);
-      }
-    });
-    L.geoJson(geojsonFeature).addTo(map);
-  });
- </script>
 
 <!-- Google Analytics -->
 	<script>
