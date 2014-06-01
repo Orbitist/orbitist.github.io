@@ -170,6 +170,10 @@ prose:
         field:
           element: "text"
           label: "Map ID"
+      - name: "orbitistapi"
+        field:
+          element: "text"
+          label: "Orbitist API call"
       - name: "latitude"
         field:
           element: "text"
