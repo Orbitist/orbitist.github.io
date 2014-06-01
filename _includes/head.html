@@ -13,8 +13,8 @@
 
 {% if page.mapsrc == "mapbox" %}
 <!-- Mapbox CSS and JS -->
-<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
 {% endif %}
 
 	
@@ -23,20 +23,23 @@
 
     
 <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/plugins/font-awesome/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="{{ site.baseurl }}/plugins/font-awesome/css/font-awesome.min.css">
     
 {% if page.mapsrc == "cartodb" %}
 <!-- CatroDB CSS -->
-    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+    	<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
     <!--[if lte IE 8]>
       <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.ie.css" />
     <![endif]-->
 {% endif %}
     
 <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/plugins/bootstrap/css/bootstrap.min.css">
+    	<link rel="stylesheet" href="{{ site.baseurl }}/plugins/bootstrap/css/bootstrap.min.css">
 
 	
 <!-- Custom CSS -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+	
+<!-- Orbitist API GeoJson feed -->
+	<link rel="points" type="application/json" href="http://live-orbitist.gotpantheon.com/get">
   </head>
