@@ -34,7 +34,7 @@ function popUp(f,l){
     }
 }
 var jsonTest = new L.GeoJSON.AJAX("test.geojson",{onEachFeature:popUp});
-var jsonpTest = L.geoJson.ajax("http://api.orbitist.com/get",{onEachFeature:popUp,dataType:"jsonp"});
+var jsonpTest = L.geoJson.ajax("api.orbitist.com/get/",{onEachFeature:popUp,dataType:"jsonp"});
 
 jsonTest.addTo(m);
 var overlays={
