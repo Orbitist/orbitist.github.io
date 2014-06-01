@@ -52,7 +52,7 @@
 
 <!-- Add GeoJSON to map -->
 	<script>
-	var geojsonFeature = {"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.3281523,30]},"properties":{"name":"Test 3","description":"This is test 3"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[0,0]},"properties":{"name":"Test 2","description":"This is test 2."}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.3282665,42.4514275]},"properties":{"name":"Test 1","description":"This is test 1."}}]};
+	var geojsonFeature = {{ page.addgeojson }};
 	L.geoJson(geojsonFeature).addTo(map);
 		
 	</script>
