@@ -5,7 +5,7 @@
 	
 <!-- Mapbox variables -->
 <script>
-  var mapboxTiles = L.tileLayer('http://a.tiles.mapbox.com/v3/{{ page.mapid }}/{z}/{x}/{y}.png', {
+  var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/{{ page.mapid }}/{z}/{x}/{y}.png', {
     maxZoom: {{ page.maxZoom }}
   });
 
@@ -13,7 +13,7 @@
     layer.bindPopup(feature.properties.name);
   }
 
-  var geojsonLayer = new L.GeoJSON.AJAX("http://api.orbitist.com/get", {onEachFeature:popUp});
+  var geojsonLayer = new L.GeoJSON.AJAX("http://api.orbitist.com/get", {dataType:"jsonp"});
 
   var map = L.map('map').fitBounds(geojsonLayer.getBounds());
   mapboxTiles.addTo(map);
