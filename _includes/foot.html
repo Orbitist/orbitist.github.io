@@ -55,7 +55,13 @@
 var featureLayer = L.mapbox.featureLayer({{ page.addgeojson }})
     .addTo(map);
 
+featureLayer.eachLayer(function(layer) {
 
+    // here you call `bindPopup` with a string of HTML you create - the feature
+    // properties declared above are available under `layer.feature.properties`
+    var content = '<p>Title: ' + layer.feature.properties.name + '<br \/>' + layer.feature.properties.description + '<\/p>';
+    layer.bindPopup(content);
+});
 
 	</script>
     
