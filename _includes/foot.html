@@ -4,59 +4,6 @@
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	
 <!-- Mapbox variables -->
-      <script type="text/javascript">var m= L.map('map').setView([42.2, -71], 8);
-
-var mapQuestAttr = 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; ';
-var osmDataAttr = 'Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-var mopt = {
-    url: 'http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpeg',
-    options: {attribution:mapQuestAttr + osmDataAttr, subdomains:'1234'}
-  };
-var osm = L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:osmDataAttr});
-var mq=L.tileLayer(mopt.url,mopt.options);
-
-mq.addTo(m);
-
-var baseMaps = {
-    "Map Quest": mq,
-    "Open Street Map":osm
-};
-
-
-
-function popUp(f,l){
-    var out = [];
-    if (f.properties){
-        for(key in f.properties){
-            out.push(key+": "+f.properties[key]);
-        }
-        l.bindPopup(out.join("<br />"));
-    }
-}
-var jsonTest = new L.GeoJSON.AJAX("test.geojson",{onEachFeature:popUp});
-var jsonpTest = L.geoJson.ajax("api.orbitist.com/get/",{onEachFeature:popUp,dataType:"jsonp"});
-
-jsonTest.addTo(m);
-var overlays={
-"json":jsonTest,
-"jsonp":jsonpTest
-}
-
-var lc=L.control.layers(baseMaps,overlays);
-lc.addTo(m);
-</script>
-
-<!--
-<script>
-    var map = L.map('map').setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
-      L.tileLayer('http://{s}.tiles.mapbox.com/v3/{{ page.mapid }}/{z}/{x}/{y}.png', {
-    	attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    	maxZoom: {{ page.maxZoom }}
-	}).addTo(map);
-</script>
-	-->
-
-    <!--
     <script>
         var map = L.mapbox.map('map', '{{ page.mapid }}', {
     		tileLayer: {
@@ -65,7 +12,6 @@ lc.addTo(m);
     		}
 		}).setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
 	</script>
-	-->
 {% endif %}
 
 {% if page.mapsrc == "cartodb" %}   
