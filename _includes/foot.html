@@ -123,7 +123,7 @@ $.getJSON($('link[rel="points"]').attr("href"), function(data) {
       layer.bindPopup(feature.properties.name);
     }
   });
-  var map = L.map('cupcake-map').fitBounds(geojson.getBounds());
+  var map = L.map('map').fitBounds(geojson.getBounds());
   cupcakeTiles.addTo(map);
   geojson.addTo(map);
 });
