@@ -52,10 +52,18 @@
 
 <!-- Add GeoJSON to map -->
 	<script>
-	var geojsonFeature = {{ page.addgeojson }};
-	var myLayer = L.geoJson().addTo(map);
+	function onEachFeature(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.popupContent) {
+        layer.bindPopup(feature.properties.popupContent);
+    }
+}
 
-	myLayer.addData(geojsonFeature);
+	var geojsonFeature = {{ page.addgeojson }};
+
+L.geoJson(geojsonFeature, {
+    onEachFeature: onEachFeature
+}).addTo(map);
 
 	</script>
     
