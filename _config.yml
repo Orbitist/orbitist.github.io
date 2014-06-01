@@ -170,10 +170,10 @@ prose:
         field:
           element: "text"
           label: "Map ID"
-      - name: "orbitistapi"
+      - name: "addgeojson"
         field:
           element: "text"
-          label: "Orbitist API call"
+          label: "Add geojson"
       - name: "latitude"
         field:
           element: "text"
