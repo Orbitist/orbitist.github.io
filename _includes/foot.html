@@ -116,17 +116,7 @@ $('#maptoggle').tooltip({
 </script>
 
 <!-- Orbitist API calls -->
-<script>
-$.getJSON("http://live-orbitist.gotpantheon.com/get/", function(data) {
-    var geojson = L.geoJson(data, {
-      onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.properties.name);
-      }
-    });
-    var map = L.map('map').fitBounds(geojson.getBounds());
-    geojson.addTo(map);
-  });
-</script>
+
 
 <!-- Google Analytics -->
 	<script>
