@@ -3,6 +3,13 @@
 <!-- jQuery -->
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	
+<!-- Script to center landscape vs portrait images in grid -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/2.1.0/jquery.imagesloaded.min.js"></script>
+        <script src="{{ site.baseurl }}/js/jquery-imagefill.js"></script>
+        <script>
+            $('.topstory').imagefill();
+        </script>
+	
 <!-- Mapbox variables -->
     <script>
         var map = L.mapbox.map('map', '{{ page.mapid }}', {
