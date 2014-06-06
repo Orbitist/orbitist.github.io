@@ -140,12 +140,14 @@ color: white;
 font-family: garamond, times, serif;
 width: 100%;
 text-align: center;
-top: 200px;
 }
 
 .toptitle img {
+position: absolute;
 width: 200px;
 height: 200px;
+top: 100px;
+
 }
 
 /* Author displays */
