@@ -110,7 +110,8 @@ div.cartodb-logo img {
 	z-index: 1000001;
 	left:1px;
 	margin: 10px;
-
+	height: 50px;
+	width: 50px;
 }
 
 /* Top view */
