@@ -47,8 +47,7 @@
 	
 	@media (max-width: 600px) {
 	.topstoryimage {
-	height: 300px;
-	overflow: hidden;
+	height: 200px;
 	}
 	}
 	
