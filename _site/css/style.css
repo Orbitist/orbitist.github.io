@@ -29,6 +29,11 @@
 	
 	
 /* Top story*/
+
+	.sidebarcontent {
+	padding:12px 8px;
+	}
+
 	.topstory {
 	position: relative;
 	max-height: 500px;
@@ -53,7 +58,7 @@
 	z-index: 1000;
 	color: white;
 	margin: 10px;
-	top: 300px;
+	top: 70%;
 	}
 	
 	.topstorytitle {
@@ -65,11 +70,7 @@
 		font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-size: 14px;
 	}
-	
 
-	.sidebarcontent {
-	padding:12px 8px;
-	}
 	
 /* Sources block */
 	.sources {

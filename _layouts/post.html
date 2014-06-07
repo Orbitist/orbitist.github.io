@@ -16,13 +16,15 @@ layout: default
 <!-- Sidepanel -->
 <div id="sidepanel">
 	<div class="topstory">
+		<div class="topstorytext">
 			{% if page.sponsored %}
-		<div class="sponsoredpage">
-		<span class="fa fa-compass"></span> Sponsored map:
-		</div><!-- sponsoredpage -->
-		{% endif %}
-		<div class="topstorytitle">{{ page.title }}</div><!-- topstorytitle -->
-		<div class="topstorydescription">{{ page.description }}</div><!-- topstorydescription -->
+			<div class="sponsoredpage">
+			<span class="fa fa-compass"></span> Sponsored map:
+			</div><!-- sponsoredpage -->
+			{% endif %}
+			<div class="topstorytitle">{{ page.title }}</div><!-- topstorytitle -->
+			<div class="topstorydescription">{{ page.description }}</div><!-- topstorydescription -->
+		</div><!-- topstorytext -->
 		<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
 		<img class="img-responsive" src="{{ page.image }}">
 	</div><!-- topstory -->
