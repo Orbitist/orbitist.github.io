@@ -3,7 +3,7 @@
 	  <head>
     <meta charset="utf-8">
     <title>Orbitist</title>
-    <meta name="description" content="Why we're here and what we're trying to accomplish.">
+    <meta name="description" content="A story by Adam">
     <meta name="author" content="Orbitist Support">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -15,11 +15,6 @@
 
 
  
-<!-- Mapbox CSS and JS -->
-	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
-	
-
 
 
 	
@@ -30,6 +25,12 @@
 <!-- Font Awesome CSS -->
     	<link rel="stylesheet" href="http://orbitist.github.io/plugins/font-awesome/css/font-awesome.min.css">
     
+
+<!-- CatroDB CSS -->
+    	<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.ie.css" />
+    <![endif]-->
 
     
 <!-- Bootstrap CSS -->
@@ -48,10 +49,6 @@
 		
 		<!-- Logo -->		
 
-<a id="sidr-menu" href="#sidr">
-	<img class="logooverlay" src="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_black_button_100.png">
-</a>
-
 
 
 <a href="#sidepanel"><button type="button" id="maptoggle" class="btn btn-default maptoggle" data-toggle="tooltip" title="Toggle story" data-placement="left"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button></a>
@@ -63,12 +60,12 @@
 	<div class="topstory">
 		<div class="topstorytext">
 			
-			<div class="topstorytitle">About Orbitist</div><!-- topstorytitle -->
-			<div class="topstorydescription">Why we're here and what we're trying to accomplish.</div><!-- topstorydescription -->
+			<div class="topstorytitle">Arctic Tern</div><!-- topstorytitle -->
+			<div class="topstorydescription">A story by Adam</div><!-- topstorydescription -->
 		</div><!-- topstorytext -->
 			<div class="topstoryimage">
 				<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
-				<img src="http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/orbitist_illustration.jpg">
+				<img src="http://orbitist.s3.amazonaws.com/2014/05_arctic-tern/Arctic_tern_wings_spread2.jpg">
 			</div><!-- topstoryimage -->
 	</div><!-- topstory -->
 	
@@ -77,39 +74,34 @@
 			
       		   
  
-      		<h3><small>By <a href="http://www.twitter.com/nicholas_gunner">Nicholas Gunner</a></small></h3>
+      		<h3><small>By <a href="http://www.twitter.com/azaremski">Adam Zaremski</a></small></h3>
 
 	
 	
-	<p>There’s nothing like sharing a map. For centuries people have gathered around and drawn lines in the sand, stood around tables, in board rooms, war rooms, living rooms– observing, wondering, exploring via map. On the street they’ve looked together at maps in books, at bustops, on phones in the palms of their hands. On walls, on ships, in space and behind steering wheels – people have shared maps. </p>
+	<p>A short month ago I turned 30. For me it is a number after 29 and before 31 and means I listened to my parents and looked both ways before crossing the highway. Why should I place such an importance on an age so many others have reached? Looking at my ancestry, I’ve only lived a third of my life, if I’m lucky and reasonably smart.</p>
 
-<p>What’s around the mountain, over the ocean, through the valley or sitting on mars? People have shown each other these things and fantasized about geographies. We go to some of those places, but not to them all. But maps let us experience them in a meanigful way.</p>
+<p>But for the Arctic Tern, the end is near if it has not already ended. Researchers (link) give it a 30-year lifespan on this planet. From hatching on the shores of (WHERE?) to its migration patterns across the Atlantic, it has 30 years to live its life.</p>
 
-<p>And it’s not just places– it’s us too. We often fail to look at ourselves objectively. Maps trump our vainness and let us see humanity from above. Maps are powerful– they change minds.</p>
+<p>Which is a pretty good span, considering other animals and rock stars. In the tern’s lifetime, a human family household could see several pets come and go, each one just as tragic as the other to lose. There are graduations, silver anniversaries, a career studying through college for the doctorate.</p>
 
-<p>Orbitist.com was built with the notion that important information should be made easy to consume and as relevant as possible. Our mission is to educate people by displaying the world in inspiring and epic terms. We do this with maps built on open source tools.</p>
+<p>So I guess it is fascinating to look at a specific age and consider what it means for different groups, see what those two groups experience in the same time frame. And three decades is important, a good indicator of changing environments and customs and borders and trends and technology and food habits. And the Arctic Tern gets to see many changing factors through a wide swath of land.</p>
 
-<h2 id="heres-why-our-maps-work">Here’s why our maps work:</h2>
+<p>It is said a frog or toad is a good indicator of what is going on in specific region. The amphibians absorb water through the skin, meaning whatever is in the water gets into the body much faster than a human (get actual fact on this). This is good for one general region, a specific landscape to understand how that area might be changing.</p>
 
-<h3 id="the-lord-of-the-rings-effect">The Lord of the Rings Effect:</h3>
-<p>If you’ve read the Lord of the rings, you know that all the places traveled to throughout the book can be hard to keep track of. However, Tolkien did an amazing thing: he added maps to the inside front cover of the books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.</p>
+<p>This type of tern, though, could give a better idea of what is going on in the world through its lengthy flight pattern. It is no slouch and should be envied by the human ultra marathon runners, those women and men who choose to endeavor on 100 mile or more races for a few days, up and down valleys and mountain peaks.</p>
 
-<p>Orbitist fully embraces the LOTR effect. Our stories guide readers through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. Whether we’re examining melting glaciers in New Zealand <i class="fa fa-globe btn btn-default" onclick="map.setView([-41.393, 177.473], 6, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i>, riding bikes through San Francisco <i class="fa fa-globe btn btn-default" onclick="map.setView([37.767, -122.361], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i>, or updating you on the latest Orbitist features <i class="fa fa-globe btn btn-default" onclick="map.setView([42.453, -79.27], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
+<p>For a yearly migration pattern, it glides across around 22,000 miles. Latest data form (link) shows terns leaving Maine (when?) to head south to Antarctica. And when it reaches the lonely continent, it will still travel east and west for food, flying up to another 14,000 miles in that time frame.</p>
 
-<h3 id="style">Style:</h3>
-<p>Our stories are driven by narrative and conversational, laid-back writing. We aim for our stories to be pointed– seek facts about the world and expressing truths in straight-forward, interesting ways. </p>
+<p>The researchers behind the tern like to say that, at the end of its life, the Arctic Tern could have gone to the Moon and back to Earth three times, or could make its way around the planet (how many times).</p>
 
-<p>We explain the news by putting hyper-local stories into a global context. We take this further by putting users into that context and making them part of the narrative! </p>
+<p>And in one day, during its migration, it might go 290 miles. A human walking an average pace along the Appalachian trail would need (how many days?).</p>
 
-<h3 id="sharing">Sharing:</h3>
-<p>Humans are species of sharers– it’s why we’ve lasted as long as we have. People like to share what they discover and on Orbitist sharing is baked into the stories.</p>
-
-<p>Our maps let people see their place in a story, capture the moment in a reflective view of yourself from above and push it to friends. Every time an Orbitist story is shared, value is added.</p>
+<p>Much of the time the tern is floating along wind currents over the Atlantic Ocean, but it makes its stops in Brazil, South Africa, Argentina. Each year they follow a similar pattern, either heading south along Africa or South America, then following the group back home between the two continents.</p>
 
 	
 	<div class="sources">
 	<p>Sources:</p>
-	<small></small>
+	<small><a href="http://en.wikipedia.org/wiki/File:Arctic_tern_8664.jpg">Top image</a></small>
 	</div>
 	
 	
@@ -119,10 +111,10 @@
  	<table>
  	<tr>
  	<td>
-      		<img style="width:75px; height:75px;" src="http://orbitist.s3.amazonaws.com/_toplevel/images/profile-images/ngunner.jpg" class="img-circle">
+      		<img style="width:75px; height:75px;" src="https://pbs.twimg.com/profile_images/3146366407/aa2927c576bac48ac1410a546861252b.jpeg" class="img-circle">
     </td>
     <td>
-    <h4>Nicholas Gunner<br><small><a href="http://www.twitter.com/nicholas_gunner">@nicholas_gunner</a></small></h4>
+    <h4>Adam Zaremski<br><small><a href="http://www.twitter.com/azaremski">@azaremski</a></small></h4>
     </td>
     </tr>
     </table>
@@ -179,20 +171,40 @@
 
 		
 			
-	
-<!-- jQuery -->
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	
-<!-- Mapbox variables -->
-    <script>
-        var map = L.mapbox.map('map', 'orbitist.ie90k9cc', {
-    		tileLayer: {
-        		detectRetina: true,
-        		maxZoom: 20
-    		}
-		}).setView([42.456, -79.332], 8);
-	</script>
 
+   
+<!-- include cartodb.js library -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+
+    <script>
+      function main() {
+        cartodb.createVis('map', 'http://orbitist.cartodb.com/api/v2/viz/66de3f1a-e1ef-11e3-83e5-0e73339ffa50/viz.json', {
+            center_lat: 0,
+            center_lon: 0,
+            zoom: 2
+        })
+        .done(function(vis, layers) {
+          // layer 0 is the base layer, layer 1 is cartodb layer
+          // setInteraction is disabled by default
+           //layers[1].setInteraction(true);
+           layers[1].on('featureOver', function(e, pos, latlng, data) {
+            cartodb.log.log(e, pos, latlng, data);
+          });
+
+          // you can get the native map to work with it
+          // depending if you use google maps or leaflet
+          map = vis.getNativeMap();
+
+          // now, perform any operations you need
+          // map.setZoom(3)
+          // map.setCenter(new google.maps.Latlng(...))
+        })
+        .error(function(err) {
+          console.log(err);
+        });
+      }
+      window.onload = main;
+    </script>
 
 
 
