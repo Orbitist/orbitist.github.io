@@ -32,6 +32,7 @@
 	width: 100%;
 	}
 	
+	/*
 	.topstory img {
 	position: relative;
 	height: 100%;
@@ -43,6 +44,7 @@
 	height: 400px;
 	overflow: hidden;
 	}
+	*/
 	
 	.topstoryoverlay {
 	background: rgba(0,0,0,0.3);
