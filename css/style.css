@@ -33,7 +33,10 @@
 	}
 	
 	
-
+	.topstory img {
+	position: relative;
+	min-width: 100%;
+	}
 	
 	.topstoryimage {
 	position: relative;
