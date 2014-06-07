@@ -25,7 +25,7 @@ What's around the mountain, over the ocean, through the valley or sitting on mar
 
 And it's not just places-- it's us too. We often fail to look at ourselves objectively. Maps trump our vainness and let us see humanity from above. Maps are powerful-- they change minds.
 
-Orbitist.com was built with the notion that important information should be made easy to consume and as relevant as possible. Our mission is to educate people by displaying the world in inspiring and epic terms. We do this with maps built on open source tools.
+Orbitist.com was built with the notion that important information should be made easy to consume and as relevant as possible. Our mission is to educate people by displaying the world in inspiring and epic ways. We do this with maps built on open source tools.
 
 ##Here's why our maps work
 
