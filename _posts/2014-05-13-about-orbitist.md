@@ -10,7 +10,7 @@ categories:
   - orbitist
 description: "Why we're here and what we're trying to accomplish."
 author: ngunner
-image: "http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/orbitist_illustration.jpg"
+image: "http://orbitist.s3.amazonaws.com/2014/05_firewood/Stack_of_firewood2.jpg"
 mapid: orbitist.ie90k9cc
 latitude: "42.456"
 longitude: "-79.332"
