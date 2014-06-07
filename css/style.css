@@ -31,9 +31,10 @@
 	.topstory {
 	width: 100%;
 	}
-	
+
 	.topstory img {
-	min-height: 100%;
+	position: relative;
+	height: 100%;
 	}
 	
 	.topstoryimage {
@@ -42,6 +43,7 @@
 	height: 400px;
 	overflow: hidden;
 	}
+
 	
 	.topstoryoverlay {
 	background: rgba(0,0,0,0.3);
