@@ -38,6 +38,13 @@
 	height: 100%;
 	}
 	
+	@media (max-width: 600px) {
+	.topstory img {
+	min-height: 100%;
+	width: auto;
+	}
+	}
+	
 	.topstoryimage {
 	position: relative;
 	width: 100%;
