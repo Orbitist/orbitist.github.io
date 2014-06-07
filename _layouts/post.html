@@ -34,7 +34,7 @@ layout: default
 		<!-- Author by line -->
 		{% assign author = site.authors[page.author] %}
       	{% if author %}   
- 		<h3><small>By <a href="http://www.twitter.com/{{ author.twitter }}">{{ author.name }}{% endif %}</a></small></h3>
+ 		<div class="author">By <a href="http://www.twitter.com/{{ author.twitter }}">{{ author.name }}{% endif %}</a></div>
 		{{ content }}
 		{% if page.sources %}
 		<div class="sources">
