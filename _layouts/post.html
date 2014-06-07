@@ -16,67 +16,59 @@ layout: default
 <!-- Sidepanel -->
 <div id="sidepanel">
 	<div class="topstory">
-		<div class="topoverlay">
 			{% if page.sponsored %}
 		<div class="sponsoredpage">
 		<span class="fa fa-compass"></span> Sponsored map:
-		</div><!-- sponsored -->
+		</div><!-- sponsoredpage -->
 		{% endif %}
-			<div class="topstorytitle">{{ page.title }}</div><!-- topstorytitle -->
-			<div class="topstorydescription">{{ page.description }}</div><!-- topstorydescription -->
-		</div><!-- topstorytext -->
-				<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
-				<img class="img-responsive" src="{{ page.image }}">
+		<div class="topstorytitle">{{ page.title }}</div><!-- topstorytitle -->
+		<div class="topstorydescription">{{ page.description }}</div><!-- topstorydescription -->
+		<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
+		<img class="img-responsive" src="{{ page.image }}">
 	</div><!-- topstory -->
 	
-<div class="sidebarcontent">
-<!-- Author by line -->
-			{% assign author = site.authors[page.author] %}
-      		{% if author %}   
- 
-      		<h3><small>By <a href="http://www.twitter.com/{{ author.twitter }}">{{ author.name }}{% endif %}</a></small></h3>
+	<div class="sidebarcontent">
+		<!-- Author by line -->
+		{% assign author = site.authors[page.author] %}
+      	{% if author %}   
+ 		<h3><small>By <a href="http://www.twitter.com/{{ author.twitter }}">{{ author.name }}{% endif %}</a></small></h3>
+		{{ content }}
+		{% if page.sources %}
+		<div class="sources">
+			<p>Sources:</p>
+			<small>{{ page.sources }}</small>
+		</div><!-- sources -->
+		{% endif %}
+      	{% if author %}   
+ 		<div class="authorblock">
+ 			<table>
+ 				<tr>
+ 					<td>
+      					<img style="width:75px; height:75px;" src="{{ author.image }}" class="img-circle">
+    				</td>
+    				<td>
+    					<h4>{{ author.display_name }}<br><small><a href="http://www.twitter.com/{{ author.twitter }}">@{{ author.twitter }}{% endif %}</a></small></h4>
+    				</td>
+    			</tr>
+    		</table>
+		</div><!-- authorblock -->
+		<!-- Disqus -->
+		<div id="disqus_thread"></div>
+    		<script type="text/javascript">
+        		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        		var disqus_shortname = 'orbitist'; // required: replace example with your forum shortname
 
-	
-	
-	{{ content }}
-	{% if page.sources %}
-	<div class="sources">
-	<p>Sources:</p>
-	<small>{{ page.sources }}</small>
-	</div>
-	{% endif %}
-	
-
-      		{% if author %}   
- <div class="authorblock">
- 	<table>
- 	<tr>
- 	<td>
-      		<img style="width:75px; height:75px;" src="{{ author.image }}" class="img-circle">
-    </td>
-    <td>
-    <h4>{{ author.display_name }}<br><small><a href="http://www.twitter.com/{{ author.twitter }}">@{{ author.twitter }}{% endif %}</a></small></h4>
-    </td>
-    </tr>
-    </table>
-</div><!-- authorblock -->
-<!-- Disqus -->
-<div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'orbitist'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        		/* * * DON'T EDIT BELOW THIS LINE * * */
+        		(function() {
+            	var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        		})();
+    		</script>
+    		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    		<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
-</div><!-- container -->
+	</div><!-- sidebarcontent -->
 </div><!-- sidepanel -->
 
 

@@ -26,23 +26,18 @@
 	h3 {
 	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	}
-
-/* Top story section */
+	
+	
+/* Top story*/
 	.topstory {
-	width: 100%;
-	}
-	
-	
-	.topstory img {
 	position: relative;
-	height: 100%;
-	}
-	
-	.topstoryimage {
-	position: relative;
+	max-height: 500px;
 	width: 100%;
-	height: 400px;
 	overflow: hidden;
+	}
+
+	.topstory img{
+	width: 100%;
 	}
 	
 	.topstoryoverlay {
