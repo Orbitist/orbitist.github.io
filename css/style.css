@@ -45,12 +45,6 @@
 	overflow: hidden;
 	}
 	
-	@media (max-width: 600px) {
-	.topstoryimage {
-	height: 200px;
-	}
-	}
-	
 	.topstoryoverlay {
 	background: rgba(0,0,0,0.3);
 	position: absolute;
