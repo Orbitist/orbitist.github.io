@@ -15,8 +15,8 @@ layout: default
 
 <!-- Sidepanel -->
 <div id="sidepanel">
-	<div class="topstory">
-		<div class="topstorytext">
+	<div class="topview">
+		<div class="topoverlay">
 			{% if page.sponsored %}
 		<div class="sponsoredpage">
 		<span class="fa fa-compass"></span> Sponsored map:
@@ -27,7 +27,7 @@ layout: default
 		</div><!-- topstorytext -->
 			<div class="topstoryimage">
 				<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
-				<img src="{{ page.image }}">
+				<img class="img-responsive" src="{{ page.image }}">
 			</div><!-- topstoryimage -->
 	</div><!-- topstory -->
 	
