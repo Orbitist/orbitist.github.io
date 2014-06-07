@@ -32,6 +32,10 @@
 	width: 100%;
 	}
 	
+	.topstory img {
+	min-height: 100%;
+	}
+	
 	.topstoryimage {
 	position: relative;
 	width: 100%;
