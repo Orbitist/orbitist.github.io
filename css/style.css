@@ -122,18 +122,11 @@
 	left: 1px;
 }
 
-div.cartodb-zoom {
-	position: fixed;
-	bottom: 10px;
-	left: 1px;
-	z-index: 999998;
+.leaflet-popup {
+	max-height: 300px;
+	overflow: scroll;
+	
 }
-
-div.cartodb-logo img {
-	margin-left: 50px;
-	z-index: 99997;
-}
-
 
 /* Logo overlay */
 .logooverlay {
