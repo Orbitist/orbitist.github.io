@@ -4,10 +4,7 @@ published: true
 title: The Zoar Experience
 listed: false
 sponsored: true
-mapsrc: mapbox
 author: rbretl
-categories: ""
-mapid: orbitist.id061ie0
 latitude: "42.439"
 longitude: "-78.881"
 zoom: "13"

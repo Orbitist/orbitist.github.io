@@ -4,10 +4,8 @@ published: true
 title: Firewood pt.1
 listed: false
 sponsored: false
-mapsrc: mapbox
 author: jpaton
 image: "http://orbitist.s3.amazonaws.com/2014/05_firewood/Stack_of_firewood2.jpg"
-mapid: orbitist.id0md7oh
 latitude: "0"
 longitude: "0"
 zoom: "2"

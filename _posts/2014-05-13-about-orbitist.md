@@ -4,14 +4,10 @@ published: true
 title: About Orbitist
 listed: true
 sponsored: false
-mapsrc: mapbox
-sources: ""
-categories: 
-  - orbitist
+sources:
 description: "Why we're here and what we're trying to accomplish."
 author: ngunner
 image: "http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/orbitist_illustration.jpg"
-mapid: orbitist.if1em1bg
 latitude: "42.456"
 longitude: "-79.332"
 zoom: "8"

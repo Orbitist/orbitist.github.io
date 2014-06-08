@@ -93,12 +93,8 @@ prose:
     - CNAME
     - /css
     - index.html
-    - orbitist.png
     - /plugins
     - README.MD
-    - touch-icon-ipad-retina.png
-    - whitey.png
-    - crossword.png
   metadata:
     _posts:
       - name: "layout"
@@ -132,22 +128,6 @@ prose:
         field:
           element: "text"
           label: "Author username"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Categories"
-          placeholder: "Select categories"
-          options:
-            - name: "Orbitist"
-              value: "orbitist"
-            - name: "Sponsored"
-              value: "sponsored"
-            - name: "Environment"
-              value: "environment"
-            - name: "History"
-              value: "history"
-            - name: "Economics"
-              value: "economics"
       - name: "sources"
         field:
           element: "text"
@@ -156,24 +136,18 @@ prose:
         field:
           element: "text"
           label: "Featured image"
-      - name: "mapsrc"
+      - name: "basemap"
         field:
           element: "select"
-          label: "Map source"
-          placeholder: "Choose source"
+          label: "Base Map"
+          placeholder: "Choose basemap"
           options:
-            - name: "Mapbox"
-              value: "mapbox"
-            - name: "CartoDB"
-              value: "cartodb"
-      - name: "mapid"
-        field:
-          element: "text"
-          label: "Map ID"
-      - name: "addgeojson"
-        field:
-          element: "text"
-          label: "Add geojson"
+            - name: "Orbitist streets"
+              value: "orbitist.ie90k9cc"
+            - name: "Orbitist satellite"
+              value: "orbitist.if1em1bg"
+            - name: "Orbitist terrain"
+              value: "orbitist.if61m31c"
       - name: "latitude"
         field:
           element: "text"
@@ -194,6 +168,10 @@ prose:
         field:
           element: "text"
           label: "Maximum zoom level"
+      - name: "addgeojson"
+        field:
+          element: "text"
+          label: "Add geojson"
       - name: "customjs"
         field:
           element: "text"
