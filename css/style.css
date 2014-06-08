@@ -122,7 +122,7 @@
 	left: 1px;
 }
 
-.leaflet-popup {
+.leaflet-popup-content-wrapper {
 	max-height: 300px;
   	overflow-y: scroll; /* has to be scroll, not auto */
   	-webkit-overflow-scrolling: touch;
