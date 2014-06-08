@@ -205,7 +205,7 @@
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
 	
-<!-- Baselayer -->
+<!-- Mapbox baselayer and Tilemill tiles -->
     <script>
         var map = L.mapbox.map('map', '', {
     		tileLayer: {
@@ -213,10 +213,8 @@
         		maxZoom: 22
     		}
 		}).setView([0, 0], 3);
+		var layer = L.mapbox.tileLayer('orbitist.nz-glaciers').addTo(map);
 	</script>
-
-<!-- Data tiles layer -->
-
 
 
 <!-- GeoJSON layer -->

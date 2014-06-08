@@ -155,7 +155,7 @@ The sound of music in my ears.</p>
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
 	
-<!-- Baselayer -->
+<!-- Mapbox baselayer and Tilemill tiles -->
     <script>
         var map = L.mapbox.map('map', '', {
     		tileLayer: {
@@ -163,10 +163,8 @@ The sound of music in my ears.</p>
         		maxZoom: 22
     		}
 		}).setView([0, 0], 2);
+		var layer = L.mapbox.tileLayer('orbitist.nz-glaciers').addTo(map);
 	</script>
-
-<!-- Data tiles layer -->
-
 
 
 <!-- GeoJSON layer -->
