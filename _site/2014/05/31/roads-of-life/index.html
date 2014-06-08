@@ -221,10 +221,10 @@
 
 <!-- Orbitist API GeoJSON layer -->
 	<script>
-var featureLayer = L.mapbox.featureLayer()
+var orbitistLayer = L.mapbox.featureLayer()
     .addTo(map);
 
-featureLayer.eachLayer(function(layer) {
+orbitistLayer.eachLayer(function(layer) {
 
     // here you call `bindPopup` with a string of HTML you create - the feature
     // properties declared above are available under `layer.feature.properties`
