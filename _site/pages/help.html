@@ -99,8 +99,19 @@ easeLinearity: 0.25
 </div><!-- sidr -->
 
 		
-			
+		<!-- jQuery -->
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
+	
+<!-- Mapbox variables -->
+    <script>
+        var map = L.mapbox.map('map', '', {
+    		tileLayer: {
+        		detectRetina: true,
+        		maxZoom: 
+    		}
+		}).setView([, ], );
+	</script>
 
 
 <!-- Add GeoJSON to map -->
@@ -117,6 +128,8 @@ featureLayer.eachLayer(function(layer) {
 });
 
 	</script>
+	
+	
     
 <!-- Bootstrap JS -->
 	<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>

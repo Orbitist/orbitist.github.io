@@ -149,42 +149,19 @@
 </div><!-- sidr -->
 
 		
-			
+		<!-- jQuery -->
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
-   
-<!-- include cartodb.js library -->
-    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
-
+	
+<!-- Mapbox variables -->
     <script>
-      function main() {
-        cartodb.createVis('map', 'http://orbitist.cartodb.com/api/v2/viz/66de3f1a-e1ef-11e3-83e5-0e73339ffa50/viz.json', {
-            center_lat: 0,
-            center_lon: 0,
-            zoom: 2
-        })
-        .done(function(vis, layers) {
-          // layer 0 is the base layer, layer 1 is cartodb layer
-          // setInteraction is disabled by default
-           //layers[1].setInteraction(true);
-           layers[1].on('featureOver', function(e, pos, latlng, data) {
-            cartodb.log.log(e, pos, latlng, data);
-          });
-
-          // you can get the native map to work with it
-          // depending if you use google maps or leaflet
-          map = vis.getNativeMap();
-
-          // now, perform any operations you need
-          // map.setZoom(3)
-          // map.setCenter(new google.maps.Latlng(...))
-        })
-        .error(function(err) {
-          console.log(err);
-        });
-      }
-      window.onload = main;
-    </script>
-
+        var map = L.mapbox.map('map', 'http://orbitist.cartodb.com/api/v2/viz/66de3f1a-e1ef-11e3-83e5-0e73339ffa50/viz.json', {
+    		tileLayer: {
+        		detectRetina: true,
+        		maxZoom: 20
+    		}
+		}).setView([0, 0], 2);
+	</script>
 
 
 <!-- Add GeoJSON to map -->
@@ -201,6 +178,8 @@ featureLayer.eachLayer(function(layer) {
 });
 
 	</script>
+	
+	
     
 <!-- Bootstrap JS -->
 	<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
