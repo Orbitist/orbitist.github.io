@@ -4,15 +4,16 @@ published: true
 title: About Orbitist
 listed: true
 sponsored: false
-sources:
+sources: null
 description: "Why we're here and what we're trying to accomplish."
 author: ngunner
 image: "http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/orbitist_illustration.jpg"
 latitude: "42.456"
 longitude: "-79.332"
-zoom: "8"
+zoom: "4"
 maxZoom: "20"
 addgeojson: ""
+basemap: orbitist.ie90k9cc
 ---
 
 There's nothing like sharing a map. For centuries people have gathered around and drawn lines in the sand, stood around tables, in board rooms, war rooms, living rooms-- observing, wondering, exploring via map. On the street they've looked together at maps in books, at bustops, on phones in the palms of their hands. On walls, on ships, in space and behind steering wheels -- people have shared maps. 
