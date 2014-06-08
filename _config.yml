@@ -148,6 +148,10 @@ prose:
               value: "orbitist.if1em1bg"
             - name: "Orbitist terrain"
               value: "orbitist.if61m31c"
+      - name: "tilemilltiles"
+        field:
+          element: "text"
+          label: "Tilemill tiles code"
       - name: "latitude"
         field:
           element: "text"
