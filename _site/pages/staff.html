@@ -90,7 +90,7 @@
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
 	
-<!-- Mapbox variables -->
+<!-- Set Mapbox baselayer -->
     <script>
         var map = L.mapbox.map('map', '', {
     		tileLayer: {
@@ -99,9 +99,11 @@
     		}
 		}).setView([, ], );
 	</script>
+	
+<!-- Add data tiles -->
 
 
-<!-- Add GeoJSON to map -->
+<!-- Add GeoJSON -->
 	<script>
 var featureLayer = L.mapbox.featureLayer()
     .addTo(map);
@@ -113,9 +115,9 @@ featureLayer.eachLayer(function(layer) {
     var content = '<h3>' + layer.feature.properties.name + '</h3><p>' + layer.feature.properties.description + '<\/p>';
     layer.bindPopup(content);
 });
-
-	</script>
+</script>
 	
+<!-- Add custom JS -->
 	
     
 <!-- Bootstrap JS -->
