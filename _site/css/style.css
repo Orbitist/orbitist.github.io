@@ -126,6 +126,7 @@
 	max-height: 300px;
   	overflow-y: scroll; /* has to be scroll, not auto */
   	-webkit-overflow-scrolling: touch;
+  	margin-top: 100px;
 }
 
 /* Logo overlay */
