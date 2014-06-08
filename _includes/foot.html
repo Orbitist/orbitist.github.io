@@ -16,9 +16,9 @@
 	</script>
 
 
-<!-- GeoJSON layer -->
+<!-- Orbitist API GeoJSON layer -->
 	<script>
-var featureLayer = L.mapbox.featureLayer({{ page.addgeojson }})
+var featureLayer = L.mapbox.featureLayer({{ page.orbitistapi }})
     .addTo(map);
 
 featureLayer.eachLayer(function(layer) {
@@ -31,7 +31,8 @@ featureLayer.eachLayer(function(layer) {
 
 	</script>
 	
-<!-- Custom JS -->
+<!-- Custom JS file -->
+	<script src="{{ page.customjs }}"></script>
 	
     
 <!-- Bootstrap JS -->
