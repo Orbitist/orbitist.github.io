@@ -125,7 +125,8 @@
 .leaflet-popup {
 	max-height: 300px;
 	overflow: scroll;
-	
+  	overflow-y: scroll; /* has to be scroll, not auto */
+  	-webkit-overflow-scrolling: touch;
 }
 
 /* Logo overlay */
