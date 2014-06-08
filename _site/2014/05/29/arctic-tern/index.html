@@ -161,7 +161,9 @@
         		maxZoom: 20
     		}
 		}).setView([0, 0], 2);
-		var layer = L.mapbox.tileLayer('').addTo(map);
+		var layer = L.mapbox.tileLayer('', {
+    		detectRetina: true,
+		}).addTo(map);
 	</script>
 
 
