@@ -159,9 +159,10 @@
 	
 <!-- Mapbox baselayer and Tilemill tiles -->
     <script>
-        var map = L.mapbox.map('map', 'orbitist.if1em1bg', {
+        var map = L.mapbox.map('map', 'orbitist.ie90k9cc', {
     		tileLayer: {
         		detectRetina: true,
+        		closeButton: false,
         		maxZoom: 20
     		}
 		}).setView([42.456, -79.332], 4);
@@ -172,19 +173,29 @@
 
 
 <!-- Orbitist API GeoJSON layer -->
-	<script>
-var orbitistLayer = L.mapbox.featureLayer({"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[170.17393112181,-43.446563152849]},"properties":{"name":"Franz Josef Glacier","description":"\u003Cp\u003EThe indigenous populations of New Zealand, the M\u0101ori, believed that Hinehukatere was an adventurous lady who loved climbing the mountains. One day, she wished to impress her lover, Wawe, by taking him climbing. Though Wawe was less experienced at climbing, he agreed.  They found their way high into the peaks falling deeper in love as they went until in a turn of fate, Wawe was swept off a ledge by an avalanche. Hinehukatere, so lonely and sad sat there crying many tears. These tears froze in the valley forming a glacier called Ka Roimata o Hinehukatere meaning \u0027The tears of Hinehukatere\u0027.\u003C\/p\u003E\n\u003Cp\u003ENow that\u0027s a pretty awesome story -- way cooler than the story of this glacier\u0027s current name which goes something like this: Some German explorer in the 1860s pulls up to the New Zealand shore and is all \u0022Hey look at that sweet glacier! Let\u0027s name it after our emperor, Franz!\u0022 Franz Joseph I that is, emperor of Austria, king of Hungary and president of the German confederation. Imagine what his resume looked like!\u003C\/p\u003E\n\u003Cp\u003EThe Franz Josef Glacier is unique in that it flows at a rate about 10 times faster than typical glaciers. It actually grew in size from 1984 until 2008 but has since started to rapidly decline. It is expected that more than a third of the glacier will be gone by 2100. \u003C\/p\u003E\n\u003Cp\u003EFranz Josef Glacier edges right up to a temperate rainforest full of lush greenery which makes it very appealing to hundreds of thousands of  tourists who hike in on foot or fly in via helicopter.\u003C\/p\u003E\n"}}]})
-    .addTo(map);
+<script>
+var orbitistApi = L.mapbox.featureLayer().addTo(map);
 
-orbitistLayer.eachLayer(function(layer) {
+var geoJson = [{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[170.17393112181,-43.446563152849]},"properties":{"name":"Franz Josef Glacier","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/Franz_Josef_Glacier.jpg?itok=tlUImG1v\u0022 width=\u0022600\u0022 height=\u0022399\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EThe indigenous populations of New Zealand, the M\u0101ori, believed that Hinehukatere was an adventurous lady who loved climbing the mountains. One day, she wished to impress her lover, Wawe, by taking him climbing. Though Wawe was less experienced at climbing, he agreed.  They found their way high into the peaks falling deeper in love as they went until in a turn of fate, Wawe was swept off a ledge by an avalanche. Hinehukatere, so lonely and sad sat there crying many tears. These tears froze in the valley forming a glacier called Ka Roimata o Hinehukatere meaning \u0027The tears of Hinehukatere\u0027.\u003C\/p\u003E\n\u003Cp\u003ENow that\u0027s a pretty awesome story -- way cooler than the story of this glacier\u0027s current name which goes something like this: Some German explorer in the 1860s pulls up to the New Zealand shore and is all \u0022Hey look at that sweet glacier! Let\u0027s name it after our emperor, Franz!\u0022 Franz Joseph I that is, emperor of Austria, king of Hungary and president of the German confederation. Imagine what his resume looked like!\u003C\/p\u003E\n\u003Cp\u003EThe Franz Josef Glacier is unique in that it flows at a rate about 10 times faster than typical glaciers. It actually grew in size from 1984 until 2008 but has since started to rapidly decline. It is expected that more than a third of the glacier will be gone by 2100. \u003C\/p\u003E\n\u003Cp\u003EFranz Josef Glacier edges right up to a temperate rainforest full of lush greenery which makes it very appealing to hundreds of thousands of  tourists who hike in on foot or fly in via helicopter.\u003C\/p\u003E\n","field_image":11,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/Franz_Josef_Glacier.jpg?itok=tlUImG1v\u0022 width=\u0022600\u0022 height=\u0022399\u0022 alt=\u0022\u0022 \/\u003E"}}]}];
 
-    // here you call `bindPopup` with a string of HTML you create - the feature
-    // properties declared above are available under `layer.feature.properties`
-    var content = '<h3>' + layer.feature.properties.name + '</h3><p>' + layer.feature.properties.description + '<\/p>';
-    layer.bindPopup(content);
+// Add custom popups to each using our custom feature properties
+orbitistApi.on('layeradd', function(e) {
+    var marker = e.layer,
+        feature = marker.feature;
+
+    // Create custom popup content
+    var popupContent = '<h3>' + layer.feature.properties.name + '</h3><p>' + layer.feature.properties.description + '</p>';
+
+    // http://leafletjs.com/reference.html#popup
+    marker.bindPopup(popupContent,{
+        closeButton: false
+    });
 });
 
-	</script>
+// Add features to the map
+orbitistApi.setGeoJSON(geoJson);
+</script>
+
 	
 <!-- Custom JS file -->
 	<script src="http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/custom.js"></script>

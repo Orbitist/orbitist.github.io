@@ -18,19 +18,8 @@
 
 
 <!-- Orbitist API GeoJSON layer -->
-	<script>
-var orbitistLayer = L.mapbox.featureLayer({{ page.orbitistapi }})
-    .addTo(map);
+{% include orbitistapi_js.html %}
 
-orbitistLayer.eachLayer(function(layer) {
-
-    // here you call `bindPopup` with a string of HTML you create - the feature
-    // properties declared above are available under `layer.feature.properties`
-    var content = '<h3>' + layer.feature.properties.name + '</h3><p>' + layer.feature.properties.description + '</p>';
-    layer.bindPopup(content);
-});
-
-	</script>
 	
 <!-- Custom JS file -->
 	<script src="{{ page.customjs }}"></script>

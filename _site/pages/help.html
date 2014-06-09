@@ -108,6 +108,7 @@ easeLinearity: 0.25
         var map = L.mapbox.map('map', '', {
     		tileLayer: {
         		detectRetina: true,
+        		closeButton: false,
         		maxZoom: 
     		}
 		}).setView([, ], );
@@ -118,19 +119,29 @@ easeLinearity: 0.25
 
 
 <!-- Orbitist API GeoJSON layer -->
-	<script>
-var orbitistLayer = L.mapbox.featureLayer()
-    .addTo(map);
+<script>
+var orbitistApi = L.mapbox.featureLayer().addTo(map);
 
-orbitistLayer.eachLayer(function(layer) {
+var geoJson = [];
 
-    // here you call `bindPopup` with a string of HTML you create - the feature
-    // properties declared above are available under `layer.feature.properties`
-    var content = '<h3>' + layer.feature.properties.name + '</h3><p>' + layer.feature.properties.description + '<\/p>';
-    layer.bindPopup(content);
+// Add custom popups to each using our custom feature properties
+orbitistApi.on('layeradd', function(e) {
+    var marker = e.layer,
+        feature = marker.feature;
+
+    // Create custom popup content
+    var popupContent = '<h3>' + layer.feature.properties.name + '</h3><p>' + layer.feature.properties.description + '</p>';
+
+    // http://leafletjs.com/reference.html#popup
+    marker.bindPopup(popupContent,{
+        closeButton: false
+    });
 });
 
-	</script>
+// Add features to the map
+orbitistApi.setGeoJSON(geoJson);
+</script>
+
 	
 <!-- Custom JS file -->
 	<script src=""></script>
