@@ -129,6 +129,10 @@
   	margin-top: 60px;
 }
 
+.leaflet-popup-content img {
+	width: 100%;
+}
+
 /* Logo overlay */
 .logooverlay {
 	position: absolute;
