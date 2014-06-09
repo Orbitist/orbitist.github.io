@@ -9,7 +9,7 @@ orbitistApi.on('layeradd', function(e) {
         feature = marker.feature;
 
     // Create custom popup content
-    var popupContent =  '<p>' + feature.properties.name + '</p><p>' + feature.properties.description + '</p>';
+    var popupContent =  '<h3>' + feature.properties.name + '</h3><p>' + feature.properties.description + '</p>';
 
     // http://leafletjs.com/reference.html#popup
     marker.bindPopup(popupContent,{
