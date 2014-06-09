@@ -130,6 +130,6 @@ width: 75%;
 
 @media only screen and (max-width: 480px) {
 .sidr#sidepanel {
-width: 95%;
+width: 100%;
 }
 }
