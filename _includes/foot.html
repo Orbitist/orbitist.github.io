@@ -7,6 +7,7 @@
         var map = L.mapbox.map('map', '{{ page.basemap }}', {
     		tileLayer: {
         		detectRetina: true,
+        		closeButton: false,
         		maxZoom: {{ page.maxZoom }}
     		}
 		}).setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
