@@ -25,7 +25,7 @@ orbitistLayer.eachLayer(function(layer) {
 
     // here you call `bindPopup` with a string of HTML you create - the feature
     // properties declared above are available under `layer.feature.properties`
-    var content = '<img src="' + layer.feature.properties.field_image_rendered + '"><h3>' + layer.feature.properties.name + '</h3><p>' + layer.feature.properties.description + '</p>';
+    var content = '<h3>' + layer.feature.properties.name + '</h3><p>' + layer.feature.properties.description + '</p>';
     layer.bindPopup(content);
 });
 
