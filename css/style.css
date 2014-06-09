@@ -131,6 +131,7 @@
 
 .leaflet-popup-content img {
 	width: 100%;
+	height: auto;
 }
 
 /* Logo overlay */
