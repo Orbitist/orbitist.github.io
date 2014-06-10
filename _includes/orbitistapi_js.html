@@ -1,22 +1,28 @@
 <script>
-var orbitistApi = L.mapbox.featureLayer().addTo(map);
+    // Bike share stations in San Francisco
+var orbitistApiGeoJson = {{ page.orbitistapi }};
 
-var geoJson = [{{ page.orbitistapi }}];
+var orbitistApiMarkerOptions = {
+    radius: 15,
+    fillColor: "#94abca",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.8
+};
 
-// Add custom popups to each using our custom feature properties
-orbitistApi.on('layeradd', function(e) {
-    var marker = e.layer,
-        feature = marker.feature;
+function orbitistApiPopup(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.name) {
+        layer.bindPopup('<h3>' + feature.properties.name + '</h3><p>' + feature.properties.description + '</p>', {closeButton: false});
+    }
+}
 
-    // Create custom popup content
-    var popupContent =  '<h3>' + feature.properties.name + '</h3><p>' + feature.properties.description + '</p>';
-
-    // http://leafletjs.com/reference.html#popup
-    marker.bindPopup(popupContent,{
-        closeButton: false
-    });
-});
-
-// Add features to the map
-orbitistApi.setGeoJSON(geoJson);
+L.geoJson(orbitistApiGeoJson, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, orbitistApiMarkerOptions);
+    },
+    onEachFeature: orbitistApiPopup
+}).addTo(map);
 </script>
+
