@@ -1,5 +1,5 @@
 <script>
-    // Bike share stations in San Francisco
+    // Orbitist api pulled in
 var orbitistApiGeoJson = {{ page.orbitistapi }};
 
 var orbitistApiMarkerOptions = {
@@ -11,6 +11,12 @@ var orbitistApiMarkerOptions = {
     fillOpacity: 0.8
 };
 
+var orbitistMarker = L.AwesomeMarkers.icon({
+    prefix: 'fa',
+    icon: 'circle',
+    markerColor: 'blue'
+  });
+
 function orbitistApiPopup(feature, layer) {
     // does this feature have a property named popupContent?
     if (feature.properties && feature.properties.name) {
@@ -20,7 +26,7 @@ function orbitistApiPopup(feature, layer) {
 
 L.geoJson(orbitistApiGeoJson, {
     pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, orbitistApiMarkerOptions);
+        return L.marker(latlng, {icon: orbitistMarker});
     },
     onEachFeature: orbitistApiPopup
 }).addTo(map);

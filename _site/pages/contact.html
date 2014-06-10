@@ -25,6 +25,10 @@
     
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+    
+    <!-- Leaflet Awesome markers CSS and JS -->
+    <link rel="stylesheet" href="/plugins/leaflet-awesome/dist/leaflet.awesome-markers.css">
+    <script src="/plugins/leaflet-awesome/dist/leaflet.awesome-markers.js"></script>
 
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="/css/style.css">
@@ -35,7 +39,7 @@
 		
 		<!-- Logo -->		
 <a id="sidr-menu" href="#sidr">
-	<img class="logooverlay" src="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_black_button_100.png">
+	<img class="logooverlay" src="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
 </a>
 
 	<div class="topview">
@@ -111,27 +115,40 @@
 
 <!-- Orbitist API GeoJSON layer -->
 <script>
-var orbitistApi = L.mapbox.featureLayer().addTo(map);
+    // Orbitist api pulled in
+var orbitistApiGeoJson = ;
 
-var geoJson = [];
+var orbitistApiMarkerOptions = {
+    radius: 15,
+    fillColor: "#94abca",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.8
+};
 
-// Add custom popups to each using our custom feature properties
-orbitistApi.on('layeradd', function(e) {
-    var marker = e.layer,
-        feature = marker.feature;
+var orbitistMarker = L.AwesomeMarkers.icon({
+    prefix: 'fa',
+    icon: 'circle',
+    markerColor: 'blue'
+  });
 
-    // Create custom popup content
-    var popupContent =  '<h3>' + layer.feature.properties.name + '</h3><p>' + layer.feature.properties.description + '</p>';
+function orbitistApiPopup(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.name) {
+        layer.bindPopup('<h3>' + feature.properties.name + '</h3><p>' + feature.properties.description + '</p>', {closeButton: false});
+    }
+}
 
-    // http://leafletjs.com/reference.html#popup
-    marker.bindPopup(popupContent,{
-        closeButton: false
-    });
-});
-
-// Add features to the map
-orbitistApi.setGeoJSON(geoJson);
+L.geoJson(orbitistApiGeoJson, {
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {icon: orbitistMarker});
+    },
+    onEachFeature: orbitistApiPopup
+}).addTo(map);
 </script>
+
+
 
 	
 <!-- Custom JS file -->

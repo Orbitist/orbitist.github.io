@@ -25,6 +25,10 @@
     
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+    
+    <!-- Leaflet Awesome markers CSS and JS -->
+    <link rel="stylesheet" href="/plugins/leaflet-awesome/dist/leaflet.awesome-markers.css">
+    <script src="/plugins/leaflet-awesome/dist/leaflet.awesome-markers.js"></script>
 
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="/css/style.css">
@@ -36,7 +40,7 @@
 		<!-- Logo -->		
 
 <a id="sidr-menu" href="#sidr">
-	<img class="logooverlay" src="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_black_button_100.png">
+	<img class="logooverlay" src="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
 </a>
 
 
@@ -76,7 +80,7 @@
 <h3 id="the-lord-of-the-rings-effect">The Lord of the Rings Effect:</h3>
 <p>If you’ve read the Lord of the rings, you know that all the places traveled to throughout the book can be hard to keep track of. However, Tolkien did an amazing thing: he added maps to the inside front cover of the books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.</p>
 
-<p>Orbitist fully embraces the LOTR effect. Our stories guide readers through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. Whether we’re examining glaciers in New Zealand <i class="fa fa-globe btn btn-default btn-sm" onclick="map.setView([-41.393, 177.473], 6, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i>, riding bikes through San Francisco <i class="fa fa-globe btn btn-default btn-sm" onclick="map.setView([37.767, -122.361], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i>, or updating you on the latest climate data <i class="fa fa-globe btn btn-default btn-sm" onclick="map.setView([42.453, -79.27], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
+<p>Orbitist fully embraces the LOTR effect. Our stories guide readers through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. Whether we’re examining glaciers in New Zealand <i class="fa fa-globe btn btn-default btn-sm" onclick="map.setView([-41.698, 174.177], 5, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i>, riding bikes through San Francisco <i class="fa fa-globe btn btn-default btn-sm" onclick="map.setView([37.767, -122.361], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i>, or updating you on the latest climate data <i class="fa fa-globe btn btn-default btn-sm" onclick="map.setView([42.453, -79.27], 12, { animate: true, duration: 0.25, easeLinearity: 0.25 });"></i></p>
 
 <h3 id="style">Style:</h3>
 <p>Our stories are driven by narrative and conversational, laid-back writing. We aim for our stories to be pointed– seek facts about the world and expressing truths in straight-forward, interesting ways. </p>
@@ -165,8 +169,8 @@
         		closeButton: false,
         		maxZoom: 20
     		}
-		}).setView([42.456, -79.332], 4);
-		var layer = L.mapbox.tileLayer('orbitist.nz-glaciers', {
+		}).setView([39, -94], 3);
+		var layer = L.mapbox.tileLayer('', {
     		detectRetina: true,
 		}).addTo(map);
 	</script>
@@ -174,27 +178,40 @@
 
 <!-- Orbitist API GeoJSON layer -->
 <script>
-var orbitistApi = L.mapbox.featureLayer().addTo(map);
+    // Orbitist api pulled in
+var orbitistApiGeoJson = {"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.42477416993,37.765286825038]},"properties":{"name":"San Francisco Bike Share","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/1280px-Bay_Area_Bike_Share_launch_in_San_Jose_CA.jpg?itok=XWu5SkkR\u0022 width=\u0022600\u0022 height=\u0022400\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003ESan Francisco is one of the most progressive biking towns in the United States.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003Ca href=\u0022http:\/\/en.wikipedia.org\/wiki\/Bay_Area_Bike_Share#mediaviewer\/File:Bay_Area_Bike_Share_launch_in_San_Jose_CA.jpg\u0022 target=\u0022_blank\u0022\u003EPhoto Credit\u003C\/a\u003E\u003C\/small\u003E","field_image":13,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/1280px-Bay_Area_Bike_Share_launch_in_San_Jose_CA.jpg?itok=XWu5SkkR\u0022 width=\u0022600\u0022 height=\u0022400\u0022 alt=\u0022\u0022 \/\u003E","field_sources":13,"field_sources_rendered":"\u003Ca href=\u0022http:\/\/en.wikipedia.org\/wiki\/Bay_Area_Bike_Share#mediaviewer\/File:Bay_Area_Bike_Share_launch_in_San_Jose_CA.jpg\u0022 target=\u0022_blank\u0022\u003EPhoto Credit\u003C\/a\u003E"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[170.17393112181,-43.446563152849]},"properties":{"name":"Franz Josef Glacier","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/800px-Franz_josef_Glacier_LC0250.jpg?itok=sd79CX7g\u0022 width=\u0022600\u0022 height=\u0022600\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EThe indigenous populations of New Zealand, the M\u0101ori, believed that Hinehukatere was an adventurous lady who loved climbing the mountains. One day, she wished to impress her lover, Wawe, by taking him climbing. Though Wawe was less experienced at climbing, he agreed.  They found their way high into the peaks falling deeper in love as they went until in a turn of fate, Wawe was swept off a ledge by an avalanche. Hinehukatere, so lonely and sad sat there crying many tears. These tears froze in the valley forming a glacier called Ka Roimata o Hinehukatere meaning \u0027The tears of Hinehukatere\u0027.\u003C\/p\u003E\n\u003Cp\u003ENow that\u0027s a pretty awesome story -- way cooler than the story of this glacier\u0027s current name which goes something like this: Some German explorer in the 1860s pulls up to the New Zealand shore and is all \u0022Hey look at that sweet glacier! Let\u0027s name it after our emperor, Franz!\u0022 Franz Joseph I that is, emperor of Austria, king of Hungary and president of the German confederation. Imagine what his resume looked like!\u003C\/p\u003E\n\u003Cp\u003EThe Franz Josef Glacier is unique in that it flows at a rate about 10 times faster than typical glaciers. It actually grew in size from 1984 until 2008 but has since started to rapidly decline. It is expected that more than a third of the glacier will be gone by 2100. \u003C\/p\u003E\n\u003Cp\u003EFranz Josef Glacier edges right up to a temperate rainforest full of lush greenery which makes it very appealing to hundreds of thousands of  tourists who hike in on foot or fly in via helicopter.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003Ca href=\u0022http:\/\/en.wikipedia.org\/wiki\/Franz_Josef_Glacier#mediaviewer\/File:Franz_josef_Glacier_LC0250.jpg\u0022 target=\u0022_blank\u0022\u003EImage credit\u003C\/a\u003E\u003C\/small\u003E","field_image":11,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/800px-Franz_josef_Glacier_LC0250.jpg?itok=sd79CX7g\u0022 width=\u0022600\u0022 height=\u0022600\u0022 alt=\u0022\u0022 \/\u003E","field_sources":11,"field_sources_rendered":"\u003Ca href=\u0022http:\/\/en.wikipedia.org\/wiki\/Franz_Josef_Glacier#mediaviewer\/File:Franz_josef_Glacier_LC0250.jpg\u0022 target=\u0022_blank\u0022\u003EImage credit\u003C\/a\u003E"}}]};
 
-var geoJson = [{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[170.17393112181,-43.446563152849]},"properties":{"name":"Franz Josef Glacier","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/Franz_Josef_Glacier.jpg?itok=tlUImG1v\u0022 width=\u0022600\u0022 height=\u0022399\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EThe indigenous populations of New Zealand, the M\u0101ori, believed that Hinehukatere was an adventurous lady who loved climbing the mountains. One day, she wished to impress her lover, Wawe, by taking him climbing. Though Wawe was less experienced at climbing, he agreed.  They found their way high into the peaks falling deeper in love as they went until in a turn of fate, Wawe was swept off a ledge by an avalanche. Hinehukatere, so lonely and sad sat there crying many tears. These tears froze in the valley forming a glacier called Ka Roimata o Hinehukatere meaning \u0027The tears of Hinehukatere\u0027.\u003C\/p\u003E\n\u003Cp\u003ENow that\u0027s a pretty awesome story -- way cooler than the story of this glacier\u0027s current name which goes something like this: Some German explorer in the 1860s pulls up to the New Zealand shore and is all \u0022Hey look at that sweet glacier! Let\u0027s name it after our emperor, Franz!\u0022 Franz Joseph I that is, emperor of Austria, king of Hungary and president of the German confederation. Imagine what his resume looked like!\u003C\/p\u003E\n\u003Cp\u003EThe Franz Josef Glacier is unique in that it flows at a rate about 10 times faster than typical glaciers. It actually grew in size from 1984 until 2008 but has since started to rapidly decline. It is expected that more than a third of the glacier will be gone by 2100. \u003C\/p\u003E\n\u003Cp\u003EFranz Josef Glacier edges right up to a temperate rainforest full of lush greenery which makes it very appealing to hundreds of thousands of  tourists who hike in on foot or fly in via helicopter.\u003C\/p\u003E\n","field_image":11,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/Franz_Josef_Glacier.jpg?itok=tlUImG1v\u0022 width=\u0022600\u0022 height=\u0022399\u0022 alt=\u0022\u0022 \/\u003E"}}]}];
+var orbitistApiMarkerOptions = {
+    radius: 15,
+    fillColor: "#94abca",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.8
+};
 
-// Add custom popups to each using our custom feature properties
-orbitistApi.on('layeradd', function(e) {
-    var marker = e.layer,
-        feature = marker.feature;
+var orbitistMarker = L.AwesomeMarkers.icon({
+    prefix: 'fa',
+    icon: 'circle',
+    markerColor: 'blue'
+  });
 
-    // Create custom popup content
-    var popupContent =  '<h3>' + layer.feature.properties.name + '</h3><p>' + layer.feature.properties.description + '</p>';
+function orbitistApiPopup(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.name) {
+        layer.bindPopup('<h3>' + feature.properties.name + '</h3><p>' + feature.properties.description + '</p>', {closeButton: false});
+    }
+}
 
-    // http://leafletjs.com/reference.html#popup
-    marker.bindPopup(popupContent,{
-        closeButton: false
-    });
-});
-
-// Add features to the map
-orbitistApi.setGeoJSON(geoJson);
+L.geoJson(orbitistApiGeoJson, {
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {icon: orbitistMarker});
+    },
+    onEachFeature: orbitistApiPopup
+}).addTo(map);
 </script>
+
+
 
 	
 <!-- Custom JS file -->
