@@ -37,6 +37,6 @@ Around the heated hearth, you might toast a marshmallow or roast a carefully cut
 
 This series, length yet unknown, will explore the human assisted movement of firewood, and the hugely significant environmental impacts of this commonplace activity. You’ll meet the Emerald Ash Bore and the Asian Longhorn Beetle--two very dangerous, diligent immigrants. We’ll visit incredibly interesting faraway countries, and share the boggling story of how a ten dollar cookstove is saving the world, one carbon-credited sale at a time.
 
-These are not the topics which one usually thinks about as you feed your hungry friend called fire, one branch at a time. But you’ll be amazed at the places these narratives take us, in the exploratory story engine that is the Orbitist.
+These are not the topics which one usually thinks about as you feed your hungry friend called fire, one branch at a time. But you’ll be amazed at the places these narratives take us, in the exploratory story engine that is the **Orbitist**.
 
 To be continued, in Part One--_Meet the Beetles?_
