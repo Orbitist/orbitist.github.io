@@ -13,6 +13,6 @@ zoom: "3"
 maxZoom: "20"
 ---
 
-## A New Post
+{% include cvi %}[41.745, -78.42], 8{% include cvo %}
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
