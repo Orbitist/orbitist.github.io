@@ -11,6 +11,8 @@ latitude: "42.454"
 longitude: "-79.338"
 zoom: "16"
 maxZoom: "18"
+author: ngunner
+description: Details about forever wild at Fredonia
 ---
 
 The Forever Wild Forest contains 4 main trails.
