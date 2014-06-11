@@ -1,12 +1,12 @@
 <script>
     // Orbitist api pulled in
 var orbitistApiGeoJson = {{ page.orbitistapi }};
-
-var orbitistMarker = L.AwesomeMarkers.icon({
-    prefix: 'fa',
-    icon: 'circle',
-    markerColor: 'blue'
-  });
+  
+var orbitistIcon = L.MakiMarkers.icon({
+    icon: "rocket",
+    color: "#b0b",
+    size: "m"
+});
 
 function orbitistApiPopup(feature, layer) {
     // does this feature have a property named popupContent?
@@ -17,7 +17,7 @@ function orbitistApiPopup(feature, layer) {
 
 L.geoJson(orbitistApiGeoJson, {
     pointToLayer: function (feature, latlng) {
-        return L.marker(latlng, {icon: orbitistMarker});
+        return L.marker(latlng, {icon: orbitistIcon});
     },
     onEachFeature: orbitistApiPopup
 }).addTo(map);
