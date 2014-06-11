@@ -20,7 +20,7 @@ the sound of music in my ears.
 ~David Gilmour_
 
 
-##It’s a brilliantly clear summer evening,
+###It’s a brilliantly clear summer evening,
 the steadily deepening azure sky speckled with cotton-white cloud tufts. The final rays of a sweltering day throw long, cool shadows onto the surrounding ground.
 
 Maybe you’re a few days into a hiking trek through the dense Allegheny Forest {% include cvi %}[41.745, -78.42], 9{% include cvo %}, home to more oil and gas wells than any other state-managed forest in the country. Or, perhaps the breathing wash of waves is all but covering the laughter of you and your company, as you bury your toes in the cool, damp sand of a calm beach--why not 90 Mile Beach in the North Island of New Zealand? {% include cvi %}[-35.851, 175.397], 8{% include cvo %} It's actually only 55 miles long, a miscalculation owed to early missionaries who reckoned horses to travel 30 miles a day, failing to observe that horses walk much more slowly in sand. Rather still, you may be in the comfort of your own backyard {% include cvi %}[42.44, -79.327], 17{% include cvo %} , sinking into a muddy folding chair--feet up, brew in hand.
