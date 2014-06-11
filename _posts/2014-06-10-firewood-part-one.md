@@ -4,7 +4,7 @@ published: true
 title: Firewood Part One
 listed: false
 sponsored: false
-basemap: orbitist.if61m31c
+basemap: orbitist.if1em1bg
 author: jpaton
 latitude: "41.063"
 longitude: "-76.553"
