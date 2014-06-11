@@ -21,7 +21,7 @@ The sound of music in my ears.
 
 It’s a brilliantly clear summer evening, the steadily deepening azure sky speckled with cotton-white cloud tufts. The final rays of a sweltering day are throwing long, cool shadows onto the surrounding ground.
 
-Maybe you’re a few days into a hiking trek through the dense Allegheny Forest {% include cvi %}[41.745, -78.42], 8{% include cvo %}, home to more oil and gas wells than any other state-managed forest in the country. Or, perhaps the breathing wash of waves is all but covering the laughter of  you and your company as you sink your feet into the cool, damp sand of a remote beach. Rather still, you may be in the comfort of your own backyard, sinking into a muddy folding chair--feet up, brew in hand.
+Maybe you’re a few days into a hiking trek through the dense Allegheny Forest {% include cvi %}[41.745, -78.42], 9{% include cvo %}, home to more oil and gas wells than any other state-managed forest in the country. Or, perhaps the breathing wash of waves is all but covering the laughter of  you and your company as you sink your feet into the cool, damp sand of a remote beach. Rather still, you may be in the comfort of your own backyard, sinking into a muddy folding chair--feet up, brew in hand.
 
 Regardless, the first chill of the evening, and no shortage of insects are settling around you as the sunlight fades. But there is no need to stay in discomfort, as you have a classic tool at your disposal: the knowledge and experience which grasped and yanked humanity by the hair--straight out of the Paleolithic hundreds of thousands of years ago; the ‘mastery’ of fire.
 
