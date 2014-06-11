@@ -9,6 +9,9 @@ Orbitist tells stories on maps!
 * Sidr: http://www.berriart.com/sidr/
 * Bootstrap: http://getbootstrap.com/
 * Font Awesome: http://fontawesome.io/
+* Leaflet Awesome: https://github.com/lvoogdt/Leaflet.awesome-markers
+* Leaflet Maki Markers: https://github.com/jseppi/Leaflet.MakiMarkers
 * Fitvids: http://fitvidsjs.com/
+* 
 * Jquery: http://jquery.com/
 
