@@ -1,8 +1,8 @@
 Orbitist.com
 ==================
-<img width="500" height="500" src="http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/orbitist_illustration.jpg">
+##We tell stories on maps!
 
-Orbitist tells stories on maps!
+<img width="500" height="500" src="http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/orbitist_illustration.jpg">
 
 ### We owe credit to so many brilliant minds in the open source space
 * Mapbox: http://Mapbox.com/
