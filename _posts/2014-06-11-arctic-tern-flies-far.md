@@ -6,7 +6,7 @@ listed: false
 sponsored: false
 basemap: orbitist.if1em1bg
 description: Arctic Tern is fucking awesome
-author: AZaremski
+author: azaremski
 latitude: "0"
 longitude: "0"
 zoom: "3"
