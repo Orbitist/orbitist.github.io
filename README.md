@@ -1,5 +1,6 @@
 Orbitist.com
 ==================
+<img width="500" height="500" src="http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/orbitist_illustration.jpg">
 
 Orbitist tells stories on maps!
 
