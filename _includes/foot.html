@@ -13,6 +13,7 @@
 		}).setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
 		var layer = L.mapbox.tileLayer('{{ page.tilemilltiles }}', {
     		detectRetina: true,
+                maxZoom: {{ page.maxZoom }}
 		}).addTo(map);
 	</script>
 
