@@ -17,4 +17,17 @@ image: "http://orbitist.s3.amazonaws.com/2014/06-forever-wild-forest/story_cover
 customjs: "http://orbitist.s3.amazonaws.com/2014/06-forever-wild-forest/custom.js"
 ---
 
-The Forever Wild Forest contains 4 main trails.
+At Fredonia, we take pride in the beauty of our campus. One area that is often overlooked is our woodlot, effectionately called the 'Forever Wild Forest'.
+
+Take a closer look by clicking here: {% include cvi %}[42.45492, -79.33877], 17{% include cvo %}
+
+There are four main trails in the Forever Wild forest:
+-**The North Trail** {% include cvi %}[42.45600, -79.33973], 18{% include cvo %} is .23 miles long.
+
+-**The Central Trail** {% include cvi %}[42.45543/-79.33852], 18{% include cvo %} is .30 miles long.
+
+-**The Eastern Trail** {% include cvi %}[42.45466/-79.33740], 18{% include cvo %} is .13 miles long.
+
+-**The Southern Trail** {% include cvi %}[42.45406/-79.33832], 18{% include cvo %} is .24 miles long.
+
+In total there are just over a helf mile of wooded trails in the Forever Wild Forest and can be connected to make a much longer circuit.
