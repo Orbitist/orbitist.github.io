@@ -19,7 +19,7 @@ customjs: "http://orbitist.s3.amazonaws.com/2014/06-forever-wild-forest/custom.j
 
 At Fredonia, we take pride in the beauty of our campus. One area that is often overlooked is our woodlot, effectionately called the 'Forever Wild Forest'.
 
-Take a closer look by clicking here: {% include cvi %}[42.4524/-79.3395], 17{% include cvo %}
+Take a closer look by clicking here: {% include cvi %}[42.4524, -79.3395], 17{% include cvo %}
 
 There are four main trails in the Forever Wild forest:
 
