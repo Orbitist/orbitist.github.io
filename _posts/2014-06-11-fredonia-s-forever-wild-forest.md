@@ -17,7 +17,7 @@ image: "http://orbitist.s3.amazonaws.com/2014/06-forever-wild-forest/story_cover
 customjs: "http://orbitist.s3.amazonaws.com/2014/06-forever-wild-forest/custom.js"
 ---
 
-At Fredonia, we take pride in the beauty of our campus. One area that is often overlooked is our woodlot, effectionately called the 'Forever Wild Forest'.
+At Fredonia, we take pride in the beauty of our campus. One area that is often overlooked is our woodlot, affectionately called the 'Forever Wild Forest'.
 
 Take a closer look by clicking here: {% include cvi %}[42.45491, -79.33820], 17{% include cvo %}
 
