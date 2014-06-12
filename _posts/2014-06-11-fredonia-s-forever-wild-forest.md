@@ -13,6 +13,8 @@ zoom: "16"
 maxZoom: "18"
 author: ngunner
 description: Details about forever wild at Fredonia
+image: "http://orbitist.s3.amazonaws.com/2014/06-forever-wild-forest/story_cover.jpg"
+customjs: "http://orbitist.s3.amazonaws.com/2014/06-forever-wild-forest/custom.js"
 ---
 
 The Forever Wild Forest contains 4 main trails.
