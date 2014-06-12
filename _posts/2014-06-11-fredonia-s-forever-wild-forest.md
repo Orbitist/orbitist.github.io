@@ -10,7 +10,7 @@ orbitistapi: "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\
 latitude: "42.454"
 longitude: "-79.338"
 zoom: "16"
-maxZoom: "17"
+maxZoom: "18"
 author: ngunner
 description: Details about forever wild at Fredonia
 ---
