@@ -31,4 +31,4 @@ There are four main trails in the Forever Wild forest:
 
 **The Southern Trail** {% include cvi %}[42.45412, -79.33786], 18{% include cvo %} is .24 miles long.
 
-In total there are just over a helf mile of wooded trails in the Forever Wild Forest and can be connected to make a much longer circuit.
+In total there are just over a half mile of wooded trails in the Forever Wild Forest and can be connected to make a much longer circuit.
