@@ -5,12 +5,13 @@ title: Arctic Tern Flies...Far
 listed: false
 sponsored: false
 basemap: orbitist.if1em1bg
-description: Arctic Tern is fucking awesome
+description: Arctic Tern is awesome
 author: azaremski
 latitude: "0"
 longitude: "0"
 zoom: "3"
 maxZoom: "20"
+customjs: "http://orbitist.s3.amazonaws.com/2014/05_arctic-tern/custom.js"
 ---
 
 {% include cvi %}[41.745, -78.42], 8{% include cvo %}
