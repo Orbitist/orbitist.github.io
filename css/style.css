@@ -70,7 +70,6 @@
 	
 	.topstorydescription {
 		font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-		font-weight: light;
 		font-size: 18px;
 	}
 	
@@ -91,8 +90,7 @@
 	
 	.topstorydescription {
 		font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-		font-weight: light;
-		font-size: 12px;
+		font-size: 14px;
 	}
 	
 }
