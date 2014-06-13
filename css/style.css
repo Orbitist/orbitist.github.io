@@ -18,14 +18,14 @@
 	}
 
 	p.lead {
-	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	}
 	
 	h2 {
-	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;	
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;	
 	}
 	h3 {
-	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	}
 	
 	
@@ -103,7 +103,7 @@
 	}
 
 	.author {
-		font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-size: 14px;
 		margin-bottom: 5px;
 	}
@@ -189,7 +189,7 @@ height: 100%;
 position: absolute;
 font-size: 45px;
 color: white;
-font-family: garamond, times, serif;
+font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 width: 100%;
 text-align: center;
 top: 50%;
