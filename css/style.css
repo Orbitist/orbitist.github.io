@@ -209,3 +209,8 @@ margin-bottom: -20px;
 color: #FF9933;
 z-index: 3000;
 }
+
+
+.btn-sm {
+	line-height: 1.2;
+}
