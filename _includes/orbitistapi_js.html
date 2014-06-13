@@ -11,7 +11,7 @@ var orbitistIcon = L.MakiMarkers.icon({
 function orbitistApiPopup(feature, layer) {
     // does this feature have a property named popupContent?
     if (feature.properties && feature.properties.name) {
-        layer.bindPopup('<h2>' + feature.properties.name + '</h2><p>' + feature.properties.description + '</p>', {closeButton: false});
+        layer.bindPopup('<h1>' + feature.properties.name + '</h1><p>' + feature.properties.description + '</p>', {closeButton: false});
     }
 }
 
