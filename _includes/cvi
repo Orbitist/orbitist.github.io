@@ -1,1 +1,1 @@
-<i href="#sidepanel" class="fa fa-globe btn btn-primary btn-sm" id="maptoggle" onclick="map.setView(
+<i id="maptoggle2" class="fa fa-globe btn btn-primary btn-sm" onclick="map.setView(
