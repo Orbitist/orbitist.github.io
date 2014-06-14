@@ -3,4 +3,4 @@
 animate: true,
 duration: 0.25,
 easeLinearity: 0.25
-});"></i>
+});" class="fa fa-globe btn btn-primary btn-sm changeview"></i>
