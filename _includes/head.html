@@ -5,11 +5,18 @@
     <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     
+    	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@TheOrbitist">
+	<meta name="twitter:creator" content="@{{ author.twitter }}">
+	<meta name="twitter:title" content="{{ page.title }}">
+	<meta name="twitter:description" content="{{ page.description }}">
+	<meta name="twitter:image:src" content="{{ page.image }}">
+    
 	<!-- Shortcut icon -->
 	<link rel="shortcut icon" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/orbitist.png">
 	<!-- Apple icon -->
 	<link rel="apple-touch-icon" sizes="152x152" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/touch-icon-ipad-retina.png">
-
 
 	<!-- Mapbox CSS and JS -->
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
