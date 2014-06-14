@@ -1,1 +1,1 @@
-<i onclick="map.setView(
+<i ontouchstart="map.setView(
