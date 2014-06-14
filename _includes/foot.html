@@ -65,22 +65,6 @@ $(document).ready(function() {
     });
 });
 </script>
-
-<!-- Bind touchstart and click on changeviews -->
-<script>
-$(document).on('touchstart click', '.changeview' function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-            // Do your magic
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-	</script>
 	
 <!-- Tooltips -->
 <script>
