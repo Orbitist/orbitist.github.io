@@ -121,9 +121,12 @@
 	}
 	
 	.sharers {
-		font-size: 24px;
-		color: gray;
+		font-size: 35px;
 		text-align: center;
+	}
+	
+	.sharers a{
+		color: grey;
 	}
 	
 
