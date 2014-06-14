@@ -76,6 +76,13 @@ $('#maptoggle').tooltip('show')
   });
     },delay);
 </script>
+<!-- Auto click maptoggle when shangeview is clicked -->
+<script>
+	$(document).on('click', '#changeview', function(event) { 
+   	event.preventDefault(); 
+    	$("#maptoggle").click(); 
+});
+</script>
         
 
 <!-- Google Analytics -->
