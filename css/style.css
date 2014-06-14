@@ -75,7 +75,8 @@
 	}
 	
 	.topstorytitle {
-		font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-family: 'Quattrocento Sans', sans-serif;
+		color: #f1c289;
 		font-weight: bold;
 		font-size: 26px;
 	}
