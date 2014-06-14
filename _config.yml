@@ -15,7 +15,7 @@ author :
 
 production_url : orbitist.com
 
-baseurl : http://orbitist.github.io  
+baseurl : http://orbitist.com  
         
 analytics :
   google : 
@@ -115,6 +115,11 @@ prose:
         field:
           element: "checkbox"
           label: "Sponsored?"
+          value: "true"
+      - name: "comments"
+        field:
+          element: "checkbox"
+          label: "Comments?"
           value: "true"
       - name: "title"
         field:
