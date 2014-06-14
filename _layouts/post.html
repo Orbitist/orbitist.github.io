@@ -35,15 +35,18 @@ layout: default
       	{% if author %}   
  		<div class="author">By <a href="http://www.twitter.com/{{ author.twitter }}">{{ author.name }}{% endif %}</a></div>
 		{{ content }}
+	<!-- Sharers -->
 		<div class="sharers">
-			<span class="fa fa-facebook-square"></span>&nbsp;<span class="fa fa-twitter"></span>
+			<a href="http://twitter.com/share?url={{ page.url }}&text={{ page.title }}" target="_blank"><span class="fa fa-twitter"></span></a>&nbsp;<a href="http://www.facebook.com/sharer.php?u={{ page.url }}" target="_blank""><span class="fa fa-facebook-square"></span></a>
 		</div>
+	<!-- Sources -->
 		{% if page.sources %}
 		<div class="sources">
 			<p>Sources:</p>
 			<small>{{ page.sources }}</small>
 		</div><!-- sources -->
 		{% endif %}
+	<!-- Author block -->
       	{% if author %}   
  		<div class="authorblock">
  			<table>
