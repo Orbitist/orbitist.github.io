@@ -76,9 +76,9 @@
 	
 	.topstorytitle {
 		font-family: 'Quattrocento Sans', sans-serif;
-		color: #f1c289;
+		text-transform:uppercase;
 		font-weight: 700;
-		font-size: 28px;
+		font-size: 26px;
 	}
 	
 	.topstorydescription {
