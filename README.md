@@ -13,5 +13,6 @@ Orbitist.com
 * Leaflet Awesome: https://github.com/lvoogdt/Leaflet.awesome-markers
 * Leaflet Maki Markers: https://github.com/jseppi/Leaflet.MakiMarkers
 * Fitvids: http://fitvidsjs.com/
+* Fastclick: https://github.com/ftlabs/fastclick
 * Jquery: http://jquery.com/
 
