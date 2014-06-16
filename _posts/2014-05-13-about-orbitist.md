@@ -10,7 +10,7 @@ author: ngunner
 image: "http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/orbitist_illustration.jpg"
 latitude: "37.3"
 longitude: "-92.285"
-zoom: "9"
+zoom: "3"
 maxZoom: "20"
 basemap: orbitist.ie90k9cc
 tilemilltiles: ""
