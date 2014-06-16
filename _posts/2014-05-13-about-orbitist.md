@@ -8,8 +8,8 @@ sources: null
 description: "Why we're here and what we're trying to accomplish."
 author: ngunner
 image: "http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/orbitist_illustration.jpg"
-latitude: "42.61"
-longitude: "-79.118"
+latitude: "37.3"
+longitude: "-92.285"
 zoom: "9"
 maxZoom: "20"
 basemap: orbitist.ie90k9cc
