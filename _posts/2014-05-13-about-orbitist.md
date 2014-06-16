@@ -32,7 +32,9 @@ Orbitist.com was built with the notion that important information should be made
 ###The Lord of the Rings Effect:
 If you've read the Lord of the rings, you know that all the places traveled to throughout the book can be hard to keep track of. However, Tolkien did an amazing thing: he added maps to the inside front cover of the books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.
 
-Orbitist fully embraces the LOTR effect. Our stories guide readers through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. Whether we're examining glaciers in New Zealand {% include cvi %}[-43.413, 170.343], 8{% include cvo %}, riding bikes through San Francisco {% include cvi %}[37.777, -122.422], 12{% include cvo %}, or updating you on the latest climate data {% include cvi %}[42.453, -79.27], 12{% include cvo %}
+Orbitist fully embraces the LOTR effect. Our stories guide readers through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. 
+
+Perhaps we're looking at deforestation in Brazil or examining glaciers in New Zealand {% include cvi %}[-43.413, 170.343], 8{% include cvo %}-- sharing bikes in San Francisco {% include cvi %}[37.777, -122.422], 12{% include cvo %} or mountain biking in Fredonia, New York. Whatever topic we cover, we're not just building beautiful maps, we're guiding through narratives. 
 
 ###Style:
 Our stories are driven by narrative and conversational, laid-back writing. We aim for our stories to be pointed-- seek facts about the world and expressing truths in straight-forward, interesting ways. 
