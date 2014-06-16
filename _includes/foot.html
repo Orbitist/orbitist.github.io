@@ -22,7 +22,9 @@
 		var layer = L.mapbox.tileLayer('{{ page.tilemilltiles }}', {
     		detectRetina: true,
                 maxZoom: {{ page.maxZoom }}
-		}).addTo(map);
+		}),
+		
+		heat = L.heatLayer([], { maxZoom: 12 }).addTo(map);.addTo(map);
 	</script>
 
 
