@@ -8,9 +8,9 @@ sources: null
 description: "Why we're here and what we're trying to accomplish."
 author: ngunner
 image: "http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/orbitist_illustration.jpg"
-latitude: "37.3"
-longitude: "-92.285"
-zoom: "3"
+latitude: "-0.374"
+longitude: "-50.339"
+zoom: "6"
 maxZoom: "20"
 basemap: orbitist.if1em1bg
 tilemilltiles: ""
