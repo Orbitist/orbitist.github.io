@@ -34,7 +34,7 @@ If you've read the Lord of the rings, you know that all the places traveled to t
 
 Orbitist fully embraces the LOTR effect. Our stories guide readers through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. 
 
-Perhaps we're looking at bike-share locations in San Francisco {% include cvi %}[37.777, -122.422], 12{% include cvo %} or mountain biking in Fredonia, New York {% include cvi %}[42.454, -79.339], 17{% include cvo %} deforestation in Brazil {% include cvi %}[-13.55, -56.017], 11{% include cvo %} or examining glaciers in New Zealand {% include cvi %}[-43.413, 170.343], 8{% include cvo %}. Whatever topic we cover, we're not just building beautiful maps, we're guiding through narratives. 
+Perhaps we're looking at deforestation in Brazil {% include cvi %}[-10.124, -55.247], bike-share locations in San Francisco {% include cvi %}[37.777, -122.422], 12{% include cvo %}, mountain biking in Fredonia, New York {% include cvi %}[42.454, -79.339], 17{% include cvo %}, 11{% include cvo %} or examining glaciers in New Zealand {% include cvi %}[-43.413, 170.343], 8{% include cvo %}. Whatever topic we cover, we're not just building beautiful maps, we're guiding through narratives. 
 
 ###Style:
 Our stories are driven by narrative and conversational, laid-back writing. We aim for our stories to be pointed-- seek facts about the world and expressing truths in straight-forward, interesting ways. 
