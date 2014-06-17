@@ -15,7 +15,7 @@ author: ngunner
 description: Details about forever wild at Fredonia
 image: "http://orbitist.s3.amazonaws.com/2014/06-forever-wild-forest/story_cover.jpg"
 customjs: "http://orbitist.s3.amazonaws.com/2014/06-forever-wild-forest/custom.js"
-comments: true
+comments: false
 ---
 
 At Fredonia, we take pride in the beauty of our campus. One area that is often overlooked is our woodlot, affectionately called the 'Forever Wild Forest'.
