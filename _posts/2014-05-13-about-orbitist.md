@@ -19,9 +19,9 @@ customjs: "http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/custom.js"
 comments: false
 ---
 
-There's nothing like sharing a map. For centuries people have gathered around and drawn lines in the sand, stood around tables, in board rooms, war rooms, living rooms-- observing, wondering, exploring via map. On the street they've looked together at maps in books, at bustops, on phones in the palms of their hands. On walls, on ships, in space and behind steering wheels -- people have shared maps. 
+There's nothing like sharing a map. For centuries people have gathered around and drawn lines in the sand, stood around tables, in board rooms, war rooms, living rooms-- observing, wondering, exploring via map. On the street they've looked together at maps in books, at bus stops, on phones in the palms of their hands. On walls, on ships, in space and behind steering wheels -- people have shared maps. 
 
-What's around the mountain, over the ocean, through the valley or sitting on mars? People have shown each other these things and fantasized about geographies. We go to some of those places, but not to them all. But maps let us experience them in a meanigful way.
+What's around the mountain, over the ocean, through the valley or sitting on mars? People have shown each other these things and fantasized about geographies. We go to some of those places, but not to them all. But maps let us experience them in a meaningful way.
 
 And it's not just places-- it's us too. We often fail to look at ourselves objectively. Maps trump our vainness and let us see humanity from above. Maps are powerful-- they change minds.
 
