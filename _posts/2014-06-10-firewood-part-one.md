@@ -30,7 +30,7 @@ Maybe you’re a few days into a hiking trek through the dense Allegheny Forest 
 
 Or, perhaps you're dipping your toes into the cool, damp sand of a calm beach-- why not 90 Mile Beach in the North Island of New Zealand? {% include cvi %}[-35.851, 175.397], 8{% include cvo %} It's actually only 55 miles long; a gross miscalculation made by early missionaries who reckoned horses to travel 30 miles a day, failing to observe that horses walk much more slowly in sand. 
 
-Rather, you might be in the comfort of your own backyard {% include cvi %}[42.44, -79.327], 17{% include cvo %}, sinking into a mud-splattered folding chair--feet up, brew in hand.
+Rather, you might be in the comfort of your own backyard {% include cvi %}[42.44, -79.327], 17{% include cvo %} sinking into a mud-splattered folding chair--feet up, brew in hand.
 
 Wherever you may be, the sun is setting and the first chill of night is settling around you. There is no mistaking the buzzing whine of stinging insects flitting about, searching for bare skin. Life outdoors seems like it's about to get much more uncomfortable. But, you have a classic tool at your disposal: the knowledge and experience that grasped and yanked humanity by the hair, straight out of the Paleolithic era hundreds of thousands of years ago; ‘mastery’ of fire.
 
