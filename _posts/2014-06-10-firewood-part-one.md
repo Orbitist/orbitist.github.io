@@ -25,11 +25,11 @@ The sound of music in my ears.
 ~David Gilmour_  
 
 
-**It’s a brilliantly clear summer evening**, the steadily deepening azure sky speckled with cotton-white cloud tufts. The final rays of a sweltering day throw long, cool shadows onto the surrounding ground.
+**It’s a brilliantly clear summer evening**, the deepening azure sky specked with cotton-white tufts of cloud. The final rays of a sweltering day throw long, cool shadows onto the surrounding ground.
 
 Maybe you’re a few days into a hiking trek through the dense Allegheny Forest {% include cvi %}[41.745, -78.42], 8{% include cvo %}, home to more than 8,000 active oil and gas wells--more than all wells collectively within the other 154 national forests. 
 
-Or, perhaps you're dipping your toes into the cool, damp sand of a calm beach-- why not 90 Mile Beach in the North Island of New Zealand? {% include cvi %}[-35.851, 175.397], 8{% include cvo %} It's actually only 55 miles long; a gross miscalculation made by early missionaries who reckoned horses to travel 30 miles a day, failing to observe that horses walk much more slowly in sand. 
+Or perhaps you're dipping your toes into the cool, damp sand of a calm beach-- why not 90 Mile Beach in the North Island of New Zealand? {% include cvi %}[-35.851, 175.397], 8{% include cvo %} It's actually only 55 miles long; a gross miscalculation made by early missionaries who reckoned horses to travel 30 miles a day, failing to observe that horses walk much more slowly in sand. 
 
 Rather, you might be in the comfort of your own backyard {% include cvi %}[42.44, -79.327], 17{% include cvo %} sinking into a mud-splattered folding chair--feet up, brew in hand.
 
@@ -51,9 +51,9 @@ As you place a log into your hungry fire, you probably don’t spend any time th
 
 What is living in your lumber? 
 
-Around the heated hearth, you might toast a marshmallow or roast a carefully cut spider-dog (as my family calls them), but chances are--unless you’re traveling in a remote region--if the fire (knock on logs) goes out, or you run out of burnables, one can generally scavenge for additional fuel, buy a slightly expensive bundle of kiln-dried (read, ridiculously flammable) wood, or just go without, if it’s too much trouble. 
+Around the heated hearth, you might toast a marshmallow or roast a carefully cut spider-dog (as my family calls them), but chances are--unless you’re traveling in a remote area--if the fire goes out, you can probably just scavenge for more wood or buy an expensive kiln-dried bundle. Or, you could just go without, if it’s too much trouble. 
 
-Maybe you’ll just walk abashedly back to into your nearby home and throw a pack of sodium-enriched Ramen in the microwave. But in many areas of the world, this simply isn’t an option. 
+Maybe you’ll just walk shamefully back to your nearby home and throw a pack of sodium-enriched Ramen in the microwave. But in many areas of the world, this simply isn’t an option. 
 
 {% include cvi %}[39.775, 104.414], 2{% include cvo %} 
 
