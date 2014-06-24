@@ -8,18 +8,18 @@ comments: true
 basemap: orbitist.ie90k9cc
 description: Sailing Lake Erie
 author: azaremski
-zoom: "3"
+zoom: "16"
 latitude: "42.880"
 longitude: "-78.885"
-maxZoom: "11"
+maxZoom: "22"
 ---
 
 {% include cvi %}[42.88, -78.88], 17{% include cvo %}
 
 Sitting silently in his 25-foot sailboat, reading the day's Buffalo News, Robert Coles had little to do other than soak up the sun's rays following a brief, heavy rainfall from an hour earlier. Easy to miss him from a cursory glance across the RCR Yachts marina, amongst the other boats covered by shadows of old grain elevator buildings.
- 
-The rain clouds had moved east to let out the late afternoon, August sun over Western New York. Light reflected off the one empty beer can next to Coles, who was dressed for a day on the water: button down shirt, light brown fedora and khaki pants. But he could only appreciate the steady breeze from the dock as it passed by his sail guidelines. 
- 
+
+The rain clouds had moved east to let out the late afternoon, August sun over Western New York. Light reflected off the one empty beer can next to Coles, who was dressed for a day on the water: button down shirt, light brown fedora and khaki pants. But he could only appreciate the steady breeze from the dock as it passed by his sail guidelines.
+
 Of all things to stop a wind-powered craft, his engine was broken. 
  
 "The exhaust, which naturally goes out that end," he said, pointing to the back of the boat, "ended up going into my cabin, which meant carbon monoxide."
