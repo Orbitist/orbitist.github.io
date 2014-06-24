@@ -11,7 +11,7 @@ author: azaremski
 zoom: "3"
 latitude: "42.880"
 longitude: "-78.885"
-maxZoom: "22"
+maxZoom: "11"
 ---
 
 {% include cvi %}[42.88, -78.88], 8{% include cvo %}
