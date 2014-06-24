@@ -14,7 +14,7 @@ longitude: "-78.885"
 maxZoom: "11"
 ---
 
-{% include cvi %}[42.88, -78.88], 8{% include cvo %}
+{% include cvi %}[42.88, -78.88], 17{% include cvo %}
 
 Sitting silently in his 25-foot sailboat, reading the day's Buffalo News, Robert Coles had little to do other than soak up the sun's rays following a brief, heavy rainfall from an hour earlier. Easy to miss him from a cursory glance across the RCR Yachts marina, amongst the other boats covered by shadows of old grain elevator buildings.
  
