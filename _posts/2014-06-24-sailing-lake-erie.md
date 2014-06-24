@@ -9,8 +9,8 @@ basemap: orbitist.ie90k9cc
 description: Sailing Lake Erie
 author: azaremski
 zoom: "3"
-latitude: "42° 52' 49\""
-longitude: "-78° 53' 7\""
+latitude: 42. 5249
+longitude: "-78.537"
 maxZoom: "22"
 ---
 
