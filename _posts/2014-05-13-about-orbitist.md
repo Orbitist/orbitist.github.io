@@ -25,12 +25,12 @@ What's around the mountain, over the ocean, through the valley or sitting on mar
 
 And it's not just places-- it's us too. We often fail to look at ourselves objectively. Maps trump our vainness and let us see humanity from above. Maps are powerful-- they change minds.
 
-Orbitist.com was built with the notion that important information should be made easy to consume and as relevant as possible. Our mission is to educate people by displaying the world in inspiring and epic ways. We do this with maps built on open source tools.
+Orbitist.com was built with the notion that important information should be made as easy to consume as possible. Our mission is to build tools for telling the most compelling stories.
 
 ##Here's why our maps work
 
 ###The Lord of the Rings Effect:
-If you've read the Lord of the rings, you know that all the places traveled to throughout the book can be hard to keep track of. However, Tolkien did an amazing thing: he added maps to the inside front cover of the books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.
+If you've read the Lord of the Rings, you know that all the places traveled to throughout the book can be hard to keep track of. However, J.R.R. Tolkien did an amazing thing: he added maps to the inside front covers of his books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.
 
 Orbitist fully embraces the LOTR effect. Our stories guide readers through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. 
 
