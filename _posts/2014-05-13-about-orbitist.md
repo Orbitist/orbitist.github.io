@@ -19,31 +19,34 @@ customjs: "http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/custom.js"
 comments: false
 ---
 
+Orbitist.com was built with the notion that important information should be made as easy to consume as possible. Our mission is to build tools for telling the most compelling stories and to explore what digital media means for an educated society. 
+
+###We're starting this exploration with maps.
+
 There's nothing like sharing a map. For centuries people have gathered around and drawn lines in the sand, stood around tables, in board rooms, war rooms, living rooms-- observing, wondering, exploring via map. On the street they've looked together at maps in books, at bus stops, on phones in the palms of their hands. On walls, on ships, in space and behind steering wheels -- people have shared maps. 
 
 What's around the mountain, over the ocean, through the valley or sitting on mars? People have shown each other these things and fantasized about geographies. We go to some of those places, but not to them all. But maps let us experience them in a meaningful way.
 
 And it's not just places-- it's us too. We often fail to look at ourselves objectively. Maps trump our vainness and let us see humanity from above. Maps are powerful-- they change minds.
 
-Orbitist.com was built with the notion that important information should be made as easy to consume as possible. Our mission is to build tools for telling the most compelling stories.
-
-##Here's why our maps work
-
 ###The Lord of the Rings Effect:
 If you've read the Lord of the Rings, you know that all the places traveled to throughout the book can be hard to keep track of. However, J.R.R. Tolkien did an amazing thing: he added maps to the inside front covers of his books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.
 
-Orbitist fully embraces the LOTR effect. Our stories guide readers through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. 
+Orbitist fully embraces the L.O.T.R. effect. We guide users through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. 
 
-Perhaps we're looking at deforestation in Brazil {% include cvi %}[-10.124, -55.247], 11{% include cvo %}, bike-share locations in San Francisco {% include cvi %}[37.777, -122.422], 12{% include cvo %}, mountain biking in Fredonia, New York {% include cvi %}[42.454, -79.339], 17{% include cvo %}, or examining glaciers in New Zealand {% include cvi %}[-43.413, 170.343], 8{% include cvo %}. Whatever topic we cover, we're not just building beautiful maps, we're guiding through narratives. 
+Perhaps we're looking at deforestation in Brazil {% include cvi %}[-10.124, -55.247], 11{% include cvo %}, bike-share locations in San Francisco {% include cvi %}[37.777, -122.422], 12{% include cvo %}, mountain biking in Fredonia, New York {% include cvi %}[42.454, -79.339], 17{% include cvo %}, or examining glaciers in New Zealand {% include cvi %}[-43.413, 170.343], 8{% include cvo %}. Whatever topic we cover, we're not just building beautiful maps. Rather, we're using maps as a medium to guide people through narratives, hopefully enriching their world view in the process.
 
 ###Style:
 Our stories are driven by narrative and conversational, laid-back writing. We aim for our stories to be pointed-- seek facts about the world and expressing truths in straight-forward, interesting ways. 
 
-We explain the news by putting hyper-local stories into a global context. We take this further by putting users into that context and making them part of the narrative! 
+We explain topics by putting hyper-local stories into a global context. We take this further by putting users into that context and making them part of the narrative!
 
 ###Sharing:
 Humans are a species of sharers-- it's why we've lasted as long as we have. People like to share what they discover and on Orbitist sharing is baked into the stories.
 
-Our maps let you see your place in a story, capture the moment in a reflective view of yourself from above and push it to friends. Every time an Orbitist story is shared, value is added.
+Our maps let you see your place in a story, capture the moment and push it to friends. Every time an Orbitist story is shared, value is added.
 
 ###So learn, explore and share on!
+We don't claim to know what we're doing at all! On the contrary, we're in this because no one fully understands what digital media means for education and we think it will fundamentally change the way people learn! 
+
+Please [tell us what we can be doing better](http://www.orbitist.com/contact).
