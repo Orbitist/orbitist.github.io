@@ -11,7 +11,8 @@ author: azaremski
 zoom: "3"
 ---
 
-## A New Post
+{% include cvi %}[41.745, -78.42], 8{% include cvo %}
+
 Sitting silently in his 25-foot sailboat, reading the day's Buffalo News, Robert Coles had little to do other than soak up the sun's rays following a brief, heavy rainfall from an hour earlier. Easy to miss him from a cursory glance across the RCR Yachts marina, amongst the other boats covered by shadows of old grain elevator buildings.
  
 The rain clouds had moved east to let out the late afternoon, August sun over Western New York. Light reflected off the one empty beer can next to Coles, who was dressed for a day on the water: button down shirt, light brown fedora and khaki pants. But he could only appreciate the steady breeze from the dock as it passed by his sail guidelines. 
@@ -130,5 +131,3 @@ Other boat crews were preparing for the race, loosening sails as they backed awa
 "I miss the solitude of being out there and all. I sort of recognized that I wouldn't be sailing for a little while, and I'm okay with that," he said as his disabled boat drifted back and forth within the slip. "Sailing is a wonderful way to become independent. And to keep your independence."
  
 Video and Images by Nicholas Gunner and Adam Zaremski
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
