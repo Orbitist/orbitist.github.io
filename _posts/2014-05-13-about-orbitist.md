@@ -49,4 +49,4 @@ Our maps let you see your place in a story, capture the moment and push it to fr
 ###So learn, explore and share on!
 We don't claim to know what we're doing at all! On the contrary, we're in this because no one fully understands what digital media means for education and we think it will fundamentally change the way people learn! 
 
-Please [tell us what we can be doing better](http://www.orbitist.com/contact).
+Please [tell us what we can be doing better](http://orbitist.com/pages/contact.html).
