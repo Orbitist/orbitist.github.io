@@ -42,7 +42,7 @@ Our stories are driven by narrative and conversational, laid-back writing. We ai
 We explain topics by putting hyper-local stories into a global context. We take this further by putting users into that context and making them part of the narrative!
 
 ###Sharing:
-Humans are a species of sharers-- it's why we've lasted as long as we have. People like to share what they discover and on Orbitist sharing is baked into the stories.
+Humans are a species of sharers-- it's why we've lasted as long as we have. People like to share what they discover and we aim to bake sharing into our stories.
 
 Our maps let you see your place in a story, capture the moment and push it to friends. Every time an Orbitist story is shared, value is added.
 
