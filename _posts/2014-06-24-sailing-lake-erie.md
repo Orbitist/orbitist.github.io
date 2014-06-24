@@ -12,6 +12,8 @@ zoom: "16"
 latitude: "42.880"
 longitude: "-78.885"
 maxZoom: "22"
+image: "http://orbitist.s3.amazonaws.com/2014/06-sail-lake-eire/featured_sail.jpg"
+customjs: "http://orbitist.s3.amazonaws.com/2014/06-sail-lake-eire/custom.js"
 ---
 
 {% include cvi %}[42.88, -78.88], 17{% include cvo %}
