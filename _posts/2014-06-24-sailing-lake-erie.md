@@ -16,7 +16,7 @@ maxZoom: "22"
 
 {% include cvi %}[42.88, -78.88], 17{% include cvo %}
 
-Sitting silently in his 25-foot sailboat, reading the day's Buffalo News, Robert Coles had little to do other than soak up the sun's rays following a brief, heavy rainfall from an hour earlier. Easy to miss him from a cursory glance across the RCR Yachts marina, amongst the other boats covered by shadows of old grain elevator buildings.
+Sitting silently in his 25-foot sailboat, reading the day's _Buffalo News_, Robert Coles had little to do other than soak up the sun's rays following a brief, heavy rainfall from an hour earlier. Easy to miss him from a cursory glance across the RCR Yachts marina, amongst the other boats covered by shadows of old grain elevator buildings.
 
 The rain clouds had moved east to let out the late afternoon, August sun over Western New York. Light reflected off the one empty beer can next to Coles, who was dressed for a day on the water: button down shirt, light brown fedora and khaki pants. But he could only appreciate the steady breeze from the dock as it passed by his sail guidelines.
 
@@ -24,7 +24,7 @@ Of all things to stop a wind-powered craft, his engine was broken. 
 
 "The exhaust, which naturally goes out that end," he said, pointing to the back of the boat, "ended up going into my cabin, which meant carbon monoxide."
 
-Almost six weeks had passed since he was able to take his boat, Moorjoy II, into the wide-open Lake Erie. It was not the first time he had difficulty with the boat, and he recounted long past stories he considered growing pains of learning to sail. So the 82-year-old, who still manages his Buffalo architectural firm when not sailing, visited his boat daily to inspect the repairs and relax with a cold beer on the water. 
+Almost six weeks had passed since he was able to take his boat, _Moorjoy II_, into the wide-open Lake Erie. It was not the first time he had difficulty with the boat, and he recounted long past stories he considered growing pains of learning to sail. So the 82-year-old, who still manages his Buffalo architectural firm when not sailing, visited his boat daily to inspect the repairs and relax with a cold beer on the water. 
 
 He's not alone.
 
@@ -62,7 +62,7 @@ The club has even expanded its options to include Tuesday night sails, when ther
 
 _**Buffalo Racing **_
 
-On one such evening in late July, Jack Kitrenos was preparing his 41-foot boat, Slider, for a Wednesday night race. The boat is 9,500 pounds when empty, has a 70-foot black mast rising above all the other masts in Erie Basin Marina, and can hold about 14 crew members.
+On one such evening in late July, Jack Kitrenos was preparing his 41-foot boat, _Slider_, for a Wednesday night race. The boat is 9,500 pounds when empty, has a 70-foot black mast rising above all the other masts in Erie Basin Marina, and can hold about 14 crew members.
 
 “It’s built for speed, not for comfort, it's built for speed," Kitrenos said before the race in his boat.
 
@@ -76,7 +76,7 @@ Wind conditions that evening worried him, and without the power to alter the flo
 
 _**Training and Learning**_
 
-That "always moving" caught him off guard once while in Cleveland where he "wiped out" Slider. The gust knocked the boat onto its side, left the keel hanging out of the water, caused him to hang onto a guideline with nothing but water below him, and no control of the boat.
+That "always moving" caught him off guard once while in Cleveland where he "wiped out" _Slider_. The gust knocked the boat onto its side, left the keel hanging out of the water, caused him to hang onto a guideline with nothing but water below him, and no control of the boat.
 
 "My bowman actually went off the boat. He was in the water and we grabbed him by the collar as he was going by," he said. "It caused $28,000 in damage."
 
@@ -100,19 +100,19 @@ Unless using a motor, a sailboat cannot make its way directly into a breeze, but
 
 Once basics are learned, Lake Erie is the place for a lifetime of learning experiences. A simple pleasure cruise is always an option, or there are the races, which, despite the wide-open water, create frantic moments as boats align themselves at the start.
 
-During that July race night for Kitrenos, some 70 hulls with cloth sails darted about, waiting for starting sirens to sound from Bob Ihrig's power boat, Commune, a "waterfront condo" with a comfy interior and lower level bedroom. His boat and a distant buoy created an imaginary line boats cross to start each race.
+During that July race night for Kitrenos, some 70 hulls with cloth sails darted about, waiting for starting sirens to sound from Bob Ihrig's power boat, _Commune_, a "waterfront condo" with a comfy interior and lower level bedroom. His boat and a distant buoy created an imaginary line boats cross to start each race.
 
 There were no collisions at the race start that night, but many close calls. Boats, relying on wind power and a captain's knowledge at that point, crept within inches of other hulls, floating traffic jams with no way to stop. A wave bouncing one way while the wind pushed another could cause a serious accident or argument. Sometimes a loud voice was all the warning others had.
 
 “Obstruction! Obstruction! He’s creating an obstruction!” one sailor screamed as a boat in front seemed to squeeze past, or may have just blocked the way for him to obtain a good start.
 
-“This is the exciting part…oh dear,” Suzzane Lewis, a volunteer on the Commune, said as another boat almost scraped by the back portion of the boat and near to where she sat.
+“This is the exciting part…oh dear,” Suzzane Lewis, a volunteer on the _Commune_, said as another boat almost scraped by the back portion of the boat and near to where she sat.
 
 It was considered a good race with few problems or complaints. And Kitrenos had the wind's favor, light and easy throughout. Watching his boat cross the finish line was far from monumental: on calm waters it floated past the end at a constant speed. But it was 26 minutes ahead of the nearest competition: a combination of a good boat, a lot of knowledge and favorable weather.
 
 _**Simple Pleasures**_
 
-Racing is an extreme way to test one's talents and ability to work with others while on the water. Coles had little interest in those types of challenges, finding more than enough joy  touring the water as an urban sailor "with Buffalo's architecture as a backdrop. It's where I dream about what the city can be," he wrote in an article for Artvoice back in 2000.
+Racing is an extreme way to test one's talents and ability to work with others while on the water. Coles had little interest in those types of challenges, finding more than enough joy  touring the water as an urban sailor "with Buffalo's architecture as a backdrop. It's where I dream about what the city can be," he wrote in an article for _Artvoice_ back in 2000.
 
 It remains true in the present day, but for now he is trying to get his boat in top form. When talking about the boat's issues, he hardly seemed upset, simply resigned it would cost money to fix, hoping it would be soon. And with rain gear in hand he showed for his daily visit, to inspect and relax.
 
