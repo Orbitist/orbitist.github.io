@@ -233,3 +233,7 @@ z-index: 3000;
 .btn-sm {
 	line-height: .8;
 }
+
+.media-youtube-player {
+	width:100% !important;
+}
