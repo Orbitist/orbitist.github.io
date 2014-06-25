@@ -14,6 +14,7 @@ longitude: "-78.885"
 maxZoom: "22"
 image: "http://orbitist.s3.amazonaws.com/2014/06-sail-lake-eire/featured_sail.jpg"
 customjs: "http://orbitist.s3.amazonaws.com/2014/06-sail-lake-eire/custom.js"
+orbitistapi: "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-78.869819688263,42.867056874902]},\"properties\":{\"name\":\"Sailing Lake Erie\",\"description\":\"\\n\\u003Cp\\u003EPart 1 of 4\\u003C\\/p\\u003E\\n\\n\\u003Csmall\\u003E\\u003C\\/small\\u003E\",\"field_image\":33,\"field_image_rendered\":null,\"field_sources\":33,\"field_sources_rendered\":null}}]}"
 ---
 
 {% include cvi %}[42.88, -78.88], 17{% include cvo %}
