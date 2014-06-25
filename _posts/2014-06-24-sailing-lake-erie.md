@@ -27,7 +27,7 @@ Of all things to stop a wind-powered craft, his engine was broken. 
 
 "The exhaust, which naturally goes out that end," he said, pointing to the back of the boat, "ended up going into my cabin, which meant carbon monoxide."
 
-Almost six weeks had passed since he was able to take his boat, _Moorjoy II_, into the wide-open Lake Erie. It was not the first time he had difficulty with the boat, and he recounted long past stories he considered growing pains of learning to sail. So the 82-year-old, who still manages his Buffalo architectural firm when not sailing, visited his boat daily to inspect the repairs and relax with a cold beer on the water. 
+Almost six weeks had passed since he was able to take his boat, _Moorjoy II_, into the wide-open Lake Erie. It was not the first time he had difficulty with the boat, and he recounted long past stories he considered growing pains of learning to sail. So the 82-year-old, who still manages his Buffalo architectural firm when not sailing, visited his boat daily to inspect the repairs and relax with a cold beer on the water.{% include cvi %}[42.86, (-78.86], 19{% include cvo %} 
 
 He's not alone.
 
@@ -65,7 +65,7 @@ The club has even expanded its options to include Tuesday night sails, when ther
 
 _**Buffalo Racing **_
 
-On one such evening in late July, Jack Kitrenos was preparing his 41-foot boat, _Slider_, for a Wednesday night race. The boat is 9,500 pounds when empty, has a 70-foot black mast rising above all the other masts in Erie Basin Marina, and can hold about 14 crew members.
+On one such evening in late July, Jack Kitrenos was preparing his 41-foot boat, _Slider_, for a Wednesday night race. The boat is 9,500 pounds when empty, has a 70-foot black mast rising above all the other masts in Erie Basin Marina, and can hold about 14 crew members.{% include cvi %}[42.88, -78.88], 17{% include cvo %}
 
 “It’s built for speed, not for comfort, it's built for speed," Kitrenos said before the race in his boat.
 
@@ -89,7 +89,7 @@ Following the third time out, Coles said he "made every mistake in the book," an
 
 "I pretty much became an expert over the years. Just by making mistakes. You learn by doing in sailing," he said.
 
-There are several training schools in the region that help teach people how to avoid, or recover, from such problems, and provide an actual experience beyond reading descriptions or looking at pictures. As an instructor, Quinlan advocated people take that route and learn from his mistakes.
+There are several training schools in the region that help teach people how to avoid, or recover, from such problems, and provide an actual experience beyond reading descriptions or looking at pictures. As an instructor, Quinlan advocated people take that route and learn from his mistakes.{% include cvi %}[42.88, -78.88], 17{% include cvo %}
 
 "Respect the ocean," seemed to be his maxim when teaching. "The water is not our environment. People do a lot better on land."
 
@@ -121,7 +121,7 @@ It remains true in the present day, but for now he is trying to get his boat in 
 
 Avoiding races and large crews, Coles kept things simple. After he provided the obligatory boat description all boat owners go through - stating mast height and hull size - Coles pointed out he is normally a one man crew.
 
-"I sail this by myself," he declared, and when asked if he brings others out, he chuckled and said "as infrequently as possible. My wife comes out once a year. I suppose you could say I'm a loner and all, and I suppose that is true."
+"I sail this by myself," he declared, and when asked if he brings others out, he chuckled and said "as infrequently as possible. My wife comes out once a year. I suppose you could say I'm a loner and all, and I suppose that is true."{% include cvi %}[42.88, -78.88], 17{% include cvo %}
 
 A loner on the water, he is someone long involved with the region, and has the stories to accompany each year: working at Bethlehem Steel for several summers as a youth; attending Massachusetts Institute of Technology to become an architect; coming back to Buffalo for a job and "thinking I would only be here for three months and all, but three months is gone for 50 years," and working on the public committee to help design Erie Basin Marina in 1964.
 
