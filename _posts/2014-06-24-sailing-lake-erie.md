@@ -25,7 +25,7 @@ Of all things to stop a wind-powered craft, his engine was broken. 
 
 "The exhaust, which naturally goes out that end," he said, pointing to the back of the boat, "ended up going into my cabin, which meant carbon monoxide."
 
-Almost six weeks had passed since he was able to take his boat, _Moorjoy II_, into the wide-open Lake Erie. It was not the first time he had difficulty with the boat, and he recounted long past stories he considered growing pains of learning to sail. So the 82-year-old, who still manages his Buffalo architectural firm when not sailing, visited his boat daily to inspect the repairs and relax with a cold beer on the water{% include cvi %}[42.86, (-78.86], 19{% include cvo %}.
+Almost six weeks had passed since he was able to take his boat, _Moorjoy II_, into the wide-open Lake Erie. It was not the first time he had difficulty with the boat, and he recounted long past stories he considered growing pains of learning to sail. So the 82-year-old, who still manages his Buffalo architectural firm when not sailing, visited his boat daily to inspect the repairs and relax with a cold beer on the water{% include cvi %}[42.86, -78.86], 19{% include cvo %}.
 
 He's not alone.
 
