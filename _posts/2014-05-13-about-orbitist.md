@@ -36,17 +36,17 @@ Each book in J.R.R. Tolkien's trilogy, The Lord of the Rings, has illustrated ma
 
 We aim to give users a similar experience, guiding them through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. 
 
-Perhaps we're looking at deforestation in Brazil {% include cvi %}[-10.124, -55.247], 11{% include cvo %}, bike-share locations in San Francisco {% include cvi %}[37.777, -122.422], 12{% include cvo %}, mountain biking in Fredonia, New York {% include cvi %}[42.454, -79.339], 17{% include cvo %}, or examining glaciers in New Zealand {% include cvi %}[-43.413, 170.343], 8{% include cvo %}. Whatever topic we cover, we're not just building beautiful maps; we're using maps as a medium to guide people through narratives, hopefully enriching their world view in the process.
+Perhaps we're looking at deforestation in Brazil {% include cvi %}[-10.124, -55.247], 11{% include cvo %}, bike-share locations in San Francisco {% include cvi %}[37.777, -122.422], 12{% include cvo %}, mountain biking in Fredonia, New York {% include cvi %}[42.454, -79.339], 17{% include cvo %}, or examining glaciers in New Zealand {% include cvi %}[-43.413, 170.343], 8{% include cvo %}. Whatever topic we cover, we're not just building beautiful maps; we're using maps as a medium to guide people through stories-- hopefully enriching their world view in the process.
 
 ###Style:
-Our stories are driven by narrative and conversational, laid-back writing. We aim for our stories to be pointed-- seek facts about the world and expressing truths in straight-forward, interesting ways. 
+Our stories are driven by narrative, conversational, laid-back writing, video, audio and photography. We aim to be pointed-- seeking facts about the world and expressing truths in straight-forward, interesting ways. 
 
-We explain topics by putting hyper-local stories into a global context. We take this further by putting users into that context and making them part of the narrative!
+Stories can be hyper-local or tell  global context and we put users into that context making them part of the narrative!
 
 ###Sharing:
 Humans are a species of sharers-- it's why we've lasted as long as we have. People like to share what they discover and we aim to bake sharing into our stories.
 
-Our maps let you see your place in a story, capture the moment and push it to friends. Every time an Orbitist story is shared, value is added.
+Our maps let you see your place in stories. We think this makes our stories some of the most share-worthy content on the internet. Every time an Orbitist story is shared, value is added.
 
 ###So learn, explore and share on!
 We don't claim to know what we're doing at all! On the contrary, we're in this because no one fully understands what digital media means for education and we think it will fundamentally change the way people learn! 
