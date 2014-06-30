@@ -29,7 +29,7 @@ Of all things to stop a wind-powered craft, his engine was broken. 
 
 Almost six weeks had passed since he was able to take his boat, _Moorjoy II_, into the wide-open Lake Erie. It was not the first time he had difficulty with the boat, and he recounted long past stories he considered growing pains of learning to sail. So the 82-year-old, who still manages his Buffalo architectural firm when not sailing, visited his boat daily to inspect the repairs and relax with a cold beer on the water {% include cvi %}[42.86, -78.86], 19{% include cvo %}.
 
-He's not alone.
+**He's not alone.**
 
 "Some come down in the middle of winter" Rick Lenard, a sales broker at RCR Yahcts, said. "A nice January day, it might be 30 degrees out, they go (into their cabins)…read a book, do work. Sailing is a lifestyle."
 
