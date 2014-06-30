@@ -23,12 +23,16 @@ comments: false
 
 There's nothing like sharing a map. For centuries people have gathered around and drawn lines in the sand, stood around tables, in board rooms, war rooms, living rooms-- observing, wondering, exploring via map. On the street they've looked together at maps in books, at bus stops, on phones in the palms of their hands. On walls, on ships, in space and behind steering wheels -- people have shared maps. 
 
-What's around the mountain, over the ocean, through the valley or sitting on mars? People have shown each other these things and fantasized about geographies. We go to some of those places, but not to them all. But maps let us experience them in a meaningful way.
+What's around the mountain, over the ocean, through the valley or sitting on mars? People have shown each other these things and fantasized about geographies. 
 
-And it's not just places-- it's us too. We often fail to look at ourselves objectively. Maps trump our vainness and let us see humanity from above. Maps are powerful-- they change minds.
+We go to some of these places, but not to them all. Yet maps let us experience them in a meaningful way.
+
+And it's not just places-- it's us too. We often fail to look at ourselves objectively. Maps can trump our vainness and help us understand humanity through data. 
+
+Maps are powerful-- they change our minds.
 
 ###The Lord of the Rings Effect:
-If you've read the Lord of the Rings, you know that all the places traveled to throughout the book can be hard to keep track of. However, J.R.R. Tolkien did an amazing thing: he added maps to the inside front covers of his books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.
+J.R.R. Tolkien added maps to the inside front covers of his books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.
 
 Orbitist fully embraces the L.O.T.R. effect. We guide users through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. 
 
