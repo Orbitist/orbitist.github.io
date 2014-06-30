@@ -32,9 +32,9 @@ And it's not just places-- it's us too. We often fail to look at ourselves objec
 Maps are powerful-- they change our minds.
 
 ###The Lord of the Rings Effect:
-J.R.R. Tolkien added maps to the inside front covers of his books. These simple maps provide context throughout the tale and let readers follow along in a meaningful way.
+Each book in J.R.R. Tolkien's trilogy, The Lord of the Rings, has illustrated maps printed on their inside front covers. These maps are there as a reference to help the reader understand the many places visited throughout the books. The maps tell readers where they are, where they are going and what surrounds them. They even offer extra detail about the world surrounding the story.
 
-Orbitist fully embraces the L.O.T.R. effect. We guide users through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. 
+We guide users through space and time by putting stories and maps side by side. On top of that, our story/map interactions make following along easy. 
 
 Perhaps we're looking at deforestation in Brazil {% include cvi %}[-10.124, -55.247], 11{% include cvo %}, bike-share locations in San Francisco {% include cvi %}[37.777, -122.422], 12{% include cvo %}, mountain biking in Fredonia, New York {% include cvi %}[42.454, -79.339], 17{% include cvo %}, or examining glaciers in New Zealand {% include cvi %}[-43.413, 170.343], 8{% include cvo %}. Whatever topic we cover, we're not just building beautiful maps. Rather, we're using maps as a medium to guide people through narratives, hopefully enriching their world view in the process.
 
