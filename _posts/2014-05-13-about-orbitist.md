@@ -19,9 +19,7 @@ customjs: "http://orbitist.s3.amazonaws.com/2014/05_about-orbitist/custom.js"
 comments: false
 ---
 
-Orbitist.com was built with the notion that important information should be made as easy to consume as possible. Our mission is to build tools for telling the most compelling stories and to explore what digital media means for an educated society. 
-
-###We're starting this exploration with maps.
+**Our mission is to make important information as accessible and as easy to consume as possible. We do this by telling stories on maps.**
 
 There's nothing like sharing a map. For centuries people have gathered around and drawn lines in the sand, stood around tables, in board rooms, war rooms, living rooms-- observing, wondering, exploring via map. On the street they've looked together at maps in books, at bus stops, on phones in the palms of their hands. On walls, on ships, in space and behind steering wheels -- people have shared maps. 
 
