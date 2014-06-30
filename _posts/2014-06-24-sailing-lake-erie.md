@@ -27,7 +27,7 @@ Of all things to stop a wind-powered craft, his engine was broken. 
 
 <img src="http://orbitist.s3.amazonaws.com/2014/06-sail-lake-eire/images/IMG_0298.jpg">
 
-Almost six weeks had passed since he was able to take his boat, _Moorjoy II_, into the wide-open Lake Erie. It was not the first time he had difficulty with the boat, and he recounted long past stories he considered growing pains of learning to sail. So the 82-year-old, who still manages his Buffalo architectural firm when not sailing, visited his boat daily to inspect the repairs and relax with a cold beer on the water {% include cvi %}[42.86, -78.86], 19{% include cvo %}.
+Almost six weeks had passed since he was able to take his boat, _Moorjoy II_, into the wide-open Lake Erie. It was not the first time he had difficulty with the boat, and he recounted long past stories he considered growing pains of learning to sail. So the 82-year-old, who still manages his Buffalo architectural firm when not sailing, visited his boat daily to inspect the repairs and relax with a cold beer on the water {% include cvi %}[-78.869819688263, 42.867056874902], 20{% include cvo %}.
 
 **He's not alone.**
 
