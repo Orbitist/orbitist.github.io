@@ -53,16 +53,16 @@ What is living in your lumber?
 
 Around the heated hearth, you might toast a marshmallow or roast a carefully cut spider-dog (as my family calls them), but chances are--unless you’re traveling in a remote area--if the fire goes out, you can probably just scavenge for more wood or buy an expensive kiln-dried bundle. Or, you could just go without, if it’s too much trouble. 
 
-Maybe you’ll just walk shamefully back to your nearby home and throw a pack of sodium-enriched Ramen in the microwave. But in many areas of the world, this simply isn’t an option. 
+Maybe you’ll just walk shamefully back to your house and throw a pack of sodium-enriched Ramen in the microwave. But in many areas of the world, this simply isn’t an option. Surprisingly, in many regions, woodfuel is more scarce (and consquentially more valuable) than the food it's used to cook.
 
 {% include cvi %}[39.775, 104.414], 2{% include cvo %} 
 
 Around three billion people worldwide cook and heat their homes using open fires and simple stoves burning biomass. And over four million people (8 per minute) die each year from illnesses related to indoor air pollution. 
 
-To put it in perspective: if you’re cooking a meal with an indoor fire, it produces about the same pollution per hour in a typical house as a _thousand_ cigarettes burning. Surprisingly, in many regions, woodfuel is more scarce and valuable than the food it is used to cook.
+To put it in perspective, if you’re cooking a meal with an indoor fire, it produces about the same pollution per hour as a _thousand_ cigarettes burning. 
 
-This series will explore the human assisted movement of firewood and the environmental impact of this common activity. We'll meet the Emerald Ash Bore and the Asian Longhorn Beetle--two very dangerous, diligent immigrants. We’ll visit incredibly interesting and faraway countries, and share the boggling story of how a ten dollar cookstove is saving the world, one carbon-credited sale at a time.
+This series will explore the human assisted movement of firewood and the environmental impact of this common activity. We'll meet the Emerald Ash Bore and the Asian Longhorn Beetle--two dangerous, diligent immigrants.
 
-These are not the topics which one usually thinks about as you feed your hungry friend called fire, one branch at a time. 
+We’ll visit incredibly interesting and faraway countries, and share the boggling story of how a ten dollar cookstove is saving the world, one carbon-credited sale at a time.
 
 To be continued, in Part One--_Meet the Beetles?_
