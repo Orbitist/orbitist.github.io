@@ -16,6 +16,8 @@ orbitistapi: "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\
 customjs: "https://orbitist.s3.amazonaws.com/2014/06_firewood/custom.js"
 ---
 
-## A New Post
+_**Ladies and gentlemen--the Beetles!**_ 
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Ed Sullivan won't be introducing this 
+
+When we last met, I was carelessly throwing out conservationally minded platitudes that covered a very varied group of subjects. But with our "big picture" intro out of the way, it's time to zoom in a bit--to hone in on a few small creatures that are having a very big impact upon our environment.
