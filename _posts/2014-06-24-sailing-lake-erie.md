@@ -6,7 +6,7 @@ listed: true
 sponsored: false
 comments: true
 basemap: orbitist.if1em1bg
-description: ""
+description: "Accounts of wind powered boats near Buffalo, NY"
 author: azaremski
 zoom: "14"
 latitude: "42.880"
