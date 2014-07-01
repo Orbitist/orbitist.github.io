@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Sailing Lake Erie
-listed: false
+listed: true
 sponsored: false
 comments: true
 basemap: orbitist.if1em1bg
