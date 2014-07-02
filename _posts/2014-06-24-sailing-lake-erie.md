@@ -41,6 +41,8 @@ Ed Quinlan, 63, spends his time fixing boats and training people at Seven Seas S
 
 "It was water, but it wasn't all water."
 
+<img src="http://orbitist.s3.amazonaws.com/2014/06-sail-lake-eire/images/IMG_0332.jpg">
+
 So Quinlan spent 33 years in Hawaii, enjoying clear ocean waters and good winds. He bought his own boat and also became a mate on an ocean racer, earning many sailing and boating certificates along the way. It became his lifestyle in almost every aspect. Even the worst experiences or troubling situations became good memories.
 
 "In sailing, the destination is the journey," Quinlan said in a wax lyrical manner. "Hardly any boats have a destination in mind, but every minute of the journey, you're involved. The silence. The wind working with the water. Best way to spend your time."
@@ -134,5 +136,7 @@ Behind Coles was a four-person training class from Seven Seas that had donned li
 Other boat crews were preparing for the race, loosening sails as they backed away from slips and motored past the 10-story Great Northern grain elevator industrial site, going northwest to enter the lake and raise their wind catchers.
 
 "I miss the solitude of being out there and all. I sort of recognized that I wouldn't be sailing for a little while, and I'm okay with that," he said as his disabled boat drifted back and forth within the slip. "Sailing is a wonderful way to become independent. And to keep your independence."
+
+<img src="http://orbitist.s3.amazonaws.com/2014/06-sail-lake-eire/images/IMG_0393.jpg">
 
 Video and Images by Nicholas Gunner and Adam Zaremski
