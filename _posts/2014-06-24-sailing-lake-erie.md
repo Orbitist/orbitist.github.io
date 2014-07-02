@@ -67,7 +67,7 @@ The club has even expanded its options to include Tuesday night sails, when ther
 
 _**Buffalo Racing **_
 
-On one such evening in late July, Jack Kitrenos was preparing his 41-foot boat, _Slider_, for a Wednesday night race. The boat is 9,500 pounds when empty, has a 70-foot black mast rising above all the other masts in Erie Basin Marina, and can hold about 14 crew members.{% include cvi %}[42.803209842168, --78.99822235873], 13{% include cvo %}
+On one such evening in late July, Jack Kitrenos was preparing his 41-foot boat, _Slider_, for a Wednesday night race. The boat is 9,500 pounds when empty, has a 70-foot black mast rising above all the other masts in Erie Basin Marina, and can hold about 14 crew members.{% include cvi %}[42.803209842168, -78.99822235873], 13{% include cvo %}
 
 “It’s built for speed, not for comfort, it's built for speed," Kitrenos said before the race in his boat.
 
