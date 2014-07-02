@@ -67,7 +67,7 @@ The club has even expanded its options to include Tuesday night sails, when ther
 
 _**Buffalo Racing **_
 
-On one such evening in late July, Jack Kitrenos was preparing his 41-foot boat, _Slider_, for a Wednesday night race. The boat is 9,500 pounds when empty, has a 70-foot black mast rising above all the other masts in Erie Basin Marina, and can hold about 14 crew members.{% include cvi %}[42.88, -78.88], 17{% include cvo %}
+On one such evening in late July, Jack Kitrenos was preparing his 41-foot boat, _Slider_, for a Wednesday night race. The boat is 9,500 pounds when empty, has a 70-foot black mast rising above all the other masts in Erie Basin Marina, and can hold about 14 crew members.{% include cvi %}[42.868793191409, -78.900547035243], 17{% include cvo %}
 
 “It’s built for speed, not for comfort, it's built for speed," Kitrenos said before the race in his boat.
 
@@ -93,7 +93,7 @@ Following the third time out, Coles said he "made every mistake in the book," an
 
 "I pretty much became an expert over the years. Just by making mistakes. You learn by doing in sailing," he said.
 
-There are several training schools in the region that help teach people how to avoid, or recover, from such problems, and provide an actual experience beyond reading descriptions or looking at pictures. As an instructor, Quinlan advocated people take that route and learn from his mistakes.{% include cvi %}[42.88, -78.88], 17{% include cvo %}
+There are several training schools in the region that help teach people how to avoid, or recover, from such problems, and provide an actual experience beyond reading descriptions or looking at pictures. As an instructor, Quinlan advocated people take that route and learn from his mistakes.{% include cvi %}[42.869727380837, -78.877394260892], 17{% include cvo %}
 
 "Respect the ocean," seemed to be his maxim when teaching. "The water is not our environment. People do a lot better on land."
 
