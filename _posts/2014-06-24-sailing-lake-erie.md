@@ -71,7 +71,7 @@ On one such evening in late July, Jack Kitrenos was preparing his 41-foot boat, 
 
 “It’s built for speed, not for comfort, it's built for speed," Kitrenos said before the race in his boat.
 
-<img src="http://orbitist.s3.amazonaws.com/2014/06-sail-lake-eire/images/IMG_0244.jpg">
+<img src="http://orbitist.s3.amazonaws.com/2014/06-sail-lake-eire/images/IMG_0247.jpg">
 
 He takes the races seriously, to a point. He has one of the faster boats on the water, he said, though he could name a few other boat styles and their skippers that cruise Lake Erie that are just as quick, or better. Despite wanting to win, his time out is relaxing, a way to build camaraderie - a word used by many in the sailing club - among the all volunteer crew who help him manage Slider through the waves.
 
@@ -96,6 +96,8 @@ Following the third time out, Coles said he "made every mistake in the book," an
 There are several training schools in the region that help teach people how to avoid, or recover, from such problems, and provide an actual experience beyond reading descriptions or looking at pictures. As an instructor, Quinlan advocated people take that route and learn from his mistakes.{% include cvi %}[42.88, -78.88], 17{% include cvo %}
 
 "Respect the ocean," seemed to be his maxim when teaching. "The water is not our environment. People do a lot better on land."
+
+<img src="http://orbitist.s3.amazonaws.com/2014/06-sail-lake-eire/images/IMG_0244.jpg">
 
 Beyond that, he teaches the terms used while sailing; what each line, rope and beam do; how to obtain perfect sail trim and then catch the most wind. There is also the one thing that still causes him to marvel, even after sailing on the Pacific and Indian oceans, even after an estimated 10,000 sailing outings, he continues to feel wonder at sailing up into the wind.
 
