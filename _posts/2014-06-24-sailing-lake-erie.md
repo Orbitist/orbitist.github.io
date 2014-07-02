@@ -71,6 +71,8 @@ On one such evening in late July, Jack Kitrenos was preparing his 41-foot boat, 
 
 “It’s built for speed, not for comfort, it's built for speed," Kitrenos said before the race in his boat.
 
+<img src="http://orbitist.s3.amazonaws.com/2014/06-sail-lake-eire/images/IMG_0244.jpg">
+
 He takes the races seriously, to a point. He has one of the faster boats on the water, he said, though he could name a few other boat styles and their skippers that cruise Lake Erie that are just as quick, or better. Despite wanting to win, his time out is relaxing, a way to build camaraderie - a word used by many in the sailing club - among the all volunteer crew who help him manage Slider through the waves.
 
 "Everyone has a job... they all swear at the skipper," Kitrenos said, laughing with some of the crew members who arrived early. Many have raced together for a long time and know each other well. It seemed that as long as Kitrenos continued supplying the beer, they would provide the muscle. "It's all good."
