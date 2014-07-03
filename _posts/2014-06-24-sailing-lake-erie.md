@@ -133,7 +133,9 @@ It remains true in the present day, but for now he is trying to get his boat in 
 
 Avoiding races and large crews, Coles kept things simple. After he provided the obligatory boat description all boat owners go through - stating mast height and hull size - Coles pointed out he is normally a one man crew.
 
-"I sail this by myself," he declared, and when asked if he brings others out, he chuckled and said "as infrequently as possible. My wife comes out once a year. I suppose you could say I'm a loner and all, and I suppose that is true."{% include cvi %}[42.820650979407, -78.879776008631], 17{% include cvo %}
+"I sail this by myself," he declared, and when asked if he brings others out, he chuckled and said "as infrequently as possible. My wife comes out once a year. I suppose you could say I'm a loner and all, and I suppose that is true."
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/acPNehzpKLM?rel=0" frameborder="0" allowfullscreen></iframe>
 
 A loner on the water, he is someone long involved with the region, and has the stories to accompany each year: working at Bethlehem Steel for several summers as a youth; attending Massachusetts Institute of Technology to become an architect; coming back to Buffalo for a job and "thinking I would only be here for three months and all, but three months is gone for 50 years," and working on the public committee to help design Erie Basin Marina in 1964.
 
