@@ -97,7 +97,9 @@ Following the third time out, Coles said he "made every mistake in the book," an
 
 "I pretty much became an expert over the years. Just by making mistakes. You learn by doing in sailing," he said.
 
-There are several training schools in the region that help teach people how to avoid, or recover, from such problems, and provide an actual experience beyond reading descriptions or looking at pictures. As an instructor, Quinlan advocated people take that route and learn from his mistakes.{% include cvi %}[42.869727380837, -78.877394260892], 17{% include cvo %}
+There are several training schools in the region that help teach people how to avoid, or recover, from such problems, and provide an actual experience beyond reading descriptions or looking at pictures. As an instructor, Quinlan advocated people take that route and learn from his mistakes.
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/Wm0x1oLv0OI?rel=0" frameborder="0" allowfullscreen></iframe>
 
 "Respect the ocean," seemed to be his maxim when teaching. "The water is not our environment. People do a lot better on land."
 
