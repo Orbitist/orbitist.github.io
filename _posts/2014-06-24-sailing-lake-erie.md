@@ -35,7 +35,7 @@ Almost six weeks had passed since he was able to take his boat, _Moorjoy II_, in
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/mN1zFeUTm9A?rel=0" frameborder="0" allowfullscreen></iframe>
 
-There are many thoughts on fixing the region's waterfront: proper development; bringing more tourists; incorporating past into future. But beyond that front is an open and moving landscape for a group of people - many who seem quite happy with what is available -to go out and have fun, or compete, or relax. It has been that way for years and several see improvements.
+There are many thoughts on fixing the region's waterfront {% include cvi %}[42.870174,-78.877876], 16{% include cvo %}: proper development; bringing more tourists; incorporating past into future. But beyond that front is an open and moving landscape for a group of people - many who seem quite happy with what is available -to go out and have fun, or compete, or relax. It has been that way for years and several see improvements.
 
 Ed Quinlan, 63, spends his time fixing boats and training people at Seven Seas Sailing School. For much of his youth he was out on Lake Erie learning to sail, traveling with friends for daily excursions to wherever possible. He grew up in Hamburg and stayed until the 70's, choosing to leave because of the very water he sailed.
 
