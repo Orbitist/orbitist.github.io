@@ -5,7 +5,7 @@ title: Plastics in the Great Lakes
 listed: false
 sponsored: false
 comments: false
-basemap: orbitist.if1em1bg
+basemap: "null"
 author: ngunner
 description: A survey of plastic in the great lakes.
 image: "http://orbitist.s3.amazonaws.com/2014/06-great-lakes-plastics/plastic-feature-image.jpg"
