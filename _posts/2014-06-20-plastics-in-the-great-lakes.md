@@ -16,4 +16,4 @@ maxZoom: "22"
 customjs: "http://orbitist.s3.amazonaws.com/2014/06-great-lakes-plastics/custom.js"
 ---
 
-This is a working map of data collected by Sherri Mason of the state university of New York at Fredonia.
+This is a working map of data collected by Sherri Mason of the state university of New York at Fredonia. {% include cvi %}[42.870174,-78.877876], 16{% include cvo %}
