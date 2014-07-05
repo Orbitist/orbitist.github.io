@@ -186,7 +186,7 @@
 	height:160px !important;
 }
 
-.leaflet-marker-icon, .maki-marker, .leaflet-zoom-animated, .leaflet-clickable {
+.maki-marker {
 	z-index: 998;
 }
 
