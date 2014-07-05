@@ -5,6 +5,7 @@ div.cartodb-zoom {
 	bottom: 10px;
 	left: 1px;
 	z-index: 1000001;
+	margin-left: 10px;
 }
 
 div.cartodb-logo img {
