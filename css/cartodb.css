@@ -10,3 +10,7 @@ div.cartodb-zoom {
 div.cartodb-logo img {
 margin-left: 50px;
 }
+
+.leaflet-control-zoom {
+	display: none !important;
+}
