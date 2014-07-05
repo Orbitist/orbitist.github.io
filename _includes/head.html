@@ -19,6 +19,10 @@
 	<!-- Apple icon -->
 	<link rel="apple-touch-icon" sizes="152x152" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/touch-icon-ipad-retina.png">
 	
+	<!-- Mapbox CSS and JS -->
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+	
 	{% if page.basemap == "cartodb" %}
 	<!-- CartoDB CSS and JS -->
 	<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
@@ -26,12 +30,8 @@
 	
 	<!-- Custom CartoDB CSS -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/cartodb.css">
-	{% else %}
-	
-	<!-- Mapbox CSS and JS -->
-	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
 	{% endif %}
+	
 
 	<!-- Sidr CSS -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/sidr.css">
