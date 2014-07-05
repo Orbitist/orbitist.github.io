@@ -7,25 +7,41 @@
 	html, body, #map {
 	height: 100%;
 	}
+	
+	img {
+		max-width: 100%;
+	}
 
 
 /* Typography */
 	p {
-	font-size: 20px;
-	font-family: georgia, times, serif;
+	font-size: 18px;
+	font-family: 'Roboto Slab', serif;
 	color: #333332;
-	line-height: 1.5;
+	line-height: 1.4;
 	}
 
 	p.lead {
-	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	}
 	
 	h2 {
-	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;	
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;	
 	}
 	h3 {
-	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	}
+	
+	.orbitist {
+		font-family: 'Quattrocento Sans', sans-serif;
+		font-size: 32px;
+		color: #f1c289;
+	}
+	.sidr .orbitist {
+		font-family: 'Quattrocento Sans', sans-serif;
+		font-size: 32px;
+		color: #f1c289;
+		margin-left: 10px;
 	}
 	
 	
@@ -63,25 +79,48 @@
 	}
 	
 	.topstorytitle {
-		font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
-		font-weight: bold;
+		font-family: 'Quattrocento Sans', sans-serif;
+		text-transform:uppercase;
+		font-weight: 700;
 		font-size: 26px;
+		line-height: 0.8;
 	}
 	
 	.topstorydescription {
-		font-family:'HelveticaNeue-Light','Helvetica Neue', Helvetica, Arial, sans-serif;
-		font-weight: light;
+		font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-size: 18px;
 	}
 	
+@media only screen and (max-width: 480px) {
+	.topstorytext {
+	position: absolute;
+	z-index: 1000;
+	color: white;
+	margin: 10px;
+	top: 70%;
+	}
+	
+	.topstorytitle {
+		font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 0.8;
+	}
+	
+	.topstorydescription {
+		font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-size: 14px;
+	}
+	
+}
 	
 /* Story Styles */
 	.sidebarcontent {
-	padding:12px 8px;
+	padding: 15px;
 	}
 
 	.author {
-		font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-size: 14px;
 		margin-bottom: 5px;
 	}
@@ -94,6 +133,14 @@
 		padding: 5px;
 	}
 	
+	.sharers {
+		font-size: 30px;
+		text-align: center;
+	}
+	
+	.sharers a{
+		color: grey;
+	}
 	
 
 	
@@ -134,6 +181,12 @@
 	height: auto;
 }
 
+.media-youtube-player {
+	width:280px !important;
+	height:160px !important;
+}
+
+
 /* Logo overlay */
 .logooverlay {
 	position: absolute;
@@ -167,7 +220,7 @@ height: 100%;
 position: absolute;
 font-size: 45px;
 color: white;
-font-family: garamond, times, serif;
+font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 width: 100%;
 text-align: center;
 top: 50%;
@@ -182,4 +235,9 @@ margin-bottom: -20px;
 .sponsoredpage {
 color: #FF9933;
 z-index: 3000;
+}
+
+
+.btn-sm {
+	line-height: .8;
 }
