@@ -186,6 +186,9 @@
 	height:160px !important;
 }
 
+.leaflet-marker-icon, .maki-marker, .leaflet-zoom-animated, .leaflet-clickable {
+	z-index: 998;
+}
 
 /* Logo overlay */
 .logooverlay {
