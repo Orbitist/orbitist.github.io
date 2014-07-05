@@ -1,5 +1,10 @@
-.cartodb-zoom {
-position: fixed;
-bottom: 10;
-left: 10;
+div.cartodb-zoom {
+	position: fixed;
+	bottom: 10px;
+	left: 1px;
+	z-index: 1000001;
+}
+
+div.cartodb-logo img {
+margin-left: 50px;
 }
