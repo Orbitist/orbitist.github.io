@@ -26,13 +26,14 @@
 <!-- Custom JS file -->
 	<script src="{{ page.customjs }}"></script>
 	
-<!-- Orbitist API GeoJSON layer -->
-{% include orbitistapi_js.html %}
-
 {% if page.basemap == "cartodb" %}
 <!-- cartoDB integration -->
 	{% include cartodb.html %}
 {% endif %}
+	
+<!-- Orbitist API GeoJSON layer -->
+{% include orbitistapi_js.html %}
+
     
 <!-- Bootstrap JS -->
 	<script src="{{ site.baseurl }}/plugins/bootstrap/js/bootstrap.min.js"></script>
