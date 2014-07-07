@@ -179,6 +179,10 @@ prose:
         field:
           element: "text"
           label: "Tilemill tiles code"
+      - name: "cartodbapi"
+        field:
+          element: "text"
+          label: "CartoDB API Code"
       - name: "orbitistapi"
         field:
           element: "text"
