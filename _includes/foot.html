@@ -15,7 +15,7 @@
     	center: [{{ page.latitude }}, {{ page.longitude }}],
     	zoom: {{ page.zoom }}
   	});
-  	cartodb.createVis(map, '{{ page.cartodbapi }}')
+  	cartodb.createLayer(map, '{{ page.cartodbapi }}')
     	.addTo(map)
     	.on('done', function(layer) {
     		//do stuff
