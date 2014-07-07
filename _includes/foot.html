@@ -11,8 +11,8 @@
 <script>
 
 	 var map = new L.Map('map', {
-    	center: [0,0],
-    	zoom: 2
+    	center: [{{ page.latitude }}, {{ page.longitude }}],
+    	zoom: {{ page.zoom }}
   	});
 
   	cartodb.createLayer(map, '{{ page.cartodbapi }}')
