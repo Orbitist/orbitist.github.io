@@ -15,7 +15,6 @@
     	center: [{{ page.latitude }}, {{ page.longitude }}],
     	zoom: {{ page.zoom }}
   	});
-	L.tileLayer('https://{s}.tiles.mapbox.com/v3/{{ page.basemap }}/{z}/{x}/{y}.png');
   	cartodb.createLayer(map, '{{ page.cartodbapi }}')
     	.addTo(map)
     	.on('done', function(layer) {
