@@ -173,6 +173,8 @@ prose:
               value: "orbitist.if1em1bg"
             - name: "Orbitist terrain"
               value: "orbitist.if61m31c"
+            - name: "Orbitist light"
+              value: "orbitist.ina586ah"
       - name: "tilemilltiles"
         field:
           element: "text"
