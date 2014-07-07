@@ -173,8 +173,6 @@ prose:
               value: "orbitist.if1em1bg"
             - name: "Orbitist terrain"
               value: "orbitist.if61m31c"
-            - name: "CartoDB"
-              value: "cartodb"
       - name: "tilemilltiles"
         field:
           element: "text"
