@@ -25,6 +25,10 @@
 {% if page.cartodbapi %}
 <!-- CartoDB -->
 <script>
+	 var map = new L.Map('map', {
+    	center: [0,0],
+    	zoom: 2
+  	});
 
   	cartodb.createLayer(map, '{{ page.cartodbapi }}')
     	.addTo(map)
