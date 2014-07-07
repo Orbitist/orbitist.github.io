@@ -19,16 +19,18 @@
 	<!-- Apple icon -->
 	<link rel="apple-touch-icon" sizes="152x152" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/touch-icon-ipad-retina.png">
 	
-
+	{% if page.cartodbapi %}
 	<!-- CartoDB CSS and JS -->
 	<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
 	<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
-	
+
 	<!-- Custom CartoDB CSS -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/cartodb.css">
-
+	
+	{% else %}
 	<!-- jQuery -->
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	{% endif %}
 	
 	<!-- Mapbox CSS and JS -->
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
