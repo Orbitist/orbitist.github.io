@@ -7,15 +7,6 @@
 </script>
 	
 {% if page.cartodbapi %}
-<script>
-// Replace 'examples.map-i87786ca' with your map id.
-var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/{{ page.basemap }}/{z}/{x}/{y}.png', {
-    attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
-});
-
-var map = L.map('map')
-    .addLayer(mapboxTiles);
-</script>
 
 <!-- CartoDB -->
 <script>
@@ -28,7 +19,7 @@ var map = L.map('map')
   	cartodb.createLayer(map, '{{ page.cartodbapi }}')
     	.addTo(map)
     	.on('done', function(layer) {
-        //do stuff
+        .addLayer(L.tileLayer('https://{s}.tiles.mapbox.com/v3/{{ page.basemap }}/{z}/{x}/{y}.png'););
     	})
     	.on('error', function(err) {
       	alert("some error occurred: " + err);
