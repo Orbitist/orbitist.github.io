@@ -27,7 +27,7 @@
     
     </script>
      
-     {% else %}
+     {% endif %}
 	
 <!-- Mapbox baselayer and Tilemill tiles -->
     <script>
@@ -43,7 +43,7 @@
                 maxZoom: {{ page.maxZoom }}
 		}).addTo(map);
 	</script>
-{% endif %}
+
 	
 <!-- Custom JS file -->
 	<script src="{{ page.customjs }}"></script>
