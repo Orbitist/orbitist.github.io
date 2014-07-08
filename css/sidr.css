@@ -120,6 +120,7 @@ width: 35%;
 overflow-y: scroll; /* has to be scroll, not auto */
 -webkit-overflow-scrolling: touch;
 background-color:rgba(255,255,255, 0.9);
+background-image: none;
 }
 
 @media only screen and (max-width: 768px) {
