@@ -186,6 +186,9 @@
 	height:160px !important;
 }
 
+.maki-marker {
+	z-index: 998;
+}
 
 /* Logo overlay */
 .logooverlay {
