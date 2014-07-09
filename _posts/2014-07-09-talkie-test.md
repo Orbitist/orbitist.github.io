@@ -15,8 +15,8 @@ maxZoom: "19"
 customjs: "http://orbitist.s3.amazonaws.com/2014/07-talkie-test/custom.js"
 ---
 
- <div id="controls">
-        <audio id="soundtrack" controls="controls">
-          <source src="http://orbitist.s3.amazonaws.com/2014/07-talkie-test/Talkie%20Test.ogg" type="audio/ogg">
-          <source src="http://orbitist.s3.amazonaws.com/2014/07-talkie-test/Talkie%20Test.mp3" type="audio/mpeg">
-        </audio>
+<div id="controls">
+<audio id="soundtrack" controls="controls">
+<source src="http://orbitist.s3.amazonaws.com/2014/07-talkie-test/Talkie%20Test.ogg" type="audio/ogg">
+<source src="http://orbitist.s3.amazonaws.com/2014/07-talkie-test/Talkie%20Test.mp3" type="audio/mpeg">
+</audio>
