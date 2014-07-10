@@ -11,8 +11,10 @@ latitude: "0"
 longitude: "0"
 zoom: "3"
 maxZoom: "20"
-customjs: "http://orbitist.s3.amazonaws.com/2014/05_arctic-tern/custom.js"
+customjs: ""
 image: "http://orbitist.s3.amazonaws.com/2014/05_arctic-tern/arctic_tern_cover_image.jpg"
+comments: true
+cartodbapi: "http://orbitist.cartodb.com/api/v2/viz/040ba3cc-0252-11e4-ae4c-0e230854a1cb/viz.json"
 ---
 
 {% include cvi %}[41.745, -78.42], 8{% include cvo %}
