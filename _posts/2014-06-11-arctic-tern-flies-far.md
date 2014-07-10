@@ -4,7 +4,7 @@ published: true
 title: Arctic Tern Flies...Far
 listed: false
 sponsored: false
-basemap: orbitist.if1em1bg
+basemap: orbitist.ie90k9cc
 description: Arctic Tern is awesome
 author: azaremski
 latitude: "0"
