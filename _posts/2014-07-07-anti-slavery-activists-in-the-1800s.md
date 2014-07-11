@@ -15,4 +15,6 @@ author: ngunner
 image: "http://orbitist.s3.amazonaws.com/2014/07-ugrr/ugrr.jpg"
 ---
 
-This is a new post
+This map is due to the hard work of Doug Shepard and Wendy Straight. They are super dedicated to compiling the most complete and accurate record of anti-slavery activists and Underground Railroad activities.
+
+This project is based in Fredonia, NY{% include cvi %}[42.45164467991628, -79.33897018432617], 11{% include cvo %}.
