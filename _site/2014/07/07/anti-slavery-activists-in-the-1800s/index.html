@@ -14,7 +14,7 @@
 	<meta name="twitter:creator" content="@nicholas_gunner">
 	<meta name="twitter:title" content="Anti-Slavery Activists in the 1800s">
 	<meta name="twitter:description" content="">
-	<meta name="twitter:image:src" content="">
+	<meta name="twitter:image:src" content="http://orbitist.s3.amazonaws.com/2014/07-ugrr/ugrr.jpg">
     
 	<!-- Shortcut icon -->
 	<link rel="shortcut icon" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/orbitist.png">
@@ -53,7 +53,11 @@
     	
     	<!-- D3 and talkie -->
     	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-	<script src="http://kiln.it/talkie-1.min.js" charset="utf-8"></script>
+		<script src="http://kiln.it/talkie-1.min.js" charset="utf-8"></script>
+		
+		<!-- Lightbox -->
+		<script src="/plugins/lightbox/js/lightbox.min.js"></script>
+		<link href="/plugins/lightbox/css/lightbox.css" rel="stylesheet" />
 
 	<!-- Google fonts roboto slab and Quatrocentro-->
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
@@ -87,7 +91,7 @@
 			<div class="topstorydescription"></div><!-- topstorydescription -->
 		</div><!-- topstorytext -->
 		<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
-		<img class="img-responsive" src="">
+		<img class="img-responsive" src="http://orbitist.s3.amazonaws.com/2014/07-ugrr/ugrr.jpg">
 	</div><!-- topstory -->
 	
 	<div class="sidebarcontent">
@@ -95,7 +99,13 @@
 		
       	   
  		<div class="author">By <a href="http://www.twitter.com/nicholas_gunner">Nicholas Gunner</a></div>
-		<p>This is a new post</p>
+		<p>This map is due to the hard work of Doug Shepard and Wendy Straight. They are super dedicated to compiling the most complete and accurate record of anti-slavery activists and Underground Railroad activities.</p>
+
+<p>This project is based in Fredonia, NY <i onclick="map.setView( [42.45164467991628, -79.33897018432617], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+.</p>
+
+<p>Notice all the activity in Jamestown, NY <i onclick="map.setView( [42.095165405549494, -79.23648834228516], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+.</p>
 
 	<!-- Sharers -->
 		<div class="sharers">
@@ -179,7 +189,7 @@
         		closeButton: false,
         		maxZoom: 19
     		}
-		}).setView([42.293564192170095, -79.365234375], 8);
+		}).setView([42.293564192170095, -79.365234375], 10);
 		var layer = L.mapbox.tileLayer('', {
     		detectRetina: true,
                 maxZoom: 19

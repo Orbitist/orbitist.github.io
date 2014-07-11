@@ -244,3 +244,12 @@ z-index: 3000;
 .btn-sm {
 	line-height: .8;
 }
+
+/* Lightbox */
+.lightboxOverlay {
+z-index: 9999999;
+}
+
+.lightbox {
+z-index: 99999999;
+}
