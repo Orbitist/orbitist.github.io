@@ -12,6 +12,7 @@ longitude: "-79.365234375"
 zoom: "8"
 maxZoom: "19"
 author: ngunner
+image: "http://orbitist.s3.amazonaws.com/2014/07-ugrr/ugrr.jpg"
 ---
 
 This is a new post
