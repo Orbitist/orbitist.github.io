@@ -9,7 +9,7 @@ basemap: orbitist.ina586ah
 customjs: "http://orbitist.s3.amazonaws.com/2014/07-ugrr/custom.js"
 latitude: "42.293564192170095"
 longitude: "-79.365234375"
-zoom: "8"
+zoom: "10"
 maxZoom: "19"
 author: ngunner
 image: "http://orbitist.s3.amazonaws.com/2014/07-ugrr/ugrr.jpg"
