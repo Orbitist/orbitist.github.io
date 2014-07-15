@@ -27,7 +27,7 @@ One major source for such research is the collection of Judge Elial T. Foote’s
 
 Another source is the contributions list of Underground Railroad conductor Benjamin Vincent {% include cvi %}[42.348400000000, -79.135600000000], 17{% include cvo %}, who kept a file of his neighbors who had donated clothing for refugees.
 
-Yet another source is the memoir of Underground Railroad conductor Eber Pettit {% include cvi %}[42.51880, 78.99240], 17{% include cvo %}, who named some nearby conductors and stationmasters. 
+Yet another source is the memoir of Underground Railroad conductor Eber Pettit {% include cvi %}[42.51880, -78.99240], 17{% include cvo %}, who named some nearby conductors and stationmasters. 
 
 Still another source is a list of officers and committee leaders at local meetings of the anti-slavery society. 
 
