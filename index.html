@@ -82,7 +82,7 @@ published: true
 	<div class="row">
 	
 	{% for post in site.posts limit: 4 %}
-	{% if post.listed %}
+	{% if post.listed == true %}
   		<div class="col-md-3">
     			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     		</div><!-- col-md-3 -->
