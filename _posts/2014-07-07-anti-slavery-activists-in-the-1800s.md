@@ -19,7 +19,7 @@ This map is due to the hard work of Doug Shepard and Wendy Straight. They are su
 
 This map reflects ever-expanding research based in Fredonia, NY {% include cvi %}[42.45164467991628, -79.33897018432617], 14{% include cvo %}.
 
-Accourding to Wendy:
+According to Wendy:
 
 "When conducting research into Chautauqua County’s Underground Railroad and America’s anti-slavery movement, one does not look for mythical tunnels, hidden rooms, or rings of trees.  Instead, the work is centered upon the people involved-- most of them native New Englanders and free African Americans. Together they built a vast and well populated network of activists, some working publically (above ground) and others behind the scenes (the “underground”). Some did both.
 
