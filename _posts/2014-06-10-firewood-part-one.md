@@ -16,6 +16,7 @@ image: "https://orbitist.s3.amazonaws.com/2014/06_firewood/firewood_stars_1000.j
 customjs: "https://orbitist.s3.amazonaws.com/2014/06_firewood/custom.js"
 comments: true
 description: An exploration into a classic biofuel
+cartodbapi: "http://cdb.io/1l12cVV"
 ---
 
 >_When that fat old sun in the sky is falling,  
