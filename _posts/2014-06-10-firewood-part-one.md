@@ -4,7 +4,7 @@ published: true
 title: World Woodpile
 listed: false
 sponsored: false
-basemap: orbitist.ina586ah
+basemap: orbitist.if1em1bg
 author: jpaton
 latitude: "41.063"
 longitude: "-76.553"
