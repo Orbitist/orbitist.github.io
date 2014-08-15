@@ -254,13 +254,4 @@ z-index: 9999999;
 z-index: 99999999;
 }
 
-/*Leaflet popup fix */
-.leaflet-popup-tip {
- width: 100px;
- height: 100px;
- margin: 0; 
- border-left: none; 
- border-right: none; 
- border-top: none; 
- box-shadow: none; 
-}
+
