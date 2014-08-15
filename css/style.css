@@ -256,9 +256,9 @@ z-index: 99999999;
 
 /*Leaflet popup fix */
 .leaflet-popup-tip {
- width: none;
- height: none;
- margin: none; 
+ width: 100px;
+ height: 100px;
+ margin: 0; 
  border-left: none; 
  border-right: none; 
  border-top: none; 
