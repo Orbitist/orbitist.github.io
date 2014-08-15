@@ -23,6 +23,9 @@
 	<!-- CartoDB CSS and JS -->
 	<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
 	<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+	
+	<!-- Mapbox CSS (Needed to keep styles consistent with or without CartoDB) -->
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
 
 	<!-- Custom CartoDB CSS -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/cartodb.css">
@@ -33,10 +36,10 @@
 	
 	<!-- Mapbox JS -->
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-	{% endif %}
 	
 	<!-- Mapbox CSS -->
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+	{% endif %}
 
 	<!-- Sidr CSS -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/sidr.css">
