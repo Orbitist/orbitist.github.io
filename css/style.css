@@ -257,7 +257,7 @@ z-index: 99999999;
 .leaflet-popup-tip {
 	width: 22px;
 	height: 22px;
-	margin: -11px;
-	padding-left: 16px;
-	margin-top: -22px;
+	margin: 0px;
+	padding-left: 0px;
+	margin-top: -18px;
 }
