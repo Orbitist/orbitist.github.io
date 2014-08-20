@@ -16,7 +16,7 @@ image: "https://orbitist.s3.amazonaws.com/2014/06_firewood/firewood_stars_1000.j
 customjs: "http://orbitist.s3.amazonaws.com/2014/06_firewood/custom.js"
 comments: true
 description: An exploration into a classic biofuel
-cartodbapi: "http://orbitist.cartodb.com/api/v2/viz/1fd76a62-2275-11e4-aa32-0e230854a1cb/viz.json"
+cartodbapi: ""
 ---
 
 <div id="controls"></div>
