@@ -1,0 +1,36 @@
+{% if post.style == "fluid" %}
+<a class="anchor" name="{{ post.url | replace: '/', '' }}"></a>
+<div class="piece">
+	<div class="piece-image-fluid">
+		<div class="container-fluid">
+			<div class="piece-image-fluid-caption">
+				<div class="col-md-6 col-md-offset-3">
+					<h4>{{ post.title }}</h4>
+					<p>{{ post.description }}</p>
+				</div>
+			</div>
+			<div class="crop">
+				<a href="{{ post.src }}" data-lightbox="{{ post.url | replace: '/', '' }}" data-title="{{ post.description }} {{ post.credit }}"><img class="img-responsive" data-src="{{ post.src }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)" /></a>
+			</div>
+			{% include elements/share-link.html %}
+		</div>
+	</div>
+</div><!-- piece -->
+{% else %}
+<a class="anchor" name="{{ post.url | replace: '/', '' }}"></a>
+<div class="piece">
+	<div class="piece-image">
+		<div class="container">
+			<div class="piece-image-top"></div>
+			<h4>{{ post.title }}</h4>
+			<div class="crop">
+				<a href="{{ post.src }}" data-lightbox="{{ post.url | replace: '/', '' }}" data-title="{{ post.description }} {{ post.credit }}"><img class="img-responsive" data-src="{{ post.src }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)" /></a>
+			</div>
+			<div class="col-md-8 col-md-offset-2">
+				<p>{{ post.description }}</p>
+				{% include elements/share-link.html %}
+			</div>
+		</div>
+	</div>
+</div><!-- piece -->
+{% endif %}

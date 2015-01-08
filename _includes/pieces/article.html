@@ -1,0 +1,16 @@
+<a class="anchor" name="{{ post.url | replace: '/', '' }}"></a>
+<div class="piece">
+	<div class="piece-article">
+		<div class="container">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="piece-article-content">
+					<h2>{{ post.title }}</h2>
+					{% if post.credit %}<h4><small>by {{ post.credit }}</small></h4>{% endif %}
+					{% if post.description %}<p class="lead">{{ post.description }}</p>{% endif %}
+					{{ post.content }}
+					{% include elements/share-link.html %}
+				</div><!-- piece-article-content -->
+			</div><!-- col-md-8 col-md-offset-2 -->
+		</div><!-- container -->
+	</div><!-- piece-article -->
+</div><!-- piece -->

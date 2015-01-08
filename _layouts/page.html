@@ -1,12 +1,51 @@
 ---
 layout: default
 ---
-<!-- Logo -->		
-<a id="sidr-menu" href="#sidr">
-	<img class="logooverlay" src="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
-</a>
+<script src="{{ site.baseurl }}/plugins/lazyload/lazyload.min.js"></script>
+<nav class="navbar navbar-default navbar-fixed-top">
+  	<div class="container-fluid">
+    	<div class="navbar-header">
+    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+      		</button>
+      		<a class="navbar-brand" href="http://orbitist.com">
+        		<img class="orbitist-logo" alt="Brand" src="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
+      		</a>
+    	</div>
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+			  		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="fa fa-list-ul"></span> Index <span class="caret"></span></a>
+			  		<ul class="dropdown-menu" role="menu">
+						{% for post in site.posts %}
+							{% if post.published %}
+								{% if post.piece == "article" %}
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-file-text-o"></span> {{ post.title }}</a></li>
+								{% elsif post.piece == "image" %}
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-picture-o"></span> {{ post.title }}</a></li>
+								{% elsif post.piece == "video" %}
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-camera-video"></span> {{ post.title }}</a></li>
+								{% elsif post.piece == "map" %}
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-globe"></span> {{ post.title }}</a></li>
+								{% elsif post.piece == "database" %}
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-database"></span> {{ post.title }}</a></li>
+								{% elsif post.piece == "link" %}
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-link"></span> {{ post.title }}</a></li>
+								{% elsif post.piece == "person" %}
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-user"></span> {{ post.title }}</a></li>
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+			  		</ul>
+				</li>
+		  	</ul>
+    	</div>
+  	</div>
+</nav>
 
-	{{ content }}
+<div style="margin-top:50px;"></div>
 
-<!-- jQuery needed to be specified with pages-->
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+{{ content }}

@@ -1,65 +1,5 @@
-<!-- Fastclick pluggin to remove the starttouch functionality from iphones etc -->
-<script type='application/javascript' src='{{ site.baseurl }}/plugins/fastclick/lib/fastclick.js'></script>
-<script>
-	window.addEventListener('load', function() {
-    	FastClick.attach(document.body);
-	}, false);
-</script>
-	
-{% if page.cartodbapi %}
 
-<!-- CartoDB -->
-<script>
-
-	 var map = new L.Map('map', {
-    	center: [{{ page.latitude }}, {{ page.longitude }}],
-    	zoom: {{ page.zoom }}
-  	});
-  	
-  	// add an OpenStreetMap tile layer
-	L.tileLayer('http://{s}.tiles.mapbox.com/v3/{{ page.basemap }}/{z}/{x}/{y}.png', {
-    	attribution: '&copy; <a href="http://mapbox.com">Mapbox</a>'
-	}).addTo(map);
-  	
-  	cartodb.createLayer(map, '{{ page.cartodbapi }}')
-    	.addTo(map)
-    	.on('done', function(layer) {
-    		//do stuff
-    	})
-    	.on('error', function(err) {
-      	alert("some error occurred: " + err);
-    	});
-    
-    </script>
-    
-    {% else %}
-    <!-- Mapbox baselayer and Tilemill tiles -->
-    <script>
-        var map = L.mapbox.map('map', '{{ page.basemap }}', {
-    		tileLayer: {
-        		detectRetina: true,
-        		closeButton: false,
-        		maxZoom: {{ page.maxZoom }}
-    		}
-		}).setView([{{ page.latitude }}, {{ page.longitude }}], {{ page.zoom }});
-		var layer = L.mapbox.tileLayer('{{ page.tilemilltiles }}', {
-    		detectRetina: true,
-                maxZoom: {{ page.maxZoom }}
-		}).addTo(map);
-	</script>
-     
-     {% endif %}
-
-	
-<!-- Custom JS file -->
-	<script src="{{ page.customjs }}"></script>
-
-	
-<!-- Orbitist API GeoJSON layer -->
-{% include orbitistapi_js.html %}
-
-    
-<!-- Bootstrap JS -->
+    <!-- Bootstrap JS -->
 	<script src="{{ site.baseurl }}/plugins/bootstrap/js/bootstrap.min.js"></script>
 	
 <!-- FitVids JS -->
@@ -68,58 +8,27 @@
 <!-- Fitvids variables -->
 	<script>
   $(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $('#sidepanel').fitVids();
+	$('.fitvid').fitVids();
   });
-  $(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $('.fitvid').fitVids();
-  });
-  $('.leaflet-popup-content').fitVids();
+
 	</script>
 	
-<!-- Sidr JS -->
-	<script src="{{ site.baseurl }}/plugins/sidr/jquery.sidr.min.js"></script>
-	<script>
-$(document).ready(function() {
-  $('#sidr-menu').sidr();
-});
-</script>
-
+<!-- Smooth scroll between anchors -->
 <script>
-$(document).ready(function() {
-    $('#sidr-menu').sidr({
-      name: 'sidr-left',
-      side: 'left' // By default
-    });
-    $('#maptoggle').sidr({
-      name: 'sidepanel',
-      side: 'right',
-      displace: false
-    });
-    if($(window).width() <= 580) {
-     $('.changeview').sidr({
-      name: 'sidepanel',
-      side: 'right',
-      displace: false
-    });
-    }
-});
-</script>
-	
-<!-- Tooltips -->
-<script>
-$('#maptoggle').tooltip('show')
-</script>
-
-<!-- Auto click maptoggle -->
-<script>
-    var delay=1000;//1 seconds
-    setTimeout(function(){
-  $(document).ready(function(){ 
-  $('#maptoggle').trigger('click'); 
-  });
-    },delay);
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		  var target = $(this.hash);
+		  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		  if (target.length) {
+			$('html,body').animate({
+			  scrollTop: target.offset().top
+			}, 1000);
+			return false;
+		  }
+		}
+	  });
+	});
 </script>
         
 

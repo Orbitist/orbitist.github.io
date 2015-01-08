@@ -1,0 +1,15 @@
+.navbar {
+box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+/* Logo */
+.orbitist-logo {
+width: 35px;
+border-radius: 8px;
+margin-top: -7px;
+opacity: 0.6;
+}
+
+.orbitist-logo:hover {
+opacity: 1;
+}

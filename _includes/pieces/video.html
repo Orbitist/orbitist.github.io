@@ -1,0 +1,11 @@
+<a class="anchor" name="{{ post.url | replace: '/', '' }}"></a>
+<div class="piece">
+	<div class="piece-video">
+		<div class="container thumbnail">
+			<h4><span class="fa fa-video-camera"></span> {{ post.title }}</h4>
+			<div class="fitvid">
+				<iframe src="{{ post.src }}" frameborder="0" allowfullscreen></iframe>
+			</div><!-- fitvid -->
+		</div><!-- container -->
+	</div><!-- piece-video -->
+</div><!-- piece -->

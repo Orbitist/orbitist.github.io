@@ -1,0 +1,392 @@
+/***** PIECE *****/
+a.anchor {
+display: block; 
+position: relative; 
+top: -70px;
+}
+
+.share-link {
+color: #999;
+font-size: 12px;
+text-align: center;
+padding-bottom: 5px;
+word-wrap: break-word;
+cursor: pointer;
+}
+
+.share-link:hover {
+color: black;
+}
+
+/***** PIECE ARTICLE *****/
+
+.piece-article {
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.piece-article .container {
+display: block;
+padding: 0px;
+margin-bottom: 20px;
+background-color: #fff;
+border-radius: 4px;
+box-shadow: 0 1px 2px rgba(0,0,0,0.26);
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+.piece-article-content {
+padding-bottom: 50px;
+padding-top: 50px;
+}
+
+/***** PIECE IMAGE *****/
+
+.piece-image {
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.piece-image-top {
+width: 100%;
+height: 4px;
+background-color: rgba(30,93,129,0.6);
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+
+.piece-image .container {
+display: block;
+padding: 0px;
+margin-bottom: 20px;
+background-color: #fff;
+border-radius: 4px;
+box-shadow: 0 1px 2px rgba(0,0,0,0.26);
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+.piece-image .crop {
+max-height: 500px;
+overflow: hidden;
+}
+
+.piece-image img {
+width: 100%;
+}
+
+.piece-image h4 {
+text-align: center;
+}
+
+.piece-image p {
+text-align: center;
+padding: 5px;
+font-size: 14px;
+line-height: 150%;
+padding-top: 0px;
+font-style: italic;
+}
+
+/***** PIECE IMAGE FLUID *****/
+
+.piece-image-fluid {
+}
+
+.piece-image-fluid .container-fluid {
+display: block;
+padding: 0px;
+margin-bottom: 20px;
+background-color: #fff;
+box-shadow: 0 1px 2px rgba(0,0,0,0.26);
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+.piece-image-fluid-caption {
+position: absolute;
+width: 100%;
+color: #eee;
+z-index: 15;
+padding-bottom: 30px;
+padding-top: 10px;
+}
+
+.piece-image-fluid-caption .col-md-6 {
+background-color: rgba(0,0,0,0.4);
+border-radius: 4px;
+}
+
+.piece-image-fluid-caption h4 {
+text-align: center;
+font-size: 50px;
+}
+
+@media (max-width: 768px) {
+	.piece-image-fluid-caption h4 {
+	font-size: 20px;
+	}
+}	
+
+.piece-image-fluid-caption p {
+text-align: center;
+font-size: 14px;
+line-height: 150%;
+padding-top: 0px;
+}
+
+.piece-image-fluid .share-link {
+margin-top: -27px;
+}
+
+.piece-image-fluid .crop {
+max-height: 600px;
+overflow: hidden;
+}
+
+.piece-image-fluid img {
+width: 100%;
+}
+
+/***** PIECE MAP *****/
+
+.piece-map {
+cursor: pointer;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.piece-map p{
+padding: 5px;
+font-size: 14px;
+line-height: 150%;
+padding-top: 0px;
+}
+
+.piece-map .col-md-1 {
+padding-left: 0px;
+padding-right: 0px;
+bottom: 0px;
+}
+
+.piece-map-left {
+font-size: 50px;
+text-align: center;
+vertical-align: middle;
+padding: 25px;
+background-color: rgba(30,93,129,0.6);
+border-bottom-left-radius: 4px;
+border-top-left-radius: 4px;
+height: 100%;
+}
+
+.piece-map-right {
+font-size: 50px;
+text-align: center;
+vertical-align: center;
+padding: 25px;
+height: 100%;
+}
+
+.piece-map .container {
+display: block;
+padding: 0px;
+margin-bottom: 20px;
+background-color: #fff;
+border-radius: 4px;
+box-shadow: 0 1px 2px rgba(0,0,0,0.26);
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+.piece-map .modal-lg {
+width: 90%;
+}
+
+.piece-map iframe {
+width: 100%;
+height: 650px;
+}
+
+@media (max-width: 768px) {
+	.piece-map .modal-lg {
+	width: 96%;
+	}
+	.piece-map .modal-dialog {
+	margin-top: 5px;
+	}
+	.piece-map iframe {
+		height: 470px;
+	}
+}	
+
+/***** PIECE LINK *****/
+
+.piece-link {
+cursor: pointer;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.piece-link p{
+padding: 5px;
+font-size: 14px;
+line-height: 150%;
+padding-top: 0px;
+}
+
+.piece-link a {
+color: #333;
+}
+
+.piece-link .col-md-1 {
+padding-left: 0px;
+padding-right: 0px;
+bottom: 0px;
+}
+
+.piece-link-left {
+font-size: 50px;
+text-align: center;
+vertical-align: middle;
+padding: 25px;
+background-color: rgba(241,194,137,0.6);
+border-bottom-left-radius: 4px;
+border-top-left-radius: 4px;
+height: 100%;
+}
+
+.piece-link-right {
+font-size: 50px;
+text-align: center;
+vertical-align: center;
+padding: 25px;
+height: 100%;
+}
+
+.piece-link .container {
+display: block;
+padding: 0px;
+margin-bottom: 20px;
+background-color: #fff;
+border-radius: 4px;
+box-shadow: 0 1px 2px rgba(0,0,0,0.26);
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+/***** PIECE DATABASE *****/
+
+.piece-database {
+cursor: pointer;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.piece-database p{
+padding: 5px;
+font-size: 14px;
+line-height: 150%;
+padding-top: 0px;
+}
+
+.piece-database .col-md-1 {
+padding-left: 0px;
+padding-right: 0px;
+bottom: 0px;
+}
+
+.piece-database-left {
+font-size: 50px;
+text-align: center;
+vertical-align: middle;
+padding: 25px;
+background-color: rgba(30,93,129,0.6);
+border-bottom-left-radius: 4px;
+border-top-left-radius: 4px;
+height: 100%;
+}
+
+.piece-database-right {
+font-size: 50px;
+text-align: center;
+vertical-align: center;
+padding: 25px;
+height: 100%;
+}
+
+.piece-database .container {
+display: block;
+padding: 0px;
+margin-bottom: 20px;
+background-color: #fff;
+border-radius: 4px;
+box-shadow: 0 1px 2px rgba(0,0,0,0.26);
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+.piece-database .modal-lg {
+width: 90%;
+}
+
+.piece-database iframe {
+width: 100%;
+height: 650px;
+}
+
+@media (max-width: 768px) {
+	.piece-database .modal-lg {
+	width: 96%;
+	}
+	.piece-database .modal-dialog {
+	margin-top: 5px;
+	}
+	.piece-database iframe {
+		height: 470px;
+	}
+}	
+
+/***** PIECE PERSON *****/
+
+.piece-person {
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.piece-person-top {
+width: 100%;
+height: 4px;
+background-color: rgba(241,194,137,0.6);
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+
+.piece-person .container {
+display: block;
+padding: 0px;
+margin-bottom: 20px;
+background-color: #fff;
+border-radius: 4px;
+box-shadow: 0 1px 2px rgba(0,0,0,0.26);
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+.piece-person img {
+width: 100%;
+max-width: 200px;
+}
+
+.piece-person h4 {
+text-align: center;
+}
+
+.piece-person p {
+text-align: center;
+padding: 5px;
+font-size: 14px;
+line-height: 150%;
+padding-top: 0px;
+}

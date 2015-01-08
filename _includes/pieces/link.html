@@ -1,0 +1,19 @@
+<a class="anchor" name="{{ post.url | replace: '/', '' }}"></a>
+<div class="piece">
+	<div class="piece-link">
+		<a href="{{ post.link }}" target="_blank">
+			<div class="container">
+				<div class="col-md-1 piece-link-left">
+					<span class="fa fa-link"></span>
+				</div>
+				<div class="col-md-10">
+					<h4>{{ post.title }}</h4>
+					<p>{{ post.description }}</p>
+				</div>
+				<div class="col-md-1 piece-link-right">
+					<span class="fa fa-angle-right"></span>
+				</div>
+			</div><!-- container -->
+		</a>
+	</div><!-- piece-link -->
+</div><!-- piece -->

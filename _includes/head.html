@@ -1,81 +1,30 @@
 <head>
 	<meta charset="utf-8">
-    	<title>{{ site.title }} | {{ page.title }}</title>
-    	{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    	<meta name="author" content="{{ site.author.name }}">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    	
-    	<!-- Twitter Cards -->
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@TheOrbitist">
-	{% assign author = site.authors[page.author] %}
-	<meta name="twitter:creator" content="@{{ author.twitter }}">
-	<meta name="twitter:title" content="{{ page.title }}">
-	<meta name="twitter:description" content="{{ page.description }}">
-	<meta name="twitter:image:src" content="{{ page.image }}">
+    <title>{{ site.title }} | {{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     
 	<!-- Shortcut icon -->
 	<link rel="shortcut icon" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
 	<!-- Apple icon -->
 	<link rel="apple-touch-icon" sizes="152x152" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/touch-icon-ipad-retina.png">
 	
-	{% if page.cartodbapi %}
-	<!-- CartoDB CSS and JS -->
-	<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
-	<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
-	
-	<!-- Mapbox CSS (Needed to keep styles consistent with or without CartoDB) -->
-	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
-
-	<!-- Custom CartoDB CSS -->
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/cartodb.css">
-	
-	{% else %}
 	<!-- jQuery -->
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	
-	<!-- Mapbox JS -->
-	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-	
-	<!-- Mapbox CSS -->
-	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
-	{% endif %}
-
-	<!-- Sidr CSS -->
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/sidr.css">
 
 	<!-- Font Awesome CSS -->
-    	<link rel="stylesheet" href="{{ site.baseurl }}/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/plugins/font-awesome/css/font-awesome.min.css">
     
 	<!-- Bootstrap CSS -->
-    	<link rel="stylesheet" href="{{ site.baseurl }}/plugins/bootstrap/css/bootstrap.min.css">
-    
-    	<!-- Leaflet Awesome markers CSS and JS -->
-    	<link rel="stylesheet" href="{{ site.baseurl }}/plugins/leaflet-awesome/dist/leaflet.awesome-markers.css">
-    	<script src="{{ site.baseurl }}/plugins/leaflet-awesome/dist/leaflet.awesome-markers.js"></script>
-    
-    	<!-- Leaflet Maki Markers -->
-    	<script src="{{ site.baseurl }}/plugins/leaflet-maki/Leaflet.MakiMarkers.js"></script>
-    	
-    	<!-- Leaflet Marker Cluster -->
-    	<link rel="stylesheet" href="{{ site.baseurl }}/plugins/leaflet-markercluster/dist/MarkerCluster.css">
-    	<link rel="stylesheet" href="{{ site.baseurl }}/plugins/leaflet-markercluster/dist/MarkerCluster.Default.css">
-    	<script src="{{ site.baseurl }}/plugins/leaflet-markercluster/dist/leaflet.markercluster-src.js"></script>
-    	
-<!-- Talkie -->
-<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<script src="http://kiln.it/talkie-1.min.js" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="http://kiln.it/talkie/ui/1.0/talkie.css">
-<script src="{{ site.baseurl }}/plugins/talkie/talkie-leaflet.js" charset="utf-8"></script>
-		
-		<!-- Lightbox -->
-		<script src="{{ site.baseurl }}/plugins/lightbox/js/lightbox.min.js"></script>
-		<link href="{{ site.baseurl }}/plugins/lightbox/css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/plugins/bootstrap/css/bootstrap.min.css">
 
-	<!-- Google fonts roboto slab and Quatrocentro-->
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:700' rel='stylesheet' type='text/css'>
+	<!-- Lightbox -->
+	<script src="{{ site.baseurl }}/plugins/lightbox/js/lightbox.min.js"></script>
+	<link href="{{ site.baseurl }}/plugins/lightbox/css/lightbox.css" rel="stylesheet" />
 
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+	<!-- Orbitist CSS -->
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/navbar.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/pieces.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/top_level.css">
 </head>
