@@ -1,0 +1,26 @@
+---
+layout: page
+title: The Underground Railroad
+description: New research reveals hundreds of untold stories from this importand time in american history.
+---
+
+{% for post in site.posts %}
+	{% if post.published %}
+		{% if post.piece == "article" %}
+			{% include pieces/article.html %}
+		{% elsif post.piece == "image" %}
+			{% include pieces/image.html %}
+		{% elsif post.piece == "video" %}
+			{% include pieces/video.html %}
+		{% elsif post.piece == "map" %}
+			{% include pieces/map.html %}
+		{% elsif post.piece == "database" %}
+			{% include pieces/database.html %}
+		{% elsif post.piece == "link" %}
+			{% include pieces/link.html %}
+		{% elsif post.piece == "person" %}
+			{% include pieces/person.html %}
+		{% endif %}
+	{% endif %}
+{% endfor %}
+
