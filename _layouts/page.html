@@ -18,30 +18,6 @@ layout: default
     	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#" data-toggle="modal" data-target=".newsletter">Newsletter</a></li>
-				<li class="dropdown">
-			  		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="fa fa-list-ul"></span> Index <span class="caret"></span></a>
-			  		<ul class="dropdown-menu" role="menu">
-						{% for post in site.posts %}
-							{% if post.published %}
-								{% if post.piece == "article" %}
-									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-file-text-o"></span> {{ post.title }}</a></li>
-								{% elsif post.piece == "image" %}
-									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-picture-o"></span> {{ post.title }}</a></li>
-								{% elsif post.piece == "video" %}
-									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-camera-video"></span> {{ post.title }}</a></li>
-								{% elsif post.piece == "map" %}
-									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-globe"></span> {{ post.title }}</a></li>
-								{% elsif post.piece == "database" %}
-									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-database"></span> {{ post.title }}</a></li>
-								{% elsif post.piece == "link" %}
-									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-link"></span> {{ post.title }}</a></li>
-								{% elsif post.piece == "person" %}
-									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-user"></span> {{ post.title }}</a></li>
-								{% endif %}
-							{% endif %}
-						{% endfor %}
-			  		</ul>
-				</li>
 		  	</ul>
     	</div>
   	</div>
