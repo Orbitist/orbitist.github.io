@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+    	<title>Orbitist | Fredonia's Forever Wild Forest</title>
+    	<meta name="description" content="Details about forever wild at Fredonia">
+    	<meta name="author" content="Orbitist Support">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    	
+    	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@TheOrbitist">
+	
+	<meta name="twitter:creator" content="@nicholas_gunner">
+	<meta name="twitter:title" content="Fredonia's Forever Wild Forest">
+	<meta name="twitter:description" content="Details about forever wild at Fredonia">
+	<meta name="twitter:image:src" content="http://orbitist.s3.amazonaws.com/2014/06-forever-wild-forest/story_cover.jpg">
+    
+	<!-- Shortcut icon -->
+	<link rel="shortcut icon" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/orbitist.png">
+	<!-- Apple icon -->
+	<link rel="apple-touch-icon" sizes="152x152" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/touch-icon-ipad-retina.png">
+	
+	
+	<!-- jQuery -->
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	
+	<!-- Mapbox CSS and JS -->
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+	
+
+	<!-- Sidr CSS -->
+	<link rel="stylesheet" href="/css/sidr.css">
+
+	<!-- Font Awesome CSS -->
+    	<link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
+    
+	<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+    
+    	<!-- Leaflet Awesome markers CSS and JS -->
+    	<link rel="stylesheet" href="/plugins/leaflet-awesome/dist/leaflet.awesome-markers.css">
+    	<script src="/plugins/leaflet-awesome/dist/leaflet.awesome-markers.js"></script>
+    
+    	<!-- Leaflet Maki Markers -->
+    	<script src="/plugins/leaflet-maki/Leaflet.MakiMarkers.js"></script>
+    	
+    	<!-- Leaflet Marker Cluster -->
+    	<link rel="stylesheet" href="/plugins/leaflet-markercluster/dist/MarkerCluster.css">
+    	<link rel="stylesheet" href="/plugins/leaflet-markercluster/dist/MarkerCluster.Default.css">
+    	<script src="/plugins/leaflet-markercluster/dist/leaflet.markercluster-src.js"></script>
+    	
+    	<!-- D3 and talkie -->
+    	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="http://kiln.it/talkie-1.min.js" charset="utf-8"></script>
+		
+		<!-- Lightbox -->
+		<script src="/plugins/lightbox/js/lightbox.min.js"></script>
+		<link href="/plugins/lightbox/css/lightbox.css" rel="stylesheet" />
+
+	<!-- Google fonts roboto slab and Quatrocentro-->
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:700' rel='stylesheet' type='text/css'>
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+
+	<body>
+
+		
+		<!-- Logo -->	
+<a id="sidr-menu" href="#sidr">
+	<img class="logooverlay" src="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
+</a>
+
+
+<!-- Maptoggle -->
+<button type="button" id="maptoggle" class="btn btn-default maptoggle" data-toggle="tooltip" title="Toggle story" data-placement="left"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
+
+<!-- map -->
+<div class="map" id="map"></div>
+
+<!-- Sidepanel -->
+<div id="sidepanel">
+	<div class="topstory">
+		<div class="topstorytext">
+			
+			<div class="topstorytitle">Fredonia's Forever Wild Forest</div><!-- topstorytitle -->
+			<div class="topstorydescription">Details about forever wild at Fredonia</div><!-- topstorydescription -->
+		</div><!-- topstorytext -->
+		<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
+		<img class="img-responsive" src="http://orbitist.s3.amazonaws.com/2014/06-forever-wild-forest/story_cover.jpg">
+	</div><!-- topstory -->
+	
+	<div class="sidebarcontent">
+		<!-- Author by line -->
+		
+      	   
+ 		<div class="author">By <a href="http://www.twitter.com/nicholas_gunner">Nicholas Gunner</a></div>
+		<p>At Fredonia, we take pride in the beauty of our campus. One area that is often overlooked is our woodlot, affectionately called the ‘Forever Wild Forest’.</p>
+
+<p>Take a closer look by clicking here: <i onclick="map.setView( [42.45491, -79.33820], 17, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i></p>
+
+<p>There are four main trails in the Forever Wild forest:</p>
+
+<p><strong>The North Trail</strong> <i onclick="map.setView( [42.45596, -79.33994], 18, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+ is .23 miles long.</p>
+
+<p><strong>The Central Trail</strong> <i onclick="map.setView( [42.45542, -79.33825], 18, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+ is .30 miles long.</p>
+
+<p><strong>The Eastern Trail</strong> <i onclick="map.setView( [42.45463, -79.33703], 18, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+ is .13 miles long.</p>
+
+<p><strong>The Southern Trail</strong> <i onclick="map.setView( [42.45412, -79.33786], 18, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+ is .24 miles long.</p>
+
+<p>In total there are just over a half mile of wooded trails in the Forever Wild Forest and can be connected to make a much longer circuit.</p>
+
+	<!-- Sharers -->
+		<div class="sharers">
+			<a href="http://twitter.com/share?url=/2014/06/11/fredonia-s-forever-wild-forest&text=Fredonia's Forever Wild Forest" target="_blank"><span class="fa fa-twitter"></span></a>&nbsp;<a href="http://www.facebook.com/sharer.php?u=/2014/06/11/fredonia-s-forever-wild-forest" target="_blank""><span class="fa fa-facebook-square"></span></a>
+		</div>
+	<!-- Sources -->
+		
+	<!-- Author block -->
+      	   
+ 		<div class="authorblock">
+ 			<table>
+ 				<tr>
+ 					<td>
+      						<img style="width:75px; height:75px;" src="http://orbitist.s3.amazonaws.com/_toplevel/images/profile-images/ngunner.jpg" class="img-circle">
+    					</td>
+    					<td>
+    						<h4>Nicholas Gunner<br><small><a href="http://www.twitter.com/nicholas_gunner">@nicholas_gunner</a></small></h4>
+    					</td>
+    				</tr>
+    			</table>
+		</div><!-- authorblock -->
+		
+	</div><!-- sidebarcontent -->
+</div><!-- sidepanel -->
+
+
+
+		
+<!-- Sidr -->		
+<div id="sidr">
+  <a href="/"><div class="orbitist">ORBITIST</div></a>
+  <ul>
+  	
+  	
+    
+  	
+    
+  	
+    
+  	
+    
+  	
+    
+  	
+    
+  	
+    
+  	
+    
+  	
+    
+  	
+  	
+    <li><a href="/2014/05/13/about-orbitist">About Orbitist</a></li>
+    
+    
+  </ul>
+  <div class="footerlinks">
+  <a href="/2014/05/13/about-orbitist/">About</a> | <a href="/pages/contact.html">Contact</a> | <a href="/pages/help.html">Help</a><br>
+  <p><a href="http://api.orbitist.com">Log in</a></p>
+  <p><a href="http://www.twitter.com/theorbitist"><span class="fa fa-twitter"></a></span>&nbsp;<a href="https://www.facebook.com/Orbitist"><span class="fa fa-facebook"></span></a></p>
+  &copy; Orbitist
+  </div><!-- footerlinks -->
+</div><!-- sidr -->
+
+		
+		<!-- Fastclick pluggin to remove the starttouch functionality from iphones etc -->
+<script type='application/javascript' src='/plugins/fastclick/lib/fastclick.js'></script>
+<script>
+	window.addEventListener('load', function() {
+    	FastClick.attach(document.body);
+	}, false);
+</script>
+	
+
+    <!-- Mapbox baselayer and Tilemill tiles -->
+    <script>
+        var map = L.mapbox.map('map', 'orbitist.ie90k9cc', {
+    		tileLayer: {
+        		detectRetina: true,
+        		closeButton: false,
+        		maxZoom: 18
+    		}
+		}).setView([42.454, -79.338], 16);
+		var layer = L.mapbox.tileLayer('orbitist.foreverwild', {
+    		detectRetina: true,
+                maxZoom: 18
+		}).addTo(map);
+	</script>
+     
+     
+
+	
+<!-- Custom JS file -->
+	<script src="http://orbitist.s3.amazonaws.com/2014/06-forever-wild-forest/custom.js"></script>
+
+	
+<!-- Orbitist API GeoJSON layer -->
+<script>
+    // Orbitist api pulled in
+var orbitistApiGeoJson = {"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.339556812307,42.455991635375]},"properties":{"name":"Forever Wild interior looking down the central trail","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_11.jpg?itok=tNpCYCu6\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EThese trails are wonderful for hiking, mountain biking, and cross-country skiing.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":30,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_11.jpg?itok=tNpCYCu6\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E","field_sources":30,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.340693659071,42.455835643382]},"properties":{"name":"Looking out from the Forever Wild North Trail","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_10.jpg?itok=A5PCPkSH\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EIn the background you can see the Blue Devil athletic stadium, Steele Hall and the Rockefeller Arts Center.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":29,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_10.jpg?itok=A5PCPkSH\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E","field_sources":29,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.340534532422,42.455635447622]},"properties":{"name":"Forever Wild Northwestern entrance looking northwest","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_9.jpg?itok=1tRx-mo3\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EYou can see the new dormitories in the background.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":28,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_9.jpg?itok=1tRx-mo3\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E","field_sources":28,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.338267494399,42.45629358228]},"properties":{"name":"Forever Wild Northeastern entrance","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_8.jpg?itok=68Cm8cZN\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EYou can see the services complex in the background.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":27,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_8.jpg?itok=68Cm8cZN\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E","field_sources":27,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.338236510413,42.455534147759]},"properties":{"name":"Forever Wild interior","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_7.jpg?itok=2BKS3PB9\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EThis is in the interior of the Forever Wild Forest looking west down the Central trail.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":26,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_7.jpg?itok=2BKS3PB9\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E","field_sources":26,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.336991081266,42.454964558392]},"properties":{"name":"Looking at the Forever Wild East entrance","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_6.jpg?itok=wd_u_mWQ\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003ERing road can be seen on the right curving north and to the west.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":25,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_6.jpg?itok=wd_u_mWQ\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E","field_sources":25,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.336724029907,42.454372762921]},"properties":{"name":"Forever Wild Southeastern entrance facing south","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_5.jpg?itok=ONBQO20t\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EYou can see the clock tower and Maytum Hall in the background.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":24,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_5.jpg?itok=ONBQO20t\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E","field_sources":24,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.33678303132,42.454337136072]},"properties":{"name":"Forever Wild Southeastern entrance","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_4.jpg?itok=3Jj_rV8b\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EThis photo was taken from the ring road sidewalk.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":23,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_4.jpg?itok=3Jj_rV8b\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E","field_sources":23,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.339415046271,42.454465410691]},"properties":{"name":"Forever Wild Southwestern entrance","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_3.jpg?itok=QgVWkVhK\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EThe trail starts at the bottom of this hill.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":22,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_3.jpg?itok=QgVWkVhK\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E","field_sources":22,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.339515634549,42.454269937449]},"properties":{"name":"No Mow Zone boundary","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_2.jpg?itok=x0s_2QK2\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EYou can see a straight boundary between Fredonia\u0027s mowed fields and the \u0027No Mow Zone\u0027.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":21,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_2.jpg?itok=x0s_2QK2\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E","field_sources":21,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.33947453706,42.454216489122]},"properties":{"name":"No Mow Zone Sign","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_1.jpg?itok=P507mJQ9\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EThere are several bird feeders marking the boundary of Fredonia\u0027s \u0027No Mow Zone\u0027, an area being preserved for wildlife.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":20,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild_1.jpg?itok=P507mJQ9\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E","field_sources":20,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.33959251833,42.454201620271]},"properties":{"name":"Forever Wild South Trail entrance looking toward campus","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild.jpg?itok=2rJNOZ8U\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E\n\u003Cp\u003EYou can see the Rockefeller Arts Center in the background.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":19,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/forever_wild.jpg?itok=2rJNOZ8U\u0022 width=\u0022600\u0022 height=\u0022450\u0022 alt=\u0022\u0022 \/\u003E","field_sources":19,"field_sources_rendered":null}}]};
+  
+var orbitistIcon = L.MakiMarkers.icon({
+    icon: "circle",
+    color: "#2675a2",
+    size: "m"
+});
+
+function orbitistApiPopup(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.name) {
+        layer.bindPopup('<h1>' + feature.properties.name + '</h1><p>' + feature.properties.description + '</p>', {closeButton: false});
+    }
+}
+
+L.geoJson(orbitistApiGeoJson, {
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {icon: orbitistIcon});
+    },
+    onEachFeature: orbitistApiPopup
+}).addTo(map);
+
+
+</script>
+
+
+
+    
+<!-- Bootstrap JS -->
+	<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+	
+<!-- FitVids JS -->
+	<script src="/plugins/fitvids/jquery.fitvids.js"></script>
+	
+<!-- Fitvids variables -->
+	<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $('#sidepanel').fitVids();
+  });
+  
+  $('.leaflet-popup-content').fitVids();
+	</script>
+	
+<!-- Sidr JS -->
+	<script src="/plugins/sidr/jquery.sidr.min.js"></script>
+	<script>
+$(document).ready(function() {
+  $('#sidr-menu').sidr();
+});
+</script>
+
+<script>
+$(document).ready(function() {
+    $('#sidr-menu').sidr({
+      name: 'sidr-left',
+      side: 'left' // By default
+    });
+    $('#maptoggle').sidr({
+      name: 'sidepanel',
+      side: 'right',
+      displace: false
+    });
+    if($(window).width() <= 580) {
+     $('.changeview').sidr({
+      name: 'sidepanel',
+      side: 'right',
+      displace: false
+    });
+    }
+});
+</script>
+	
+<!-- Tooltips -->
+<script>
+$('#maptoggle').tooltip('show')
+</script>
+
+<!-- Auto click maptoggle -->
+<script>
+    var delay=1000;//1 seconds
+    setTimeout(function(){
+  $(document).ready(function(){ 
+  $('#maptoggle').trigger('click'); 
+  });
+    },delay);
+</script>
+        
+
+<!-- Google Analytics -->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50308061-1', 'orbitist.com');
+  ga('send', 'pageview');
+
+	</script>
+
+	</body>
+</html>

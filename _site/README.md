@@ -1,4 +1,4 @@
-Underground Railroad Map - Orbitist.com
+Orbitist.com
 ==================
 ### We tell stories on maps!
 

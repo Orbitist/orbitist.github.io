@@ -1,0 +1,21 @@
+/* Mods to CartoDB CSS */
+
+div.cartodb-zoom {
+	position: fixed;
+	bottom: 10px;
+	left: 1px;
+	z-index: 1000001;
+	margin-left: 10px;
+}
+
+div.cartodb-logo img {
+margin-left: 50px;
+}
+
+.leaflet-popup-tip {
+	width: 22px;
+	height: 22px;
+	margin: 0px;
+	padding-left: 0px;
+	margin-top: -18px;
+}

@@ -1,0 +1,31 @@
+---
+layout: page
+title: Home
+description: Mapping the Universe.
+---
+<div class="topview">
+	<div class="topoverlay">
+	</div><!-- topoverlay -->
+	<div class="toptitle">
+		<div class="orbitist">ORBITIST</div>
+	</div><!-- toptitle -->
+<img class="img-responsive" src="http://orbitist.s3.amazonaws.com/2014/05_arctic-tern/Arctic_tern_wings_spread2.jpg">
+</div><!-- topview -->
+
+<div class="container">
+	<div class="col-md-8 col-md-offset-2">
+		<hr>
+		{% for post in site.posts limit: 10 %}
+		{% if post.listed %}
+		{% if post.sponsored %}
+		<div class="sponsored">
+		<span class="fa fa-compass"></span> Sponsored map:
+		</div><!-- sponsored -->
+		{% endif %}
+		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		<p class="lead">{{ post.description }}</p>
+		<hr>
+		{% endif %}
+		{% endfor %}
+	</div><!-- col-md-6 -->
+</div><!-- container -->

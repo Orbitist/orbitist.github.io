@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+    	<title>Orbitist | Plastics in the Great Lakes</title>
+    	<meta name="description" content="A survey of plastic in the great lakes.">
+    	<meta name="author" content="Orbitist Support">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    	
+    	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@TheOrbitist">
+	
+	<meta name="twitter:creator" content="@nicholas_gunner">
+	<meta name="twitter:title" content="Plastics in the Great Lakes">
+	<meta name="twitter:description" content="A survey of plastic in the great lakes.">
+	<meta name="twitter:image:src" content="http://orbitist.s3.amazonaws.com/2014/06-great-lakes-plastics/plastic-feature-image.jpg">
+    
+	<!-- Shortcut icon -->
+	<link rel="shortcut icon" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/orbitist.png">
+	<!-- Apple icon -->
+	<link rel="apple-touch-icon" sizes="152x152" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/touch-icon-ipad-retina.png">
+	
+	
+	<!-- CartoDB CSS and JS -->
+	<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+	<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+
+	<!-- Custom CartoDB CSS -->
+	<link rel="stylesheet" href="/css/cartodb.css">
+	
+	
+
+	<!-- Sidr CSS -->
+	<link rel="stylesheet" href="/css/sidr.css">
+
+	<!-- Font Awesome CSS -->
+    	<link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
+    
+	<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+    
+    	<!-- Leaflet Awesome markers CSS and JS -->
+    	<link rel="stylesheet" href="/plugins/leaflet-awesome/dist/leaflet.awesome-markers.css">
+    	<script src="/plugins/leaflet-awesome/dist/leaflet.awesome-markers.js"></script>
+    
+    	<!-- Leaflet Maki Markers -->
+    	<script src="/plugins/leaflet-maki/Leaflet.MakiMarkers.js"></script>
+    	
+    	<!-- Leaflet Marker Cluster -->
+    	<link rel="stylesheet" href="/plugins/leaflet-markercluster/dist/MarkerCluster.css">
+    	<link rel="stylesheet" href="/plugins/leaflet-markercluster/dist/MarkerCluster.Default.css">
+    	<script src="/plugins/leaflet-markercluster/dist/leaflet.markercluster-src.js"></script>
+    	
+    	<!-- D3 and talkie -->
+    	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="http://kiln.it/talkie-1.min.js" charset="utf-8"></script>
+		
+		<!-- Lightbox -->
+		<script src="/plugins/lightbox/js/lightbox.min.js"></script>
+		<link href="/plugins/lightbox/css/lightbox.css" rel="stylesheet" />
+
+	<!-- Google fonts roboto slab and Quatrocentro-->
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:700' rel='stylesheet' type='text/css'>
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+
+	<body>
+
+		
+		<!-- Logo -->	
+<a id="sidr-menu" href="#sidr">
+	<img class="logooverlay" src="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
+</a>
+
+
+<!-- Maptoggle -->
+<button type="button" id="maptoggle" class="btn btn-default maptoggle" data-toggle="tooltip" title="Toggle story" data-placement="left"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
+
+<!-- map -->
+<div class="map" id="map"></div>
+
+<!-- Sidepanel -->
+<div id="sidepanel">
+	<div class="topstory">
+		<div class="topstorytext">
+			
+			<div class="topstorytitle">Plastics in the Great Lakes</div><!-- topstorytitle -->
+			<div class="topstorydescription">A survey of plastic in the great lakes.</div><!-- topstorydescription -->
+		</div><!-- topstorytext -->
+		<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
+		<img class="img-responsive" src="http://orbitist.s3.amazonaws.com/2014/06-great-lakes-plastics/plastic-feature-image.jpg">
+	</div><!-- topstory -->
+	
+	<div class="sidebarcontent">
+		<!-- Author by line -->
+		
+      	   
+ 		<div class="author">By <a href="http://www.twitter.com/nicholas_gunner">Nicholas Gunner</a></div>
+		<p>This is a working map of data collected by Sherri Mason of the state university of New York at Fredonia. <i onclick="map.setView( [42.870174,-78.877876], 16, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i></p>
+
+	<!-- Sharers -->
+		<div class="sharers">
+			<a href="http://twitter.com/share?url=/2014/06/20/plastics-in-the-great-lakes&text=Plastics in the Great Lakes" target="_blank"><span class="fa fa-twitter"></span></a>&nbsp;<a href="http://www.facebook.com/sharer.php?u=/2014/06/20/plastics-in-the-great-lakes" target="_blank""><span class="fa fa-facebook-square"></span></a>
+		</div>
+	<!-- Sources -->
+		
+	<!-- Author block -->
+      	   
+ 		<div class="authorblock">
+ 			<table>
+ 				<tr>
+ 					<td>
+      						<img style="width:75px; height:75px;" src="http://orbitist.s3.amazonaws.com/_toplevel/images/profile-images/ngunner.jpg" class="img-circle">
+    					</td>
+    					<td>
+    						<h4>Nicholas Gunner<br><small><a href="http://www.twitter.com/nicholas_gunner">@nicholas_gunner</a></small></h4>
+    					</td>
+    				</tr>
+    			</table>
+		</div><!-- authorblock -->
+		
+	</div><!-- sidebarcontent -->
+</div><!-- sidepanel -->
+
+
+
+		
+<!-- Sidr -->		
+<div id="sidr">
+  <a href="/"><div class="orbitist">ORBITIST</div></a>
+  <ul>
+  	
+  	
+    
+  	
+    
+  	
+    
+  	
+    
+  	
+    
+  	
+    
+  	
+    
+  	
+    
+  	
+    
+  	
+  	
+    <li><a href="/2014/05/13/about-orbitist">About Orbitist</a></li>
+    
+    
+  </ul>
+  <div class="footerlinks">
+  <a href="/2014/05/13/about-orbitist/">About</a> | <a href="/pages/contact.html">Contact</a> | <a href="/pages/help.html">Help</a><br>
+  <p><a href="http://api.orbitist.com">Log in</a></p>
+  <p><a href="http://www.twitter.com/theorbitist"><span class="fa fa-twitter"></a></span>&nbsp;<a href="https://www.facebook.com/Orbitist"><span class="fa fa-facebook"></span></a></p>
+  &copy; Orbitist
+  </div><!-- footerlinks -->
+</div><!-- sidr -->
+
+		
+		<!-- Fastclick pluggin to remove the starttouch functionality from iphones etc -->
+<script type='application/javascript' src='/plugins/fastclick/lib/fastclick.js'></script>
+<script>
+	window.addEventListener('load', function() {
+    	FastClick.attach(document.body);
+	}, false);
+</script>
+	
+
+
+<!-- CartoDB -->
+<script>
+
+	 var map = new L.Map('map', {
+    	center: [45.398, -82.266],
+    	zoom: 5
+  	});
+  	
+  	// add an OpenStreetMap tile layer
+	L.tileLayer('http://{s}.tiles.mapbox.com/v3/orbitist.ina586ah/{z}/{x}/{y}.png', {
+    	attribution: '&copy; <a href="http://mapbox.com">Mapbox</a>'
+	}).addTo(map);
+  	
+  	cartodb.createLayer(map, 'http://orbitist.cartodb.com/api/v2/viz/082f6fa0-02c6-11e4-8296-0e73339ffa50/viz.json')
+    	.addTo(map)
+    	.on('done', function(layer) {
+    		//do stuff
+    	})
+    	.on('error', function(err) {
+      	alert("some error occurred: " + err);
+    	});
+    
+    </script>
+    
+    
+
+	
+<!-- Custom JS file -->
+	<script src=""></script>
+
+	
+<!-- Orbitist API GeoJSON layer -->
+<script>
+    // Orbitist api pulled in
+var orbitistApiGeoJson = {"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.8844287,42.8787901]},"properties":{"name":"Erie Basin Marina","description":"\n\n\u003Cp\u003EThe Erie Basin Marina was built using slag from \u003Ca href=\u0022https:\/\/buffalostreets.wordpress.com\/tag\/erie-basin-marina\/\u0022 target=\u0022_blank\u0022\u003EBethlehem Steel\u003C\/a\u003E and opened in 1974, as noted at the Buffalo Streets website. Looking at the marina from the air reveals the outline forms an image of a buffalo.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":49,"field_image_rendered":null,"field_video":49,"field_video_rendered":null,"field_sources":49,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.863425262477,42.861998918238]},"properties":{"name":"Silo City","description":"\n\n\u003Cp\u003EThese abandoned grain elevators are affectionately called \u0022Silo-City\u0022.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":48,"field_image_rendered":null,"field_video":48,"field_video_rendered":null,"field_sources":48,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.879089363123,42.876687449115]},"properties":{"name":"Buffalo\u0026#039;s Water Front","description":"\n\n\u003Cp\u003EBuffalo\u0027s Waterfront has seen a lot of development in recent years including a new harbor center.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":47,"field_image_rendered":null,"field_video":47,"field_video_rendered":null,"field_sources":47,"field_sources_rendered":null}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.876986796859,42.871544090013]},"properties":{"name":"General Mills","description":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/IMG_0442.JPG?itok=kwIi0Cxz\u0022 width=\u0022600\u0022 height=\u0022400\u0022 alt=\u0022\u0022 \/\u003E\n\n\u003Cp\u003EThe scent of Cheerios cereal often wafts across Buffalo, coming from the General Mills plant. The company owns one of the few remaining active grain processing facilities in the region.\u003C\/p\u003E\n\n\u003Csmall\u003E\u003C\/small\u003E","field_image":39,"field_image_rendered":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/api.orbitist.com\/sites\/default\/files\/styles\/retina_600\/public\/images\/IMG_0442.JPG?itok=kwIi0Cxz\u0022 width=\u0022600\u0022 height=\u0022400\u0022 alt=\u0022\u0022 \/\u003E","field_video":39,"field_video_rendered":null,"field_sources":39,"field_sources_rendered":null}}]};
+  
+var orbitistIcon = L.MakiMarkers.icon({
+    icon: "circle",
+    color: "#2675a2",
+    size: "m"
+});
+
+function orbitistApiPopup(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.name) {
+        layer.bindPopup('<h1>' + feature.properties.name + '</h1><p>' + feature.properties.description + '</p>', {closeButton: false});
+    }
+}
+
+L.geoJson(orbitistApiGeoJson, {
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {icon: orbitistIcon});
+    },
+    onEachFeature: orbitistApiPopup
+}).addTo(map);
+
+
+</script>
+
+
+
+    
+<!-- Bootstrap JS -->
+	<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+	
+<!-- FitVids JS -->
+	<script src="/plugins/fitvids/jquery.fitvids.js"></script>
+	
+<!-- Fitvids variables -->
+	<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $('#sidepanel').fitVids();
+  });
+  
+  $('.leaflet-popup-content').fitVids();
+	</script>
+	
+<!-- Sidr JS -->
+	<script src="/plugins/sidr/jquery.sidr.min.js"></script>
+	<script>
+$(document).ready(function() {
+  $('#sidr-menu').sidr();
+});
+</script>
+
+<script>
+$(document).ready(function() {
+    $('#sidr-menu').sidr({
+      name: 'sidr-left',
+      side: 'left' // By default
+    });
+    $('#maptoggle').sidr({
+      name: 'sidepanel',
+      side: 'right',
+      displace: false
+    });
+    if($(window).width() <= 580) {
+     $('.changeview').sidr({
+      name: 'sidepanel',
+      side: 'right',
+      displace: false
+    });
+    }
+});
+</script>
+	
+<!-- Tooltips -->
+<script>
+$('#maptoggle').tooltip('show')
+</script>
+
+<!-- Auto click maptoggle -->
+<script>
+    var delay=1000;//1 seconds
+    setTimeout(function(){
+  $(document).ready(function(){ 
+  $('#maptoggle').trigger('click'); 
+  });
+    },delay);
+</script>
+        
+
+<!-- Google Analytics -->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50308061-1', 'orbitist.com');
+  ga('send', 'pageview');
+
+	</script>
+
+	</body>
+</html>

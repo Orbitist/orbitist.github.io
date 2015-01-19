@@ -1,0 +1,255 @@
+/* Top level CSS */
+	body {
+	padding: 0;
+    margin: 0;
+	}
+
+	html, body, #map {
+	height: 100%;
+	}
+	
+	img {
+		max-width: 100%;
+	}
+
+
+/* Typography */
+	p {
+	font-size: 18px;
+	font-family: 'Roboto Slab', serif;
+	color: #333332;
+	line-height: 1.4;
+	}
+
+	p.lead {
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	}
+	
+	h2 {
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;	
+	}
+	h3 {
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	}
+	
+	.orbitist {
+		font-family: 'Quattrocento Sans', sans-serif;
+		font-size: 32px;
+		color: #f1c289;
+	}
+	.sidr .orbitist {
+		font-family: 'Quattrocento Sans', sans-serif;
+		font-size: 32px;
+		color: #f1c289;
+		margin-left: 10px;
+	}
+	
+	
+	
+	
+	
+	
+/* Top story*/
+
+	.topstory {
+	position: relative;
+	max-height: 500px;
+	width: 100%;
+	overflow: hidden;
+	}
+
+	.topstory img{
+	width: 100%;
+	}
+	
+	.topstoryoverlay {
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	}
+	 
+	.topstorytext {
+	position: absolute;
+	z-index: 1000;
+	color: white;
+	margin: 10px;
+	top: 70%;
+	}
+	
+	.topstorytitle {
+		font-family: 'Quattrocento Sans', sans-serif;
+		text-transform:uppercase;
+		font-weight: 700;
+		font-size: 26px;
+		line-height: 0.8;
+	}
+	
+	.topstorydescription {
+		font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-size: 18px;
+	}
+	
+@media only screen and (max-width: 480px) {
+	.topstorytext {
+	position: absolute;
+	z-index: 1000;
+	color: white;
+	margin: 10px;
+	top: 70%;
+	}
+	
+	.topstorytitle {
+		font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 0.8;
+	}
+	
+	.topstorydescription {
+		font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-size: 14px;
+	}
+	
+}
+	
+/* Story Styles */
+	.sidebarcontent {
+	padding: 15px;
+	}
+
+	.author {
+		font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+
+	.authorblock {
+		margin-top: 10px;
+	}
+
+	.authorblock td {
+		padding: 5px;
+	}
+	
+	.sharers {
+		font-size: 30px;
+		text-align: center;
+	}
+	
+	.sharers a{
+		color: grey;
+	}
+	
+
+	
+/* Sources block */
+	.sources {
+		background-color: #F0F8FF;
+	}
+
+/* Map toggle */
+	.maptoggle {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 1000000;
+	font-size: 20px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+/* Leaflet overrides */
+.leaflet-control-zoom {
+	position: fixed;
+	bottom: 10px;
+	left: 1px;
+}
+
+.leaflet-popup-content-wrapper {
+	max-height: 300px;
+  	overflow-y: scroll; /* has to be scroll, not auto */
+  	-webkit-overflow-scrolling: touch;
+  	margin-top: 60px;
+}
+
+.leaflet-popup-content img {
+	width: 100%;
+	height: auto;
+}
+
+.media-youtube-player {
+	width:280px !important;
+	height:160px !important;
+}
+
+.maki-marker {
+	z-index: 998;
+}
+
+/* Logo overlay */
+.logooverlay {
+	position: absolute;
+	z-index: 1000001;
+	left:1px;
+	margin: 10px;
+	height: 45px;
+	width: 45px;
+}
+
+/* Top view */
+.topview {
+position: relative;
+max-height: 400px;
+width: 100%;
+overflow: hidden;
+}
+
+.topview img{
+width: 100%;
+}
+
+.topoverlay {
+background: rgba(0,0,0,0.3);
+position: absolute;
+width: 100%;
+height: 100%;
+}
+
+.toptitle {
+position: absolute;
+font-size: 45px;
+color: white;
+font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+width: 100%;
+text-align: center;
+top: 50%;
+}
+
+/* Sponsored Stories */
+.sponsored {
+color: #FF9933;
+margin-bottom: -20px;
+}
+
+.sponsoredpage {
+color: #FF9933;
+z-index: 3000;
+}
+
+
+.btn-sm {
+	line-height: .8;
+}
+
+/* Lightbox */
+.lightboxOverlay {
+z-index: 9999999;
+}
+
+.lightbox {
+z-index: 99999999;
+}
