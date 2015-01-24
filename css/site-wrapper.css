@@ -83,6 +83,8 @@ color: rgba(241,194,137,1);
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+  position: fixed;
+  bottom: 0;
 }
 
 
@@ -94,12 +96,9 @@ color: rgba(241,194,137,1);
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
-    top: 0;
+    top: 50;
   }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
+
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
@@ -118,4 +117,10 @@ color: rgba(241,194,137,1);
   .cover-container {
     width: 700px;
   }
+}
+
+@media (max-width: 768px) {
+	.cover-heading {
+	padding-top: 50px;
+	}
 }
