@@ -17,6 +17,8 @@ padding-top: 2px;
 padding-bottom: 0px;
 }
 
+
+
 /* Navbar overrides */
 .navbar {
 background-color: rgba(0,0,0,0);
@@ -35,4 +37,11 @@ color: #fff;
 }
 .navbar-default .navbar-brand:hover {
 color: #fff;
+}
+
+@media (max-width: 768px) {
+	.navbar {
+	background-color: rgba(0,0,0,0.6);
+	border-color: rgba(0,0,0,0.6);
+	}
 }
