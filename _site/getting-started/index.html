@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+    <title>Orbitist | Set up your account</title>
+    <meta name="description" content="How to set up an Orbitist account.">
+    <meta name="author" content="Orbitist Support">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+	<!-- Shortcut icon -->
+	<link rel="shortcut icon" href="/images/logo_blue_button_100.png">
+	<!-- Apple icon -->
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/touch-icon-ipad-retina.png">
+	
+	<!-- jQuery -->
+	<script src="/plugins/jquery/jquery-1.11.1.min.js"></script>
+
+	<!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
+    
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+
+	<!-- Lightbox -->
+	<script src="/plugins/lightbox/js/lightbox.min.js"></script>
+	<link href="/plugins/lightbox/css/lightbox.css" rel="stylesheet" />
+
+	<!-- Orbitist CSS -->
+	<link rel="stylesheet" href="/css/navbar.css">
+	<link rel="stylesheet" href="/css/site-wrapper.css">
+	<link rel="stylesheet" href="/css/top_level.css">
+</head>
+
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+  	<div class="container">
+    	<div class="navbar-header">
+    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+      		</button>
+      		<a class="logo pull-left" href="http://orbitist.com"><img class="orbitist-logo" alt="Brand" src="/images/logo_blue_button_100.png"></a>
+      		<a class="navbar-brand" href="http://orbitist.com">Orbitist</a>
+    	</div>
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    		<ul class="nav navbar-nav">
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="http://app.orbitist.com/user">Log in</a></li>
+		  	</ul>
+    	</div>
+  	</div>
+</nav>
+
+<p>1.) Go to app.orbitist.com and click “Sign up”.</p>
+
+<p>2.) Create a username and password, enter your email address, pick a plan level, and enter your payment information. Click “Submit”.</p>
+
+<p>3.) A verification email will be sent to you. Follow the instructions included in that email to verify your account.</p>
+
+<p>4.) Congrats, you’re now the proud owner of an Orbitist account! Now look to the sky and be humbled by its vastness.	</p>
+	
+		<!-- Bootstrap JS -->
+<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+	
+<!-- FitVids JS -->
+<script src="/plugins/fitvids/jquery.fitvids.js"></script>
+	
+<!-- Fitvids variables -->
+<script>
+  $(document).ready(function(){
+	$('.fitvid').fitVids();
+  });
+</script>
+	
+<!-- Smooth scroll between anchors -->
+<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		  var target = $(this.hash);
+		  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		  if (target.length) {
+			$('html,body').animate({
+			  scrollTop: target.offset().top
+			}, 1000);
+			return false;
+		  }
+		}
+	  });
+	});
+</script>
+
+	</body>
+</html>

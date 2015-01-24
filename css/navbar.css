@@ -1,0 +1,38 @@
+/* Logo */
+.orbitist-logo {
+width: 35px;
+border-radius: 8px;
+margin-top: 8px;
+margin-bottom: 8px;
+opacity: 1;
+}
+
+.navbar>.container .navbar-brand {
+margin-left: 0px;
+}
+
+/* Navbar Buttons */
+.navbar-nav>li>a.nav-button {
+padding-top: 2px;
+padding-bottom: 0px;
+}
+
+/* Navbar overrides */
+.navbar {
+background-color: rgba(0,0,0,0);
+border-color: rgba(0,0,0,0);
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+color: #fff;
+}
+
+.navbar-default .navbar-brand {
+color: #fff;
+}
+.navbar-default .navbar-brand:hover {
+color: #fff;
+}

@@ -1,0 +1,24 @@
+/** Orbitist Buttons **/
+.btn-default {
+background-color: rgba(30,93,129,0.8);
+border-color: rgba(30,93,129,0.6);
+color: #eee;
+}
+
+.btn-default:hover {
+background-color: rgba(30,93,129,1);
+border-color: rgba(30,93,129,0.8);
+color: white;
+}
+
+.btn-orbitist {
+background-color: rgba(241,194,137,1);
+border-color: rgba(241,194,137,1);
+color: black;
+}
+
+.btn-orbitist:hover {
+background-color: rgba(241,194,137,.9);
+border-color: rgba(241,194,137,0.8);
+color: white;
+}
