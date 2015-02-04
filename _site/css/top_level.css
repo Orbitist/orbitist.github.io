@@ -22,3 +22,10 @@ background-color: rgba(241,194,137,.9);
 border-color: rgba(241,194,137,0.8);
 color: white;
 }
+
+/** Big icons **/
+.big-icon {
+font-size: 80px;
+padding-top: 40px;
+text-align: center;
+}
