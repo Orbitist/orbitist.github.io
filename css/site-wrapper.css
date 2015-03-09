@@ -49,7 +49,7 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
 }
 .cover-container {
   margin-right: auto;
