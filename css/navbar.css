@@ -9,6 +9,7 @@ opacity: 1;
 
 .navbar>.container .navbar-brand {
 margin-left: 0px;
+font-family: 'Ubuntu', sans-serif;
 }
 
 /* Navbar Buttons */
