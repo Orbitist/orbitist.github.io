@@ -1,3 +1,11 @@
+p {
+font-family: 'Ubuntu', sans-serif;
+}
+
+li {
+font-family: 'Ubuntu', sans-serif;
+}
+
 /** Orbitist Buttons **/
 .btn-default {
 background-color: rgba(30,93,129,0.8);
@@ -28,4 +36,19 @@ color: white;
 font-size: 80px;
 padding-top: 40px;
 text-align: center;
+}
+
+/** Modals **/
+.modal-body p{
+color: #333;
+text-align: left;
+}
+
+.modal-body li{
+color: #333;
+text-align: left;
+}
+
+h4.modal-title {
+color: #333;
 }

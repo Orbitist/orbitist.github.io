@@ -32,13 +32,29 @@ layout: default
 			<div class="inner cover">
 				{{ content }}
 
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  	<div class="container">
+    	<div class="navbar-header">
+    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        		<span class="sr-only">Toggle navigation</span>
+        		<small>Industries</small>
+      		</button>
+    	</div>
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+    		<ul class="nav navbar-nav">
+    			<li><a href="#" data-toggle="modal" data-target="#business">Business</a></li>
+    			<li><a href="#" data-toggle="modal" data-target="#education">Education</a></li>
+    			<li><a href="#" data-toggle="modal" data-target="#journalism">Journalism</a></li>
+    			<li><a href="#" data-toggle="modal" data-target="#tourism">Tourism</a></li>    			
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Orbitist &copy; 2015</a></li>
+			</ul>
+    	</div>
+  	</div>
+</nav>
 
 			</div><!-- inner cover -->
-			<div class="mastfoot">
-				<div class="inner">
-					<p>© Orbitist 2015</p>
-				</div><!-- inner -->
-			<div><!-- mastfoot -->
 		</div><!-- cover-container -->
 		
 		
@@ -46,3 +62,5 @@ layout: default
 		
 	</div><!-- site-wrapper-inner -->
 </div><!-- site-wrapper -->
+
+{% include modals.html %}
