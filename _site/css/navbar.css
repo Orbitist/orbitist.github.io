@@ -10,6 +10,7 @@ opacity: 1;
 .navbar>.container .navbar-brand {
 margin-left: 0px;
 font-family: 'Ubuntu', sans-serif;
+color: rgba(241,194,137,1);
 }
 
 /* Navbar Buttons */
