@@ -44,6 +44,11 @@ color: #333;
 text-align: left;
 }
 
+.modal-body p a{
+color: #333;
+text-align: left;
+}
+
 .modal-body li{
 color: #333;
 text-align: left;
