@@ -1,0 +1,25 @@
+.platform {
+background-color: #eee;
+color: #666;
+padding: 40px 0px;
+}
+
+.platform a {
+color: #666;
+}
+
+.platform h1 {
+margin-top: 0px;
+}
+
+.platform .btn-default {
+color: white;
+}
+
+.platform-top {
+padding-bottom: 20px;
+}
+
+.platform p.lead {
+text-align: left;
+}

@@ -20,14 +20,14 @@ padding-bottom: 0px;
 }
 
 .navbar li:hover {
-background-color: rgba(0,0,0,0.6);
+background-color: rgba(0,0,0,0.4);
 }
 
 
 /* Navbar overrides */
 .navbar {
-background-color: rgba(0,0,0,0);
-border-color: rgba(0,0,0,0);
+background-color: rgba(0,0,0,0.4);
+border-color: rgba(0,0,0,0.4);
 }
 
 .navbar-default .navbar-nav>li>a {

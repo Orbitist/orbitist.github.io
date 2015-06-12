@@ -40,15 +40,40 @@ text-align: center;
 
 /** Modals **/
 .modal-body p{
-color: #333;
-text-align: left;
+  color: #333;
+  text-align: left;
+}
+
+.modal-body p a{
+  color: #333;
 }
 
 .modal-body li{
-color: #333;
-text-align: left;
+  color: #333;
+  text-align: left;
 }
 
 h4.modal-title {
-color: #333;
+  color: #333;
+}
+
+/* Overlays */
+.black-overlay {
+  background-color: rgba(0,0,0,0.4);
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+background-color: #666;
+margin-top: none;
+padding: 40px 5px 40px 5px;
+}
+
+.footer a{
+color: #eee;
+}
+
+.footer p{
+text-align: left;
 }

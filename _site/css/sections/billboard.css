@@ -1,0 +1,17 @@
+.billboard {
+  background-image: url("http://orbitist.s3.amazonaws.com/_toplevel/images/backgrounds/buffalo.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+
+.billboard-inner {
+padding-top: 180px;
+}
+
+.billboard h1 {
+  color: rgba(241,194,137,1);
+  font-family: 'Ubuntu', sans-serif;
+}
