@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<nav class="navbar navbar-default navbar-fixed-top">
+  	<div class="container">
+    	<div class="navbar-header">
+    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+      		</button>
+      		<a class="logo pull-left" href="http://orbitist.com"><img class="orbitist-logo" alt="Brand" src="{{ site.baseurl }}/images/logo_blue_button_100.png"></a>
+      		<a class="navbar-brand" href="http://orbitist.com">ORBITIST</a>
+    	</div>
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    		<ul class="nav navbar-nav">
+    			<li><a href="http://orbitist.com/work">Our Work</a></li>
+    			<li><a href="http://orbitist.com/documentation">Help</a></li>
+    			<li><a href="http://orbitist.com/contact">Contact</a></li>    			
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="http://app.orbitist.com/user"><span class="fa fa-tachometer"></span> Sign in</a></li>
+		  	</ul>
+    	</div>
+  	</div>
+</nav>
+{{ content }}
+<div class="footer">
+  	<div class="container">
+    		<div class="col-md-3">
+    			<p class="lead">Industries:</p>
+    			<p><a href="#" data-toggle="modal" data-target="#business">Business</a></p>
+    			<p><a href="#" data-toggle="modal" data-target="#education">Education</a></p>
+    			<p><a href="#" data-toggle="modal" data-target="#journalism">Journalism</a></p>
+    			<p><a href="#" data-toggle="modal" data-target="#tourism">Tourism</a></p>    			
+			</div><!-- col-md-3 -->
+			<div class="col-md-3">
+			</div><!-- col-md-3 -->
+			<div class="col-md-3">
+			</div><!-- col-md-3 -->
+			<div class="col-md-3">
+				<p><a href="#">Orbitist &copy; 2015</a></p>
+				<p class="lead"><a href="http://twitter.com/theorbitist" target="_blank"><i class="fa fa-twitter"></i></a> <a href="http://facebook.com/Orbitist" target="_blank"><i class="fa fa-facebook-official"></i></a></p>
+			</div><!-- col-md-3 -->
+  	</div><!-- container -->
+</div><!-- footer -->
+{% include modals.html %}
