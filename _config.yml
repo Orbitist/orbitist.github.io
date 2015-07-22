@@ -12,8 +12,8 @@ author :
   twitter : TheOrbitist
   web : http://www.orbitist.com
 
-production_url : orbitist.com
+production_url : orbitist.github.io
 
-baseurl : http://orbitist.com
+baseurl : http://orbitist.github.io
   
 timezone : America/New_York
