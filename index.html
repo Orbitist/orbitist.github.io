@@ -7,8 +7,17 @@ image: http://static1.squarespace.com/static/55a95d75e4b0ca41a09fafe7/t/55af9d5a
 <div class="container">
 	{% for post in site.posts %}
 		{% if post.published %}
-			{{ post.title }} - {{ post.description }} {{ post.url }}
-			<hr>
+			<div class="row">
+				<div class="col-xs-3">
+					<img src="{{ post.image }}" class="img-responsive img-rounded">
+				</div><!-- /.col-xs-3 -->
+				<div class="col-xs-9">
+					<h2>{{ post.title }}<h2>
+					<p class="lead">{{ post.description }}</p> 
+					<a href="{{ post.url }}" class="btn btn-default btn-lg">Read more >></a>
+					<hr>
+				</div><!-- /.col-xs-9 -->
+			</div><!-- /.row -->
 		{% endif %}
 	{% endfor %}
 </div>
