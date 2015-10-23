@@ -9,13 +9,13 @@ image: http://static1.squarespace.com/static/55a95d75e4b0ca41a09fafe7/t/55af9d5a
 		{% if post.published %}
 			<div class="row">
 				<div class="col-sm-3">
-					<img src="{{ post.image }}" class="img-responsive img-rounded">
+					<a href="{{ post.url }}"><img src="{{ post.image }}" class="img-responsive img-rounded"></a>
 				</div><!-- /.col-sm-3 -->
 				<div class="col-sm-9">
-					<h2>{{ post.title }}<h2>
-					<small>{{ post.date | date: '%B %d, %Y' }}</small>
+					<a href="{{ post.url }}"><h2>{{ post.title }}<h2></a>
+					<small>{% if post.by %}{{ post.by }} -{% endif %} {{ post.date | date: '%B %d, %Y' }}</small>
 					<p class="lead">{{ post.description }}</p> 
-					<a href="{{ post.url }}" class="btn btn-default btn-lg pull-right">Read more</a>
+					<a href="{{ post.url }}" class="btn btn-default btn-lg pull-right"><span class="fa fa-globe"></span> View map</a>
 				</div><!-- /.col-sm-9 -->
 			</div><!-- /.row -->
 			<hr>
