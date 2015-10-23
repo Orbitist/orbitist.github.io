@@ -1,1 +1,14 @@
-hello world!
+---
+layout: page
+title: Welcome to Orbitist News
+description: Daily maps that entertain and inform
+image: http://static1.squarespace.com/static/55a95d75e4b0ca41a09fafe7/t/55af9d5ae4b0fe93c7b1c8b4/1437572506364/1024_illustrated.png?format=500w
+---
+<div class="container">
+	{% for post in site.posts %}
+		{% if post.published %}
+			{{ post.title }} - {{ post.description }} {{ post.url }}
+			<hr>
+		{% endif %}
+	{% endfor %}
+</div>

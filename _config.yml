@@ -4,6 +4,8 @@ highlighter: pygments
 markdown: kramdown
 
 title : Orbitist News
+shortcut_icon: http://orbitist.s3.amazonaws.com/_toplevel/images/logos/icon-120.png
+apple_touch_icon: http://orbitist.s3.amazonaws.com/_toplevel/images/logos/400_illustrated.jpg
 
 production_url : orbitist.github.io
 
