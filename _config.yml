@@ -7,6 +7,6 @@ title : Orbitist News
 shortcut_icon: http://orbitist.s3.amazonaws.com/_toplevel/images/logos/icon-120.png
 apple_touch_icon: http://orbitist.s3.amazonaws.com/_toplevel/images/logos/400_illustrated.jpg
 
-baseurl : http://orbitist.github.io
+baseurl : http://news.orbitist.com
   
 timezone : America/New_York
