@@ -1,0 +1,15 @@
+.home-button {
+position: fixed;
+top: 4px;
+left: 4px;
+background-color: #fff;
+border-radius: 40px;
+border-color: white;
+border-width: thin;
+color: #444;
+border: 2px;
+-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+height: 26px;
+padding: 0 8px;
+}
