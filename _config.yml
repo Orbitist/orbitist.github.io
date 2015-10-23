@@ -4,13 +4,6 @@ highlighter: pygments
 markdown: kramdown
 
 title : Orbitist News
-tagline: Your stories mapped
-author : 
-  name : Orbitist Support
-  email : support@orbitist.com
-  github : Orbitist
-  twitter : TheOrbitist
-  web : http://www.orbitist.com
 
 production_url : orbitist.github.io
 
